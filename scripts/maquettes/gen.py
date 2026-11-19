@@ -413,7 +413,9 @@ def cblock(i, name, href, layout, refs, intro):
                  f'      <div class="stack">{"".join(ocell(r) for r in refs[1:])}</div>')
     else:
         cells = "\n".join(f"      {ocell(r)}" for r in refs)
-    text = f'<p class="intro-line">{intro}</p>' if intro else f'<p class="verse">{verse(name)}</p>'
+    lines = VERSES.get(name, [])
+    text = (f'<p class="intro-line">{intro}</p>' if intro
+            else '<p class="verse">' + "".join(f'<span class="l">{l}</span>' for l in lines) + '</p>')
     return f'''<section class="cblock" aria-labelledby="c{i}">
   <div class="wrap">
     <h2 class="section-title" id="c{i}">{name}</h2>
@@ -425,13 +427,11 @@ def cblock(i, name, href, layout, refs, intro):
   </div>
 </section>'''
 
-collections = f'''<section class="section section--tight colls-top" aria-labelledby="t-top">
-  <div class="wrap">
-    <h1 class="section-title" id="t-top">Collections</h1>
-    <p class="colls-intro">Bois brûlé, acier, inox, aluminium ou cuivre&nbsp;: quatre collections de sculptures murales
-      et sur socle, du Miroir de 16&nbsp;cm aux Gardiens de près de deux mètres.</p>
-  </div>
+collections = f'''<section class="banner banner--colls">
+  {img("Bandeau-COLLECTIONS.jpg", "", loading="eager", v=None)}
+  <h1>Collections</h1>
 </section>
+
 {chr(10).join(cblock(i, *c) for i, c in enumerate(OVERVIEW))}'''
 write("collections.html", page("Collections · Jean-Michel Ribeyrolles",
                                "Les quatre collections de Jean-Michel Ribeyrolles : Les Arcs-en-ciel Noirs, Les Miroirs d’Énigme, Les Gardiens de la Terre et la Collection Privée.",
