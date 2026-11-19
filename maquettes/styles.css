@@ -177,6 +177,10 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 .banner--colls img    { object-position: 70% 10%; }  /* Bandeau-COLLECTIONS : buse du chalumeau, pointe de la flamme */
 .banner--murale img   { object-position: 50% 45%; }  /* Bandeau-COLLECTION-MURALE : centre du Miroir, trous et barres d'acier */
 .banner--portrait img { object-position: 40% 35%; }  /* bandeau-portrait : meuleuse et gerbe d'étincelles */
+.banner--artelier img { object-position: 50% 30%; }  /* Bandeau-ARTelier-Samonteil : trous et lignes gravées de la sculpture */
+.banner--half { height: clamp(140px, 15vw, 300px); }
+@media (max-width: 700px) { .banner--half { height: 110px; } }
+.banner--contact img  { object-position: 70% 50%; }  /* Bandeau-CONTACT : alvéoles nettes et pastille de métal */
 
 /* --------------------------------------------------------------------------
    Footer
@@ -565,3 +569,90 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 .prose .cartel { margin-top: 24px; }
 /* Mises en valeur : blanc en gras (l'ocre est réservé aux liens, boutons et filets) */
 .prose strong { color: var(--text); font-weight: 700; }
+
+/* ==========================================================================
+   ART'ELIER
+   ========================================================================== */
+.coll--media-last .coll-media { order: 2; }
+/* Galerie : grille régulière, vignettes au même ratio (recadrées) ; la photo entière
+   s'affiche dans la lightbox. */
+.thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; list-style: none; margin: 0; padding: 0; }
+.thumbs a { display: block; cursor: zoom-in; }
+.thumbs img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* Livre d'or : citations centrées, sans bordure, prénom précédé d'un tiret cadratin */
+.quotes { display: grid; grid-template-columns: 1fr 1fr; gap: 72px 96px; max-width: 1000px; margin: 0 auto; }
+.quote-card { margin: 0; text-align: center; }
+.quote-card blockquote { margin: 0; }
+.quote-card p { margin: 0; font-size: 19px; line-height: 1.75; font-weight: 300; }
+.quote-card figcaption { margin-top: 16px; font-size: 15px; color: var(--text-2); }
+
+.visite { text-align: center; padding-top: 0; }
+.visite .infos { margin: 0 0 12px; font-size: 15px; }
+.visite .infos .sep { color: var(--text-2); }
+.visite-text { max-width: 560px; margin: 0 auto 28px; }
+.visite .cta { font-size: 18px; margin: 0; }
+.visite .cta .link-arrow { font-size: 18px; }
+
+@media (max-width: 800px) {
+  .thumbs { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .quotes { grid-template-columns: 1fr; gap: 48px; }
+  .quote-card p { font-size: 17px; }
+  .coll--media-last .coll-media { order: 0; }
+}
+
+/* ==========================================================================
+   CONTACT
+   ========================================================================== */
+.contact-intro { max-width: 720px; margin: 0 auto 64px; text-align: center; font-size: 17px; line-height: 1.8; font-weight: 300; }
+.contact-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 72px; align-items: start; }
+.contact-grid h2 { font-size: 22px; margin-bottom: 24px; }
+.contact-grid h2::after { content: ""; display: block; width: 40px; height: 2px; margin-top: 14px; background: var(--accent); }
+.contact-info .specs dd a { text-decoration: none; }
+.contact-info .infos { margin: 0 0 24px; font-size: 14px; }
+.map { position: relative; margin: 0 0 14px; border: 1px solid var(--line); }
+.map a { display: block; }
+/* Carte intégrée au fond sombre : désaturée et assombrie */
+.map img { display: block; width: 100%; height: auto; filter: grayscale(.85) brightness(.65) contrast(1.1); }
+/* Repère ocre sur le point exact (centre de l'image), hors filtre */
+.map-pin {
+  position: absolute; left: 50%; top: 50%; width: 22px; height: 22px; pointer-events: none;
+  background: var(--accent); border: 3px solid #0A0A0A; border-radius: 50% 50% 50% 0;
+  transform: translate(-50%, -100%) rotate(-45deg); transform-origin: center;
+  margin-top: -4px;
+}
+.map-credit {
+  position: absolute; right: 0; bottom: 0; padding: 2px 6px;
+  font-size: 11px; line-height: 1.4; color: var(--text); background: rgba(10, 10, 10, .75);
+  white-space: nowrap;
+}
+.map-credit a { display: inline; color: var(--text); text-decoration: none; }  /* annule .map a { display: block } */
+
+.field { margin-bottom: 20px; }
+.field label { display: block; margin-bottom: 6px; font-size: 14px; font-weight: 500; }
+.field label .opt { font-weight: 400; color: var(--text-2); }
+.field input, .field textarea {
+  width: 100%; padding: 12px 14px; font: inherit; font-size: 16px; color: var(--text);
+  background: var(--surface); border: 1px solid #4A4745; border-radius: 0;
+}
+.field textarea { resize: vertical; min-height: 160px; }
+.field input:focus, .field textarea:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
+.form-note { font-size: 13px; color: var(--text-2); }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+.rgpd { font-size: 13px; line-height: 1.6; color: var(--text-2); margin: 16px 0 0; }
+.rgpd a { color: var(--text-2); }
+.rgpd a:hover { color: var(--accent); }
+.contact-form .btn { cursor: pointer; font-family: inherit; }
+.form-status { margin-top: 16px; color: var(--text); }
+/* Honeypot : hors écran (pas display:none, que certains robots détectent) */
+/* Bouton « Appeler » : mobile uniquement, en haut de page */
+.call-mobile { display: none; margin: -16px 0 40px; }
+.call-mobile .btn { display: block; text-align: center; font-size: 17px; padding: 16px; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+@media (max-width: 800px) {
+  .contact-intro { margin-bottom: 40px; font-size: 16px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 56px; }
+  .form-row { grid-template-columns: 1fr; }
+  .call-mobile { display: block; }
+}

@@ -162,7 +162,7 @@ def hd(fname, label, inner, cls=""):
     return (f'<a{c} href="{REL}{fname}" data-pswp-width="{w}" data-pswp-height="{h}" '
             f'aria-label="{label}">{inner}</a>')
 
-NAV = [("collections.html", "Collections"), ("#", "ART'elier"), ("portrait.html", "Portrait"), ("#", "Contact")]
+NAV = [("collections.html", "Collections"), ("artelier.html", "ART'elier"), ("portrait.html", "Portrait"), ("contact.html", "Contact")]
 
 def header(current):
     items = "\n".join(
@@ -205,9 +205,9 @@ FOOTER = f'''<footer class="site-footer">
       <h2>Navigation</h2>
       <ul>
         <li><a href="collections.html">Collections</a></li>
-        <li><a href="#">ART'elier</a></li>
+        <li><a href="artelier.html">ART'elier</a></li>
         <li><a href="portrait.html">Portrait</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
     <div class="f-aaf">
@@ -354,7 +354,7 @@ accueil = f'''<section class="hero">
         <p>Invitation à découvrir l’univers d’un sculpteur-musicien à l’ART’elier Samonteil. Venez vous évader au milieu de ses œuvres réalisées seul ou à « 4 mains » et de ses instruments de musique.</p>
         <p>Jean-Michel vous recevra dans une atmosphère musicale concoctée sur le moment, au gré de ses inspirations.</p>
         <p class="cartel infos">Saint-Paul-de-Vern, Lot<span class="sep">·</span>juin à octobre<span class="sep">·</span>sur rendez-vous</p>
-        <p><a class="link-arrow" href="#">Préparer sa visite</a></p>
+        <p><a class="link-arrow" href="artelier.html">Préparer sa visite</a></p>
       </div>
     </article>
   </div>
@@ -501,7 +501,6 @@ slides = "\n".join(
     f'<div class="pswp-cap" hidden>{cartel(o)}</div></li>'
     for k, v in enumerate(o["views"]))
 related = "\n".join(card(M[r], lightbox=False) for r in ["25SA0108", "24FM0311", "25DM0301", "24FM0211", "24FM0111", "22TM0112"])
-subject = urllib.parse.quote(f"Œuvre {o['ref']} – {COLL}")
 oeuvre = f'''<div class="wrap">
   <div class="oeuvre">
     <div class="oeuvre-media">
@@ -521,7 +520,7 @@ oeuvre = f'''<div class="wrap">
         <div><dt>Collection</dt><dd><a href="collection.html">{COLL}</a></dd></div>
       </dl>
       <div class="actions">
-        <a class="btn" href="mailto:artelier-samonteil@orange.fr?subject={subject}">Me contacter à propos de cette œuvre</a>
+        <a class="btn" href="contact.html?ref={o["ref"]}">Me contacter à propos de cette œuvre</a>
         <a class="link-arrow" href="echelle.html#oeuvre-{o["ref"]}">Voir à l’échelle</a>
       </div>
       <nav class="prevnext" aria-label="Œuvres voisines">
@@ -673,3 +672,151 @@ portrait = f'''<section class="banner banner--portrait">
 write("portrait.html", page("Portrait · Jean-Michel Ribeyrolles",
                             "Jean-Michel Ribeyrolles, sculpteur sur bois brûlé et musicien, inspiré par le néolithique : portrait de l’artiste à l’ART’elier Samonteil.",
                             "Portrait", portrait))
+
+
+# --------------------------------------------------------------------------- ART'elier
+# Textes de la page /artelier/ (relevés sur le site en ligne), corrigés.
+EXPO_PHOTOS = [  # 6 photos nettes et homogènes ; vignettes recadrées au même ratio, photo entière en lightbox
+    ("20250826_151829-scaled.jpg", "Miroir d’Énigme en bois brûlé orangé, traversé d’une lame de métal, accroché au mur"),
+    ("20250826_152356-scaled.jpg", "Salle d’exposition : Miroir sur socle, Gardiens de la Terre dressés et sculptures murales"),
+    ("20250826_151641-scaled.jpg", "Deux sculptures murales verticales en bois brûlé de part et d’autre d’un Miroir d’Énigme"),
+    ("20250826_151732-scaled.jpg", "Diptyque en bois brûlé aux motifs d’écailles et de vagues, accroché au mur"),
+    ("20250826_151856-scaled.jpg", "Gardien de la Terre sur socle et sculptures murales le long d’un mur d’exposition"),
+    ("20250826_152210-scaled.jpg", "Salle d’exposition : trois sculptures murales au mur, sculptures sur socle au premier plan"),
+]
+LIVRE_DOR = [  # témoignages cités en entier (texte de la page actuelle), sans date
+    ("Un voyage à travers les matières, accompagné par une douce musique qui nous laisse partir dans l’imaginaire et l’eau. Des œuvres en bois d’une bouleversante originalité. Merci pour ces découvertes&nbsp;!", "Marine"),
+    ("Un lieu unique. Un plaisir de regarder des pièces de plus en plus vivantes. Le bois, les tableaux, la terre.", "Valère"),
+    ("Un régal pour les yeux, une vraie nourriture de l’âme, tant par les œuvres que par l’énergie du lieu et des artistes. Merci", "Audrey"),
+    ("Jolie exposition. Très beau travail. Juste magnifique, un joli moment d’évasion.", "Chantal et Michel"),
+]
+
+def gallery_item(f, a):
+    return f'      <li>{hd(f, "Agrandir : " + a, img(f, a))}<div class="pswp-cap" hidden><p class="cartel">{a}</p></div></li>'
+
+artelier = f'''<section class="banner banner--artelier">
+  {img("Bandeau-ARTelier-Samonteil.jpg", "", loading="eager", v=None)}
+  <h1>ART'elier Samonteil</h1>
+</section>
+
+<section class="section" aria-labelledby="t-lieu">
+  <div class="wrap">
+    <article class="coll coll--media-first">
+      <figure class="coll-media">{img("2020-09-Exposition-ephemere-1.jpg", "Sculptures murales et sur socle exposées à l’ART’elier Samonteil", "landscape", v="m")}</figure>
+      <div class="coll-text prose">
+        <h2 id="t-lieu">Le lieu, la musique</h2>
+        <p>Invitation à découvrir l’univers d’un sculpteur-musicien à l’ART’elier Samonteil.</p>
+        <p>Venez vous évader au milieu de ses œuvres, réalisées seul ou à «&nbsp;4 mains&nbsp;», et de ses instruments de musique.</p>
+        <p>Jean-Michel vous recevra dans une atmosphère musicale concoctée sur le moment, au gré de ses inspirations.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section expo-gallery" aria-labelledby="t-univers">
+  <div class="wrap">
+    <h2 class="section-title" id="t-univers">L’univers en exposition</h2>
+    <ul class="thumbs" data-pswp-gallery>
+{chr(10).join(gallery_item(f, a) for f, a in EXPO_PHOTOS)}
+    </ul>
+  </div>
+</section>
+
+<section class="section livre-dor" aria-labelledby="t-livre">
+  <div class="wrap">
+    <h2 class="section-title" id="t-livre">Livre d’or</h2>
+    <div class="quotes">
+{chr(10).join(f'      <figure class="quote-card"><blockquote><p>{t}</p></blockquote><figcaption>— {n}</figcaption></figure>' for t, n in LIVRE_DOR)}
+    </div>
+  </div>
+</section>
+
+<section class="section visite" aria-labelledby="t-visite">
+  <div class="wrap">
+    <h2 class="section-title" id="t-visite">Préparer sa visite</h2>
+    <p class="cartel infos">Saint-Paul-de-Vern, Lot<span class="sep">·</span>juin à octobre<span class="sep">·</span>sur rendez-vous</p>
+    <p class="visite-text">Pour vous accueillir, un petit temps de préparation est nécessaire&nbsp;: contactez-nous pour convenir ensemble de ce doux moment.</p>
+    <p class="cta"><a class="link-arrow" href="contact.html">Prendre rendez-vous</a></p>
+  </div>
+</section>'''
+write("artelier.html", page("ART’elier Samonteil · Jean-Michel Ribeyrolles",
+                            "L’ART’elier Samonteil, à Saint-Paul-de-Vern (Lot) : les sculptures de Jean-Michel Ribeyrolles, présentées en musique, de juin à octobre sur rendez-vous.",
+                            "ART'elier", artelier, PSWP_JS, PSWP_CSS))
+
+# --------------------------------------------------------------------------- contact
+GPS = (44.8452653, 1.9399870)   # ART'elier (coordonnées fournies : le lieu-dit est mal géolocalisé par adresse)
+ITINERAIRE = f"https://www.google.com/maps/dir/?api=1&destination={GPS[0]},{GPS[1]}"
+OSM = f"https://www.openstreetmap.org/?mlat={GPS[0]}&mlon={GPS[1]}#map=16/{GPS[0]}/{GPS[1]}"
+
+contact = f'''<section class="banner banner--contact banner--half">
+  {img("Bandeau-CONTACT.jpg", "", loading="eager", v=None)}
+  <h1>Contact</h1>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="contact-intro">Pour une visite personnalisée et en musique «&nbsp;live&nbsp;» ou pour de plus amples renseignements, laissez-nous vos coordonnées ou appelez l’un des numéros indiqués. Nous nous ferons un plaisir de vous répondre. À bientôt.</p>
+
+    <p class="call-mobile"><a class="btn" href="tel:+33685813148" aria-label="Appeler le 06 85 81 31 48">Appeler</a></p>
+
+    <div class="contact-grid">
+      <section class="contact-info" aria-labelledby="t-coord">
+        <h2 id="t-coord">Coordonnées</h2>
+        <dl class="specs">
+          <div><dt>Adresse</dt><dd>ART'elier Samonteil<br>115 impasse de Samonteil<br>46400 Saint-Paul-de-Vern</dd></div>
+          <div><dt>Téléphone</dt><dd><a href="tel:+33685813148">06 85 81 31 48</a><br><a href="tel:+33678387857">06 78 38 78 57</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:artelier-samonteil@orange.fr">artelier-samonteil@orange.fr</a></dd></div>
+        </dl>
+        <p class="cartel infos">Visites de juin à octobre, sur rendez-vous</p>
+        <figure class="map">
+          <a href="{OSM}" rel="noopener"><img src="img/carte-artelier-samonteil.png" width="720" height="450" loading="lazy" decoding="async"
+            alt="Carte : l’ART’elier, au lieu-dit Samonteil, au nord du village de Saint-Paul-de-Vern"></a>
+          <span class="map-pin" aria-hidden="true"></span>
+          <figcaption class="map-credit">© <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors</figcaption>
+        </figure>
+        <p><a class="link-arrow" href="{ITINERAIRE}" rel="noopener">Voir l’itinéraire</a></p>
+      </section>
+
+      <section class="contact-form" aria-labelledby="t-form">
+        <h2 id="t-form">Écrire un message</h2>
+        <form id="contact-form" action="#" method="post" novalidate>
+          <p class="form-note">Les champs marqués <span aria-hidden="true">*</span><span class="visually-hidden">d’un astérisque</span> sont obligatoires.</p>
+          <div class="form-row">
+          <div class="field"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name"></div>
+          <div class="field"><label for="f-email">E-mail <span aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <div class="form-row">
+          <div class="field"><label for="f-tel">Téléphone <span class="opt">(facultatif)</span></label><input id="f-tel" name="telephone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-objet">Objet</label><input id="f-objet" name="objet" type="text"></div>
+          </div>
+          <div class="field"><label for="f-msg">Message <span aria-hidden="true">*</span></label><textarea id="f-msg" name="message" rows="7" required></textarea></div>
+          <!-- Honeypot anti-spam : invisible pour les visiteurs, rempli par les robots -->
+          <div class="hp" aria-hidden="true"><label for="f-site">Ne pas remplir</label><input id="f-site" name="site_web" type="text" tabindex="-1" autocomplete="off"></div>
+          <button class="btn" type="submit">Envoyer</button>
+          <p class="rgpd">Vos informations servent uniquement à répondre à votre demande&nbsp;; elles ne sont ni cédées ni utilisées à d’autres fins. En savoir plus&nbsp;: <a href="#">politique de confidentialité</a>.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </div>
+</section>'''
+contact_js = '''
+<script>
+  (function () {
+    // ?ref=24FM0112 : objet pré-rempli
+    var ref = new URLSearchParams(location.search).get('ref');
+    var objet = document.getElementById('f-objet');
+    if (ref && /^[A-Z0-9]{3,12}$/i.test(ref)) objet.value = 'À propos de l’œuvre ' + ref.toUpperCase();
+    // Maquette : pas de serveur, envoi simulé après validation native
+    var form = document.getElementById('contact-form'), status = form.querySelector('.form-status');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (form.site_web.value) return;              // robot : on ignore
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      status.textContent = 'Merci, votre message est bien parti (envoi simulé dans la maquette).';
+    });
+  })();
+</script>'''
+write("contact.html", page("Contact · Jean-Michel Ribeyrolles",
+                           "Contacter Jean-Michel Ribeyrolles et l’ART’elier Samonteil à Saint-Paul-de-Vern (Lot) : téléphone, e-mail, formulaire et itinéraire.",
+                           "Contact", contact, contact_js))

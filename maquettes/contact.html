@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · Jean-Michel Ribeyrolles</title>
+<meta name="description" content="Contacter Jean-Michel Ribeyrolles et l’ART’elier Samonteil à Saint-Paul-de-Vern (Lot) : téléphone, e-mail, formulaire et itinéraire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Swanky+and+Moo+Moo&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="bar">
+    <a class="logo" href="accueil.html">Jean-Michel RIBEYROLLES</a>
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav" id="menu" aria-label="Menu principal">
+      <button class="menu-toggle menu-close" type="button" aria-label="Fermer le menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+      <ul>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="artelier.html">ART'elier</a></li>
+        <li><a href="portrait.html">Portrait</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="banner banner--contact banner--half">
+  <img src="../docs/design/photos/Bandeau-CONTACT.jpg" width="1920" height="1280" alt="" loading="eager" decoding="async">
+  <h1>Contact</h1>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="contact-intro">Pour une visite personnalisée et en musique «&nbsp;live&nbsp;» ou pour de plus amples renseignements, laissez-nous vos coordonnées ou appelez l’un des numéros indiqués. Nous nous ferons un plaisir de vous répondre. À bientôt.</p>
+
+    <p class="call-mobile"><a class="btn" href="tel:+33685813148" aria-label="Appeler le 06 85 81 31 48">Appeler</a></p>
+
+    <div class="contact-grid">
+      <section class="contact-info" aria-labelledby="t-coord">
+        <h2 id="t-coord">Coordonnées</h2>
+        <dl class="specs">
+          <div><dt>Adresse</dt><dd>ART'elier Samonteil<br>115 impasse de Samonteil<br>46400 Saint-Paul-de-Vern</dd></div>
+          <div><dt>Téléphone</dt><dd><a href="tel:+33685813148">06 85 81 31 48</a><br><a href="tel:+33678387857">06 78 38 78 57</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:artelier-samonteil@orange.fr">artelier-samonteil@orange.fr</a></dd></div>
+        </dl>
+        <p class="cartel infos">Visites de juin à octobre, sur rendez-vous</p>
+        <figure class="map">
+          <a href="https://www.openstreetmap.org/?mlat=44.8452653&mlon=1.939987#map=16/44.8452653/1.939987" rel="noopener"><img src="img/carte-artelier-samonteil.png" width="720" height="450" loading="lazy" decoding="async"
+            alt="Carte : l’ART’elier, au lieu-dit Samonteil, au nord du village de Saint-Paul-de-Vern"></a>
+          <span class="map-pin" aria-hidden="true"></span>
+          <figcaption class="map-credit">© <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> contributors</figcaption>
+        </figure>
+        <p><a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&destination=44.8452653,1.939987" rel="noopener">Voir l’itinéraire</a></p>
+      </section>
+
+      <section class="contact-form" aria-labelledby="t-form">
+        <h2 id="t-form">Écrire un message</h2>
+        <form id="contact-form" action="#" method="post" novalidate>
+          <p class="form-note">Les champs marqués <span aria-hidden="true">*</span><span class="visually-hidden">d’un astérisque</span> sont obligatoires.</p>
+          <div class="form-row">
+          <div class="field"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name"></div>
+          <div class="field"><label for="f-email">E-mail <span aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <div class="form-row">
+          <div class="field"><label for="f-tel">Téléphone <span class="opt">(facultatif)</span></label><input id="f-tel" name="telephone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-objet">Objet</label><input id="f-objet" name="objet" type="text"></div>
+          </div>
+          <div class="field"><label for="f-msg">Message <span aria-hidden="true">*</span></label><textarea id="f-msg" name="message" rows="7" required></textarea></div>
+          <!-- Honeypot anti-spam : invisible pour les visiteurs, rempli par les robots -->
+          <div class="hp" aria-hidden="true"><label for="f-site">Ne pas remplir</label><input id="f-site" name="site_web" type="text" tabindex="-1" autocomplete="off"></div>
+          <button class="btn" type="submit">Envoyer</button>
+          <p class="rgpd">Vos informations servent uniquement à répondre à votre demande&nbsp;; elles ne sont ni cédées ni utilisées à d’autres fins. En savoir plus&nbsp;: <a href="#">politique de confidentialité</a>.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="cols">
+    <div class="f-brand">
+      <img src="../docs/design/photos/logo-2-blanc.png" width="1643" height="1521" alt="JmiR, signature de Jean-Michel Ribeyrolles" loading="lazy">
+      <p>© 2026<br>Jean-Michel Ribeyrolles</p>
+    </div>
+    <div class="f-info">
+      <h2>Information</h2>
+      <p>ART'elier Samonteil<br>115 impasse de Samonteil<br>46400 Saint-Paul-de-Vern<br>France</p>
+      <p><a href="tel:+33685813148">06 85 81 31 48</a><br><a href="tel:+33678387857">06 78 38 78 57</a></p>
+    </div>
+    <div class="f-legal">
+      <h2>Mentions légales</h2>
+      <p>© Photos de Yoann Portejoie et Benoît Frété, non libres de droits</p>
+      <p>Site réalisé par Alexander Astoray</p>
+      <p><a href="#">Mentions légales</a></p>
+    </div>
+    <div class="f-nav">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="artelier.html">ART'elier</a></li>
+        <li><a href="portrait.html">Portrait</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="f-aaf">
+      <a href="https://www.ateliersdart.com/" rel="noopener"><img src="../docs/design/photos/AAF_LOGO_OK.png" width="369" height="391" alt="Membre des Ateliers d'Art de France" loading="lazy"></a>
+    </div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var header = document.querySelector('.site-header');
+    var nav = document.getElementById('menu');
+    var open = document.querySelector('.bar > .menu-toggle');
+    var close = nav.querySelector('.menu-close');
+    open.addEventListener('click', function () { nav.classList.add('is-open'); open.setAttribute('aria-expanded', 'true'); close.focus(); });
+    close.addEventListener('click', function () { nav.classList.remove('is-open'); open.setAttribute('aria-expanded', 'false'); open.focus(); });
+
+    // Header : réduit à 64 px une fois la page défilée ; masqué en descendant, visible en remontant.
+    var last = window.scrollY, ticking = false;
+    function update() {
+      var y = window.scrollY, dy = y - last;
+      header.classList.toggle('is-scrolled', y > 8);
+      if (Math.abs(dy) > 4) {
+        var hide = dy > 0 && y > 160 && !nav.classList.contains('is-open') && !header.contains(document.activeElement);
+        header.classList.toggle('is-hidden', hide);
+        last = y;
+      }
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    update();
+  })();
+</script>
+<script>
+  (function () {
+    // ?ref=24FM0112 : objet pré-rempli
+    var ref = new URLSearchParams(location.search).get('ref');
+    var objet = document.getElementById('f-objet');
+    if (ref && /^[A-Z0-9]{3,12}$/i.test(ref)) objet.value = 'À propos de l’œuvre ' + ref.toUpperCase();
+    // Maquette : pas de serveur, envoi simulé après validation native
+    var form = document.getElementById('contact-form'), status = form.querySelector('.form-status');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (form.site_web.value) return;              // robot : on ignore
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      status.textContent = 'Merci, votre message est bien parti (envoi simulé dans la maquette).';
+    });
+  })();
+</script>
+</body>
+</html>
