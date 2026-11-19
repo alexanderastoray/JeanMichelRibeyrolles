@@ -326,9 +326,12 @@ def coll_block(name, o, href):
 
 accueil = f'''<section class="hero">
   {img("ACCUEIL.jpg", "", loading="eager", v=None)}
-  <div class="hero-text">
-    <h1><span class="accroche">Sculpteur – Musicien</span>
-      <span class="h1-sub">Jean-Michel Ribeyrolles<span>Sculpture sur bois brûlé · ART'elier Samonteil, Lot</span></span></h1>
+  <div class="wrap hero-inner">
+    <div class="hero-brand">
+      <h1><span class="accroche" aria-hidden="true">Sculpteur&nbsp;-&nbsp;Musicien</span><span class="visually-hidden">Jean-Michel Ribeyrolles, sculpteur-musicien</span></h1>
+      <span class="hero-rule" aria-hidden="true"></span>
+      <img class="hero-sign" src="{REL}logo-2-blanc.png" width="1643" height="1521" alt="" loading="eager" decoding="async">
+    </div>
   </div>
 </section>
 
@@ -370,7 +373,7 @@ accueil = f'''<section class="hero">
 </section>'''
 write("accueil.html", page("Jean-Michel Ribeyrolles, sculpteur sur bois brûlé et musicien",
                            "Jean-Michel Ribeyrolles sculpte le bois brûlé à l’ART’elier Samonteil, dans le Lot : sculptures murales et sur socle, collections et visites de juin à octobre.",
-                           None, accueil, body_cls="home"))
+                           None, accueil))
 
 # --------------------------------------------------------------------------- collections (vue d'ensemble)
 # Œuvres choisies par l'artiste : celles de la page Collections du site actuel
@@ -456,7 +459,7 @@ def card(o, lightbox=True):
       </li>'''
 
 cards = "\n".join(card(M[r[0]]) for r in MIROIRS)
-collection = f'''<section class="banner">
+collection = f'''<section class="banner banner--murale">
   {img("Bandeau-COLLECTION-MURALE.jpg", "", loading="eager", v=None)}
   <h1>Les Miroirs d’Énigme</h1>
 </section>
@@ -634,7 +637,7 @@ write("echelle.html", page("Les Miroirs d’Énigme à l’échelle · Jean-Mich
 # --------------------------------------------------------------------------- portrait
 # Texte de la page /jmir-portrait/ (relevé sur le site en ligne), avec les corrections de
 # l'audit : « À côté », « Castelnau » (à confirmer), « dégradés orangés ».
-portrait = f'''<section class="banner">
+portrait = f'''<section class="banner banner--portrait">
   {img("bandeau-portrait.jpg", "", loading="eager", v=None)}
   <h1>Messager du néolithique</h1>
 </section>

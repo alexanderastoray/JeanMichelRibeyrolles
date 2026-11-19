@@ -54,7 +54,7 @@ h1, h2, h3 { font-weight: 500; line-height: 1.25; margin: 0; }
 p { margin: 0 0 1.2em; }
 
 .wrap { width: min(var(--wrap), 100% - 2 * var(--gutter)); margin-inline: auto; }
-.sr-only {
+.sr-only, .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;
 }
@@ -65,7 +65,6 @@ p { margin: 0 0 1.2em; }
 /* Fixe : 88 px en haut de page, 64 px une fois défilé ; masqué en descendant,
    visible en remontant (classes posées par le script du footer). */
 body { padding-top: var(--header-h); }
-body.home { padding-top: 0; }   /* accueil : le header recouvre le hero */
 html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 .site-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;
@@ -75,7 +74,6 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 }
 .site-header.is-scrolled { height: var(--header-h-s); }
 .site-header.is-hidden { transform: translateY(-100%); }
-.home .site-header:not(.is-scrolled) { background: transparent; }
 .site-header .bar {
   width: 90%; height: 100%; margin-inline: auto;
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
@@ -119,6 +117,8 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
   .nav .menu-close { position: absolute; top: 24px; right: 5%; }
 }
 @media (min-width: 901px) { .nav .menu-close { display: none; } }
+/* Petits Android (360 px) : le logo à 30 px repousse l'icône du menu hors de l'écran */
+@media (max-width: 380px) { .logo { font-size: 26px; } }
 
 /* --------------------------------------------------------------------------
    Éléments communs
@@ -160,7 +160,9 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 .cartel .dims { white-space: nowrap; }
 
 /* Bandeau des pages intérieures */
-.banner { position: relative; height: 520px; overflow: hidden; }
+/* Hauteur liée à la largeur : mêmes proportions (≈ 10:3) et même cadrage quelle que soit
+   la hauteur de la fenêtre. Plafond à 600 px pour garder 30vw jusqu'à 2000 px de large. */
+.banner { position: relative; height: clamp(280px, 30vw, 600px); overflow: hidden; }
 .banner img { width: 100%; height: 100%; object-fit: cover; }
 .banner::after { content: ""; position: absolute; inset: 0; background: var(--veil); }
 .banner h1 {
@@ -169,10 +171,12 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
   font-size: clamp(30px, 4vw, 46px); padding: 0 var(--gutter);
 }
 @media (max-width: 700px) { .banner { height: 220px; } }
-/* Bandeau de collections.html : cadré sur la partie nette (buse du chalumeau et pointe
-   de la flamme, en haut à droite de la photo) */
-.banner--colls img { object-position: 70% 12%; }
-@media (max-width: 700px) { .banner--colls img { object-position: 72% 18%; } }
+/* Point de cadrage de chaque bandeau, sur la partie nette du sujet (un seul réglage par
+   bandeau, valable en desktop et en mobile). object-position joue le rôle de
+   background-position : les bandeaux sont des <img> en object-fit: cover. */
+.banner--colls img    { object-position: 70% 10%; }  /* Bandeau-COLLECTIONS : buse du chalumeau, pointe de la flamme */
+.banner--murale img   { object-position: 50% 45%; }  /* Bandeau-COLLECTION-MURALE : centre du Miroir, trous et barres d'acier */
+.banner--portrait img { object-position: 40% 35%; }  /* bandeau-portrait : meuleuse et gerbe d'étincelles */
 
 /* --------------------------------------------------------------------------
    Footer
@@ -233,44 +237,47 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 /* ==========================================================================
    ACCUEIL
    ========================================================================== */
-.hero {
-  position: relative;
-  height: 100svh;   /* le header transparent recouvre le hero */
-  min-height: 560px;
-  overflow: hidden;
-}
+/* Hero : composition du site actuel (docs/design/captures/accueil-officiel-hero.png).
+   Sous le header opaque ; hauteur 100vh comme le site actuel ; image en cover calée en
+   haut à droite (100% 0) : tuyau du chalumeau, embout à flamme bleue et flamme orange.
+   Pas de voile : l'accroche est posée sur la zone sombre en haut à gauche. */
+.hero { position: relative; height: 100vh; overflow: hidden; }
 .hero > img {
   position: absolute; inset: 0;
-  width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%;
+  width: 100%; height: 100%; object-fit: cover; object-position: 100% 0;
 }
-.hero::before {
-  /* voile de lisibilité, identique à celui des bandeaux (pas un dégradé décoratif) */
-  content: ""; position: absolute; inset: 0; background: var(--veil);
-}
-.hero .hero-text {
-  position: relative; z-index: 1; height: 100%;
-  display: flex; flex-direction: column; justify-content: flex-end;
-  padding: 0 0 14vh 7vw; max-width: 55%;
-}
-.hero h1 { font-weight: 400; }
+.hero-inner { position: relative; z-index: 1; padding-top: 150px; }
+/* Colonne de l'accroche : accroche, filet ocre, signature centrée sous le filet */
+.hero-brand { width: 304px; display: flex; flex-direction: column; align-items: center; }
+.hero h1 { align-self: flex-start; font-weight: 400; margin: 0; }
 .hero .accroche {
   display: block;
-  font-family: var(--font-hand); font-weight: 400;
-  font-size: clamp(44px, 5.4vw, 80px); line-height: 1.05; letter-spacing: 2px;
+  font-family: var(--font-hand); font-weight: 400;   /* pas de faux gras */
+  font-size: 25px; line-height: 25px; letter-spacing: 5px;
   color: var(--text); white-space: nowrap;
 }
-.hero .h1-sub {
-  display: block; margin-top: 24px;
-  font-family: var(--font); font-size: clamp(15px, 1.3vw, 19px); font-weight: 400;
-  letter-spacing: .04em; color: var(--text);
-}
-.hero .h1-sub span { display: block; margin-top: 4px; font-size: .85em; color: var(--text-2); }
+.hero-rule { display: block; width: 286px; height: 2px; margin-top: 20px; background: var(--accent); }
+.hero-sign { width: 65px; height: auto; margin-top: 18px; }
 @media (max-width: 700px) {
-  .hero { height: 78svh; min-height: 460px; }
-  .hero > img { object-position: 78% 50%; }
-  .hero::before { inset: 0; }
-  .hero .hero-text { justify-content: flex-end; max-width: none; padding: 0 20px 36px; }
-  .hero .accroche { white-space: normal; }
+  /* Mobile, comme le site actuel : hauteur selon le contenu, image presque entière */
+  .hero { height: auto; min-height: 254px; }
+  .hero-inner { width: auto; margin: 0; padding: 50px 25px 25px; }
+  .hero-brand { width: 170px; }
+  .hero .accroche { font-size: 20px; line-height: 20px; white-space: normal; }
+  .hero-rule { width: 170px; }
+  .hero-sign { width: 52px; }
+}
+@media (max-width: 480px) {
+  /* Petit mobile : même composition qu'en desktop, réduite. Toutes les mesures sont en vw
+     (rapport desktop × 0,45 × largeur d'écran / 309 px), donc identiques en 390 et en 360 px.
+     Hero aux proportions de ACCUEIL.jpg (1363 × 909) : image entière, chalumeau et flamme
+     à droite, accroche sur la zone sombre en haut à gauche. */
+  .hero { height: calc(100vw * 909 / 1363); min-height: 0; }
+  .hero-inner { padding: 6vw 0 0 6.4vw; }
+  .hero-brand { width: max-content; }                       /* largeur = celle de l'accroche */
+  .hero .accroche { font-size: 3.64vw; line-height: 1; letter-spacing: .73vw; white-space: nowrap; }
+  .hero-rule { width: 100%; margin-top: 2.9vw; }              /* filet = largeur de l'accroche */
+  .hero-sign { width: 9.5vw; margin-top: 2.6vw; }
 }
 
 /* Blocs alternés image / texte : collections et ART'elier (accueil), portrait */
@@ -549,12 +556,6 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
 
 @media (max-width: 700px) { .verse { font-size: 15px; } }
 
-/* Hero : dégradé sombre en haut, pour la lisibilité du logo et du menu sur la flamme */
-.hero::after {
-  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 220px;
-  background: linear-gradient(to bottom, rgba(10, 10, 10, .85), rgba(10, 10, 10, 0));
-}
-@media (max-width: 700px) { .hero::after { height: 200px; background: linear-gradient(to bottom, rgba(10, 10, 10, .9), rgba(10, 10, 10, 0)); } }
 
 /* ==========================================================================
    PORTRAIT
