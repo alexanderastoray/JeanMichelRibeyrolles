@@ -1,0 +1,98 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - link "Skip to content" [ref=f8e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f8e4]:
+      - banner [ref=f8e7]:
+        - generic [ref=f8e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f8e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - navigation [ref=f8e13]:
+            - list:
+              - listitem [ref=f8e14]:
+                - link [ref=f8e15] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+                  - generic [ref=f8e16]:
+                    - text: Collections
+                    - img [aria-hidden] [ref=f8e17]: 
+              - listitem [ref=f8e18]:
+                - link "ART’elier" [ref=f8e19] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - listitem [ref=f8e20]:
+                - link "Portrait" [ref=f8e21] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+              - listitem [ref=f8e22]:
+                - link "Contact" [ref=f8e23] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+          - text: 
+      - main [ref=f8e24]:
+        - generic [ref=f8e25]:
+          - generic [ref=f8e29]:
+            - heading "Sculpteur - Musicien" [level=1] [ref=f8e32]
+            - link [ref=f8e39] [cursor=pointer]:
+              - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+          - generic [ref=f8e47]:
+            - heading "Collections" [level=2] [ref=f8e56]
+            - generic [ref=f8e64]:
+              - generic [ref=f8e66]:
+                - link [ref=f8e69] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/
+                - heading "Les Arcs-en-ciel Noirs" [level=5] [ref=f8e74]
+              - generic [ref=f8e76]:
+                - link [ref=f8e79] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                - link [ref=f8e82] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                - heading "Les Miroirs d’Enigme" [level=5] [ref=f8e87]
+              - generic [ref=f8e89]:
+                - link [ref=f8e92] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/
+                - heading "Les Gardiens de la Terre" [level=5] [ref=f8e97]
+            - link "Découvrir" [ref=f8e101] [cursor=pointer]:
+              - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - generic [ref=f8e102]:
+                - generic [aria-hidden] [ref=f8e104]: 
+                - generic [ref=f8e105]: Découvrir
+          - generic [ref=f8e115]:
+            - heading "Reportage France TV" [level=2] [ref=f8e118]
+            - generic [ref=f8e124]:
+              - paragraph [ref=f8e125]
+              - paragraph [ref=f8e126]: Des sculptures inspirées du néolithique
+          - generic [ref=f8e140]:
+            - heading "ART'elier" [level=4] [ref=f8e143]
+            - paragraph [ref=f8e146]:
+              - strong [ref=f8e147]: Invitation à découvrir l’univers d’un sculpteur-musicien à l’ART’elier Samonteil.
+              - strong [ref=f8e148]: Ouverture de juin à octobre
+            - link "Lire la suite" [ref=f8e156] [cursor=pointer]:
+              - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f8e157]:
+                - generic [aria-hidden] [ref=f8e159]: 
+                - generic [ref=f8e160]: Lire la suite
+      - contentinfo [ref=f8e161]:
+        - generic [ref=f8e167]:
+          - paragraph [ref=f8e174]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f8e176]:
+            - heading "INFORMATION" [level=2] [ref=f8e179]
+            - paragraph [ref=f8e182]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f8e184]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f8e187]
+            - paragraph [ref=f8e190]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f8e191] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f8e193]:
+            - heading "NAVIGATION" [level=2] [ref=f8e196]
+            - paragraph [ref=f8e199]:
+              - link "Collections" [ref=f8e200] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f8e201] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f8e202]:
+                - link "Portrait" [ref=f8e203] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f8e204] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f8e205] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f8e211]: desktop

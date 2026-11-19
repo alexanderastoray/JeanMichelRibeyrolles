@@ -1,0 +1,188 @@
+- generic [active] [ref=f23e1]:
+  - generic [ref=f23e2]:
+    - link "Skip to content" [ref=f23e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f23e4]:
+      - banner [ref=f23e7]:
+        - generic [ref=f23e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f23e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - text: 
+          - link "Menu mobile" [ref=f23e13] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/#mobile-menu-toggle
+            - generic [aria-hidden] [ref=f23e14]: 
+            - text: Menu
+      - main [ref=f23e15]:
+        - article [ref=f23e19]:
+          - generic [ref=f23e21]:
+            - generic [ref=f23e36]:
+              - heading "Les Arcs-en-ciel Noirs" [level=2] [ref=f23e39]
+              - generic [ref=f23e44]:
+                - paragraph [ref=f23e45]: Qui révélera l’énigme des origines du noir, lorsque dans un temps enfoui, les sept couleurs de l’arc-en-ciel emportées dans un mouvement insenséroulèrent les unes contre les autres, jusqu’à l‘effacement, la nudité absolue, pour rendre au noir toute sa clarté, sa puissance sauvage,pour l’affranchir de son exil.
+                - paragraph [ref=f23e46]: Sous le noir vibrent tous nos arcs-en-ciel.
+            - generic [ref=f23e54]:
+              - generic [ref=f23e58]:
+                - figure [ref=f23e59]:
+                  - link [ref=f23e61] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/04/25FI0907-et-25FI1007-Vue-1-130-x-60-x-5-cm-Frene-Inox.jpg
+                - figure [ref=f23e62]:
+                  - link [ref=f23e64] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/04/25FI1007-Vue-2-Detail-scaled.jpg
+                - figure [ref=f23e65]:
+                  - link [ref=f23e67] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/04/25FI1007-Vue-2-Detail-2-scaled.jpg
+              - 'heading "Dimensions : 130 x 60 x 5 cm | Matière : Frêne Inox Référence : 25FI0907 / 25FI1007" [level=2] [ref=f23e70]'
+            - generic [ref=f23e78]:
+              - generic [ref=f23e82]:
+                - figure [ref=f23e83]:
+                  - link [ref=f23e85] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHI411-Vue-1-65-x-40-x-5-cm-Chene-Inox-scaled.jpg
+                - figure [ref=f23e86]:
+                  - link [ref=f23e88] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHI411-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 65 x 40 x 5 cm | Matière : Chêne Inox Référence : 25CHI411" [level=2] [ref=f23e91]'
+            - generic [ref=f23e99]:
+              - generic [ref=f23e103]:
+                - figure [ref=f23e104]:
+                  - link [ref=f23e106] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25FI0102-Vue-1-30-x-4-cm-Frene-Inox-scaled.jpg
+                - figure [ref=f23e107]:
+                  - link [ref=f23e109] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25FI0102-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 30 x 4 cm | Matière : Frêne Inox Référence : 25FI0102" [level=2] [ref=f23e112]'
+            - generic [ref=f23e120]:
+              - generic [ref=f23e124]:
+                - figure [ref=f23e125]:
+                  - link [ref=f23e127] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25CHI0501-Vue-1-30-x-5-cm-Chene-Inox-scaled.jpg
+                - figure [ref=f23e128]:
+                  - link [ref=f23e130] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25CHI0501-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 30 x 5 cm | Matière : Chêne Inox Référence : 25CHI0501" [level=2] [ref=f23e133]'
+            - generic [ref=f23e141]:
+              - generic [ref=f23e145]:
+                - figure [ref=f23e146]:
+                  - link [ref=f23e148] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25AI0202-Vue-1-122-x-11-x-3-cm-Charme-Inox-scaled.jpg
+                - figure [ref=f23e149]:
+                  - link [ref=f23e151] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25AI0202-Vue-2-Detail.jpg
+              - 'heading "Dimensions : 161 x 15,5 x 5,5 cm | Matière : Charme Inox Référence : 25AI0202" [level=2] [ref=f23e154]'
+            - generic [ref=f23e162]:
+              - generic [ref=f23e166]:
+                - figure [ref=f23e167]:
+                  - link [ref=f23e169] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0308-Vue-1-161-x-155-x-55-cm-Chataigner-Acier-scaled.jpg
+                - figure [ref=f23e170]:
+                  - link [ref=f23e172] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0308-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 161 x 15,5 x 5,5 cm | Matière : Châtaigner Acier Référence : 24HM0308" [level=2] [ref=f23e175]'
+            - generic [ref=f23e183]:
+              - generic [ref=f23e187]:
+                - figure [ref=f23e188]:
+                  - link [ref=f23e190] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0209-Vue-1-80-x-16-x-5-cm-Chataignier-Acier-scaled.jpg
+                - figure [ref=f23e191]:
+                  - link [ref=f23e193] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0209-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 80 x 16 x 5 cm | Matière : Châtaignier Acier Référence : 24HM0209" [level=2] [ref=f23e196]'
+            - generic [ref=f23e204]:
+              - generic [ref=f23e208]:
+                - figure [ref=f23e209]:
+                  - link [ref=f23e211] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0208-Vue-1-161-x-155-x-55-cm-Chataigner-Acier-scaled.jpg
+                - figure [ref=f23e212]:
+                  - link [ref=f23e214] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24HM0208-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 161 x 15,5 x 5,5 cm | Matière : Châtaigner Acier Référence : 24HM0208" [level=2] [ref=f23e217]'
+            - generic [ref=f23e225]:
+              - generic [ref=f23e229]:
+                - figure [ref=f23e230]:
+                  - link [ref=f23e232] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/24HM0212-Vue-1-178-x-21-x-5-cm-Chataigner-Inox-scaled.jpg
+                - figure [ref=f23e233]:
+                  - link [ref=f23e235] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/24HM0212-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 178 x 21 x 5 cm | Matière : Châtaigner Inox Référence : 24HM0212" [level=2] [ref=f23e238]'
+            - generic [ref=f23e246]:
+              - generic [ref=f23e250]:
+                - figure [ref=f23e251]:
+                  - link [ref=f23e253] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/24CHM0710-Vue-1-134-x-35-x-4-cm-Chene-Acier-scaled.jpg
+                - figure [ref=f23e254]:
+                  - link [ref=f23e256] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24CHM0710-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 134 x 35 x 4 cm | Matière : Chêne Acier Référence : 24CHM0710" [level=2] [ref=f23e259]'
+            - generic [ref=f23e267]:
+              - generic [ref=f23e271]:
+                - figure [ref=f23e272]:
+                  - link [ref=f23e274] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24FM0107-Vue-1-74-x-59-x-5-cm-Frene-Acier-scaled.jpg
+                - figure [ref=f23e275]:
+                  - link [ref=f23e277] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24FM0107-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 74 x 59 x 5 cm | Matière : Frêne Acier Référence : 24FM0107" [level=2] [ref=f23e280]'
+            - generic [ref=f23e288]:
+              - generic [ref=f23e292]:
+                - figure [ref=f23e293]:
+                  - link [ref=f23e295] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24FM0404-Vue-1-40-x-4-cm-Frene-Acier-scaled.jpg
+                - figure [ref=f23e296]:
+                  - link [ref=f23e298] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24FM0404-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 40 x 4 cm | Matière : Frêne Acier Référence : 24FM0404" [level=2] [ref=f23e301]'
+            - generic [ref=f23e309]:
+              - generic [ref=f23e313]:
+                - figure [ref=f23e314]:
+                  - link [ref=f23e316] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24CHM0705-Vue-1-70-x-35-x-4-cm-scaled.jpg
+                - figure [ref=f23e317]:
+                  - link [ref=f23e319] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/08/24CHM0705-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 70 x 35 x 4 cm | Matière : Frêne Acier Référence : 24CHM0705" [level=2] [ref=f23e322]'
+            - generic [ref=f23e330]:
+              - generic [ref=f23e334]:
+                - figure [ref=f23e335]:
+                  - link [ref=f23e337] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/23FMB0410-Vue-1-80-x-30-x-3-cm-Frene-Acier-scaled.jpg
+                - figure [ref=f23e338]:
+                  - link [ref=f23e340] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/23FMB0410-Vue-1-Detail-scaled.jpg
+              - 'heading "Dimensions : 80 x 30 x 3 cm | Matière : Frêne Acier Référence : 23FMB0410" [level=2] [ref=f23e343]'
+            - generic [ref=f23e351]:
+              - generic [ref=f23e355]:
+                - figure [ref=f23e356]:
+                  - link [ref=f23e358] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24CHM0204-Vue-1-66-x-15-x-4-cm-Chene-Acier-scaled.jpg
+                - figure [ref=f23e359]:
+                  - link [ref=f23e361] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24CHM0204-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 66 x 15 x 4 cm | Matière :Chêne Acier Référence : 24CHM0204" [level=2] [ref=f23e364]'
+      - contentinfo [ref=f23e367]:
+        - generic [ref=f23e373]:
+          - paragraph [ref=f23e380]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f23e382]:
+            - heading "INFORMATION" [level=2] [ref=f23e385]
+            - paragraph [ref=f23e388]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f23e390]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f23e393]
+            - paragraph [ref=f23e396]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f23e397] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f23e399]:
+            - heading "NAVIGATION" [level=2] [ref=f23e402]
+            - paragraph [ref=f23e405]:
+              - link "Collections" [ref=f23e406] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f23e407] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f23e408]:
+                - link "Portrait" [ref=f23e409] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f23e410] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f23e411] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f23e417]: tablet

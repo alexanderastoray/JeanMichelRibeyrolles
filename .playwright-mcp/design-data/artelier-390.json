@@ -1,0 +1,3472 @@
+{
+  "url": "https://jeanmichelribeyrolles.fr/artelier/",
+  "viewport": [
+    390,
+    844
+  ],
+  "bodyClass": "wp-singular page-template-default page page-id-668 wp-embed-responsive wp-theme-oceanwp unselectable oceanwp-theme fullscreen-mobile has-transparent-header no-header-border default-breakpoint content-full-screen page-header-disabled has-breadcrumbs elementor-default elementor-kit-442 elementor-page elementor-page-668 e--ua-blink e--ua-chrome e--ua-webkit",
+  "body": {
+    "font-family": "\"Open Sans\", sans-serif",
+    "font-size": "14px",
+    "font-weight": "400",
+    "line-height": "25.2px",
+    "letter-spacing": "normal",
+    "color": "rgb(74, 74, 74)",
+    "background-color": "rgb(45, 45, 45)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "text-decoration-line": "none",
+    "padding": "0px",
+    "margin": "0px",
+    "border-radius": "0px",
+    "border": "0px none rgb(74, 74, 74)"
+  },
+  "html": {
+    "font-family": "sans-serif",
+    "font-size": "10px",
+    "font-weight": "400",
+    "line-height": "normal",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "text-decoration-line": "none",
+    "padding": "0px",
+    "margin": "0px",
+    "border-radius": "0px",
+    "border": "0px none rgb(0, 0, 0)"
+  },
+  "header": {
+    "el": "header#site-header.transparent-header.effect-three.clr",
+    "style": {
+      "font-family": "\"Open Sans\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "400",
+      "line-height": "25.2px",
+      "letter-spacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "background-color": "rgb(10, 10, 10)",
+      "text-transform": "none",
+      "font-style": "normal",
+      "text-decoration-line": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "border-radius": "0px",
+      "border": ""
+    },
+    "height": 88,
+    "inner": []
+  },
+  "menu": [],
+  "menuActive": [],
+  "h1": [],
+  "h2": [
+    {
+      "count": 3,
+      "style": {
+        "font-family": "\"Open Sans\", sans-serif",
+        "font-size": "20px",
+        "font-weight": "600",
+        "line-height": "20px",
+        "letter-spacing": "normal",
+        "color": "rgb(248, 242, 242)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "border-radius": "0px",
+        "border": "0px none rgb(248, 242, 242)"
+      },
+      "examples": [
+        "h2.elementor-heading-title.elementor-size-default « ART'elier »",
+        "h2.elementor-heading-title.elementor-size-default « Exposition – Mémoire de Traces Oubliées »",
+        "h2.elementor-heading-title.elementor-size-default « Livre d'or »"
+      ]
+    },
+    {
+      "count": 3,
+      "style": {
+        "font-family": "\"Open Sans\", sans-serif",
+        "font-size": "14px",
+        "font-weight": "600",
+        "line-height": "14px",
+        "letter-spacing": "normal",
+        "color": "rgb(199, 200, 205)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "border-radius": "0px",
+        "border": "0px none rgb(199, 200, 205)"
+      },
+      "examples": [
+        "h2.elementor-heading-title.elementor-size-default « INFORMATION »",
+        "h2.elementor-heading-title.elementor-size-default « MENTIONS LÉGALES »",
+        "h2.elementor-heading-title.elementor-size-default « NAVIGATION »"
+      ]
+    }
+  ],
+  "h3": [],
+  "h4": [],
+  "h5": [],
+  "h6": [],
+  "p": [
+    {
+      "count": 9,
+      "style": {
+        "font-family": "Roboto, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "28.8px",
+        "letter-spacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "0px",
+        "margin": "0px 0px 20px",
+        "border-radius": "0px",
+        "border": "0px none rgb(255, 255, 255)"
+      },
+      "examples": [
+        "p « Invitation à découvrir l’univers d’un sculpteur-musicien à l »",
+        "p « Venez vous évader au milieu de ses œuvres réalisées seul ou  »",
+        "p « Jean-Michel vous recevra dans une atmosphère musicale concoc »"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "count": 1,
+      "style": {
+        "font-family": "\"Open Sans\", sans-serif",
+        "font-size": "14px",
+        "font-weight": "400",
+        "line-height": "25.2px",
+        "letter-spacing": "normal",
+        "color": "rgb(51, 51, 51)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "0px",
+        "margin": "-1px",
+        "border-radius": "0px",
+        "border": "0px none rgb(51, 51, 51)"
+      },
+      "examples": [
+        "a.skip-link.screen-reader-text « Skip to content »"
+      ]
+    },
+    {
+      "count": 1,
+      "style": {
+        "font-family": "Roboto, sans-serif",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "28.8px",
+        "letter-spacing": "normal",
+        "color": "rgb(221, 153, 51)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "border-radius": "0px",
+        "border": "0px none rgb(221, 153, 51)"
+      },
+      "examples": [
+        "a « (prendre rendez-vous) »"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "count": 2,
+      "style": {
+        "font-family": "\"Open Sans\", sans-serif",
+        "font-size": "32px",
+        "font-weight": "400",
+        "line-height": "32px",
+        "letter-spacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "text-transform": "none",
+        "font-style": "normal",
+        "text-decoration-line": "none",
+        "padding": "8px 10px",
+        "margin": "0px",
+        "border-radius": "0px",
+        "border": "0px none rgb(255, 255, 255)"
+      },
+      "examples": [
+        "button.nav.prev « ‹ »",
+        "button.nav.next « › »"
+      ]
+    }
+  ],
+  "footer": {
+    "el": "footer#footer.site-footer",
+    "style": {
+      "font-family": "\"Open Sans\", sans-serif",
+      "font-size": "14px",
+      "font-weight": "400",
+      "line-height": "25.2px",
+      "letter-spacing": "normal",
+      "color": "rgb(74, 74, 74)",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "text-transform": "none",
+      "font-style": "normal",
+      "text-decoration-line": "none",
+      "padding": "0px",
+      "margin": "0px",
+      "border-radius": "0px",
+      "border": "0px none rgb(74, 74, 74)"
+    },
+    "bgChain": [
+      "div#footer-widgets.oceanwp-row.clr.tablet-2-col rgb(29, 27, 26)",
+      "section#FOOTER.elementor-section.elementor-top-section.elementor-element rgb(29, 27, 26)",
+      "div#footer-bottom.clr.no-footer-nav rgb(27, 27, 27)"
+    ],
+    "text": [
+      {
+        "count": 6,
+        "style": {
+          "font-family": "\"Open Sans\", sans-serif",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "25.2px",
+          "letter-spacing": "normal",
+          "color": "rgb(132, 134, 146)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "font-style": "normal",
+          "text-decoration-line": "none",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(132, 134, 146)"
+        },
+        "examples": [
+          "span « Collections »",
+          "span « ART’elier »",
+          "span « PortraitEvénementsContact »"
+        ]
+      },
+      {
+        "count": 5,
+        "style": {
+          "font-family": "\"Open Sans\", sans-serif",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "25.2px",
+          "letter-spacing": "normal",
+          "color": "rgb(51, 51, 51)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "font-style": "normal",
+          "text-decoration-line": "none",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(51, 51, 51)"
+        },
+        "examples": [
+          "a « Collections »",
+          "a « ART’elier »",
+          "a « Portrait »"
+        ]
+      },
+      {
+        "count": 4,
+        "style": {
+          "font-family": "\"Open Sans\", sans-serif",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "25.2px",
+          "letter-spacing": "normal",
+          "color": "rgb(132, 134, 146)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "font-style": "normal",
+          "text-decoration-line": "none",
+          "padding": "0px",
+          "margin": "0px 0px 20px",
+          "border-radius": "0px",
+          "border": "0px none rgb(132, 134, 146)"
+        },
+        "examples": [
+          "p « © 2026 Jean-Michel Riberyrolles »",
+          "p.elementor-icon-box-title « ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul- »",
+          "p « © Photos de Yoann Portejoie et Benoît Frété, non libres de d »"
+        ]
+      },
+      {
+        "count": 3,
+        "style": {
+          "font-family": "\"Open Sans\", sans-serif",
+          "font-size": "14px",
+          "font-weight": "600",
+          "line-height": "14px",
+          "letter-spacing": "normal",
+          "color": "rgb(199, 200, 205)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "font-style": "normal",
+          "text-decoration-line": "none",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(199, 200, 205)"
+        },
+        "examples": [
+          "h2.elementor-heading-title.elementor-size-default « INFORMATION »",
+          "h2.elementor-heading-title.elementor-size-default « MENTIONS LÉGALES »",
+          "h2.elementor-heading-title.elementor-size-default « NAVIGATION »"
+        ]
+      },
+      {
+        "count": 1,
+        "style": {
+          "font-family": "\"Open Sans\", sans-serif",
+          "font-size": "14px",
+          "font-weight": "400",
+          "line-height": "25.2px",
+          "letter-spacing": "normal",
+          "color": "rgb(199, 200, 205)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "font-style": "normal",
+          "text-decoration-line": "none",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(199, 200, 205)"
+        },
+        "examples": [
+          "a « Mentions légales »"
+        ]
+      }
+    ]
+  },
+  "cssVars": {
+    "--e-global-color-primary": "#6EC1E4",
+    "--e-global-color-secondary": "#54595F",
+    "--e-global-color-text": "#7A7A7A",
+    "--e-global-color-accent": "#61CE70",
+    "--e-global-color-78c43809": "#4054B2",
+    "--e-global-color-6f1c2291": "#23A455",
+    "--e-global-color-794ae475": "#000",
+    "--e-global-color-7c6cae40": "#FFF",
+    "--e-global-color-2543f153": "#000000",
+    "--e-global-typography-primary-font-family": "\"Roboto\"",
+    "--e-global-typography-primary-font-weight": "600",
+    "--e-global-typography-secondary-font-family": "\"Roboto Slab\"",
+    "--e-global-typography-secondary-font-weight": "400",
+    "--e-global-typography-text-font-family": "\"Roboto\"",
+    "--e-global-typography-text-font-weight": "400",
+    "--e-global-typography-accent-font-family": "\"Roboto\"",
+    "--e-global-typography-accent-font-weight": "500"
+  },
+  "fontFaces": [
+    {
+      "family": "Font Awesome 6 Brands",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 6 Free",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 6 Free",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "simple-line-icons",
+      "weight": "normal",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Swanky and Moo Moo",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Swanky and Moo Moo",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "eicons",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Brands",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "900",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "italic",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "italic",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "style": "normal",
+      "status": "loaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "100",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "200",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "300",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "400",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "500",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "600",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "700",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "800",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Roboto Slab",
+      "weight": "900",
+      "style": "normal",
+      "status": "unloaded"
+    },
+    {
+      "family": "Font Awesome 5 Free",
+      "weight": "900",
+      "style": "normal",
+      "status": "loaded"
+    }
+  ],
+  "fontFaceRules": [
+    {
+      "family": "\"Font Awesome 6 Brands\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "\"Font Awesome 6 Free\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "\"Font Awesome 6 Free\"",
+      "weight": "900",
+      "src": "url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "\"Font Awesome 5 Brands\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "\"Font Awesome 5 Free\"",
+      "weight": "900",
+      "src": "url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "\"Font Awesome 5 Free\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "",
+      "src": "url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "",
+      "src": "url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "",
+      "src": "url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "FontAwesome",
+      "weight": "",
+      "src": "url(\"../webfonts/fa-v4compatibility.woff2\") format(\"woff2\"), url(\"../webfonts/fa-v4compatibility.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2"
+    },
+    {
+      "family": "simple-line-icons",
+      "weight": "normal",
+      "src": "url(\"../../fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0\") format(\"woff2\"), url(\"../../fonts/simple-line-icons/Simple-Line-Icons.ttf?v=2.4.0\") format(\"truetype\"), url(\"../../fonts/simple-lin",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0"
+    },
+    {
+      "blocked": "https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&display=swap&ver=6.9.11"
+    },
+    {
+      "family": "eicons",
+      "weight": "400",
+      "src": "url(\"../fonts/eicons.woff2?5.48.0\") format(\"woff2\"), url(\"../fonts/eicons.woff?5.48.0\") format(\"woff\"), url(\"../fonts/eicons.ttf?5.48.0\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0"
+    },
+    {
+      "family": "\"Font Awesome 5 Brands\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.woff\") format(\"woff\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.0"
+    },
+    {
+      "family": "\"Font Awesome 5 Free\"",
+      "weight": "400",
+      "src": "url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.woff\") format(\"woff\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.0"
+    },
+    {
+      "family": "\"Font Awesome 5 Free\"",
+      "weight": "900",
+      "src": "url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.woff\") format(\"woff\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.0"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-aa47213c.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc2a88.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-88769a1e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-0585f5a7.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-244686ad.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-58e5057a.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c012394d.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-b8c55b0e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-1dba1bc2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-c4482425.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-a1dc56af.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-20c48c4e.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-3603e9b2.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-31b09f96.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-bf5e5259.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-41d25e69.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "Roboto",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "100",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "200",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "300",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "400",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "500",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "600",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "700",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "800",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-83dfed57.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f7c1acf8.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-f5125d80.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-7335a6ac.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-a3e20834.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ecf35e38.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Roboto Slab\"",
+      "weight": "900",
+      "src": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-09b550e6.woff2\") format(\"woff2\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702"
+    },
+    {
+      "family": "\"Font Awesome 5 Free\"",
+      "weight": "900",
+      "src": "url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.woff\") format(\"woff\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")",
+      "sheet": "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+    }
+  ],
+  "fontResources": [
+    "https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&display=swap&ver=6.9.11",
+    "https://fonts.gstatic.com/s/swankyandmoomoo/v24/flUlRrKz24IuWVI_WJYTYcqbEsMUZ3kksrnl.woff2",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-6fa0783f.woff2",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2"
+  ],
+  "stylesheets": [
+    null,
+    null,
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/formidable/css/formidableforms.css?ver=3251515",
+    null,
+    null,
+    null,
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/css/post-2096.css?ver=1793210341",
+    "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+    "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.5",
+    "https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&subset=latin&display=swap&ver=6.9.11",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/css/post-442.css?ver=1793210341",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/css/widget-testimonial.min.css?ver=4.0.0",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/css/post-668.css?ver=1793237890",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.9.11",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1756718698",
+    "https://jeanmichelribeyrolles.fr/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1756718702",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+    "https://jeanmichelribeyrolles.fr/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "colors": [
+    [
+      "rgb(255, 255, 255)",
+      28
+    ],
+    [
+      "rgb(221, 153, 51)",
+      15
+    ],
+    [
+      "rgb(191, 191, 191)",
+      12
+    ],
+    [
+      "rgb(132, 134, 146)",
+      8
+    ],
+    [
+      "rgb(199, 200, 205)",
+      4
+    ],
+    [
+      "rgb(248, 242, 242)",
+      3
+    ],
+    [
+      "rgb(85, 85, 85)",
+      2
+    ],
+    [
+      "rgb(51, 51, 51)",
+      1
+    ]
+  ],
+  "backgrounds": [
+    [
+      "rgb(17, 17, 17)",
+      15
+    ],
+    [
+      "rgb(44, 44, 44)",
+      2
+    ],
+    [
+      "rgb(29, 27, 26)",
+      2
+    ],
+    [
+      "rgb(10, 10, 10)",
+      1
+    ],
+    [
+      "rgb(0, 0, 0)",
+      1
+    ],
+    [
+      "rgb(27, 27, 27)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.4)",
+      1
+    ]
+  ],
+  "sections": [
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "85px 0px 75px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 182,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/Bandeau-ARTelier-Samonteil.jpg\")"
+    },
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "60px 0px 40px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 668,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "none"
+    },
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "10px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 331,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "none"
+    },
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "60px 0px 40px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 611,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "none"
+    },
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "10px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 331,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "none"
+    },
+    {
+      "el": "section.elementor-section.elementor-top-section.elementor-element",
+      "padding": "50px 20px",
+      "margin": "0px",
+      "gap": "normal",
+      "maxWidth": "none",
+      "width": 390,
+      "height": 3253,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImg": "none"
+    }
+  ],
+  "containers": [
+    "90% / div#site-header-inner.clr",
+    "none / div#content-wrap.container",
+    "767px / div.elementor-container",
+    "1140px / div.elementor-container",
+    "90% / div.footer-widgets-inner",
+    "90% / div#footer-bottom-inner.container"
+  ]
+}

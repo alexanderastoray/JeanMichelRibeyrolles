@@ -1,0 +1,109 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - link "Skip to content" [ref=f3e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f3e4]:
+      - banner [ref=f3e7]:
+        - generic [ref=f3e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f3e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - text: 
+          - link "Menu mobile" [ref=f3e13] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/#mobile-menu-toggle
+            - generic [aria-hidden] [ref=f3e14]: 
+            - text: Menu
+      - main [ref=f3e15]:
+        - article [ref=f3e19]:
+          - generic [ref=f3e21]:
+            - generic [ref=f3e34]:
+              - heading "Les Arcs-en-ciel Noirs" [level=2] [ref=f3e43]
+              - generic [ref=f3e51]:
+                - link [ref=f3e56] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/
+                - link [ref=f3e61] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/
+              - link "Découvrir" [ref=f3e65] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/
+                - generic [ref=f3e66]:
+                  - generic [aria-hidden] [ref=f3e68]: 
+                  - generic [ref=f3e69]: Découvrir
+            - generic [ref=f3e73]:
+              - heading "Les Miroirs d’Enigme" [level=2] [ref=f3e82]
+              - generic [ref=f3e90]:
+                - generic [ref=f3e92]:
+                  - link [ref=f3e95] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                  - link [ref=f3e98] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                - generic [ref=f3e100]:
+                  - generic [ref=f3e102]:
+                    - link:
+                      - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                  - generic [ref=f3e104]:
+                    - link:
+                      - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+              - link "Découvrir" [ref=f3e108] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/les-miroirs-denigme/
+                - generic [ref=f3e109]:
+                  - generic [aria-hidden] [ref=f3e111]: 
+                  - generic [ref=f3e112]: Découvrir
+            - generic [ref=f3e116]:
+              - heading "Les Gardiens de la Terre" [level=2] [ref=f3e125]
+              - generic [ref=f3e133]:
+                - generic [ref=f3e137]:
+                  - link:
+                    - /url: https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/
+                - generic [ref=f3e141]:
+                  - link:
+                    - /url: https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/
+              - link "Découvrir" [ref=f3e145] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/
+                - generic [ref=f3e146]:
+                  - generic [aria-hidden] [ref=f3e148]: 
+                  - generic [ref=f3e149]: Découvrir
+            - generic [ref=f3e153]:
+              - heading "Collection Privée" [level=2] [ref=f3e162]
+              - generic [ref=f3e170]:
+                - generic [ref=f3e174]:
+                  - link:
+                    - /url: https://jeanmichelribeyrolles.fr/catalogue/
+                - generic [ref=f3e176]:
+                  - generic [ref=f3e178]:
+                    - link:
+                      - /url: https://jeanmichelribeyrolles.fr/catalogue/
+                  - generic [ref=f3e180]:
+                    - link:
+                      - /url: https://jeanmichelribeyrolles.fr/catalogue/
+              - link "Découvrir" [ref=f3e184] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/catalogue/
+                - generic [ref=f3e185]:
+                  - generic [aria-hidden] [ref=f3e187]: 
+                  - generic [ref=f3e188]: Découvrir
+      - contentinfo [ref=f3e189]:
+        - generic [ref=f3e195]:
+          - paragraph [ref=f3e202]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f3e204]:
+            - heading "INFORMATION" [level=2] [ref=f3e207]
+            - paragraph [ref=f3e210]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f3e212]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f3e215]
+            - paragraph [ref=f3e218]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f3e219] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f3e221]:
+            - heading "NAVIGATION" [level=2] [ref=f3e224]
+            - paragraph [ref=f3e227]:
+              - link "Collections" [ref=f3e228] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f3e229] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f3e230]:
+                - link "Portrait" [ref=f3e231] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f3e232] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f3e233] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f3e239]: tablet

@@ -1,0 +1,161 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - link "Skip to content" [ref=f3e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f3e4]:
+      - banner [ref=f3e7]:
+        - generic [ref=f3e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f3e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - text: 
+          - link "Menu mobile" [ref=f3e13] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/#mobile-menu-toggle
+            - generic [aria-hidden] [ref=f3e14]: 
+            - text: Menu
+      - main [ref=f3e15]:
+        - article [ref=f3e19]:
+          - generic [ref=f3e21]:
+            - generic [ref=f3e36]:
+              - heading "ART'elier" [level=2] [ref=f3e39]
+              - generic [ref=f3e45]:
+                - paragraph [ref=f3e46]: Invitation à découvrir l’univers d’un sculpteur-musicien à l’ART’elier Samonteil.
+                - paragraph [ref=f3e47]: Venez vous évader au milieu de ses œuvres réalisées seul ou à « 4 mains » et de ses instruments de musique.
+                - paragraph [ref=f3e48]: Jean-Michel vous recevra dans une atmosphère musicale concoctée sur le moment, au gré de ses inspirations.
+                - paragraph [ref=f3e49]: Pour vous accueillir un petit temps de préparation est nécessaire, nous vous invitons à nous contacter pour convenir ensemble de ce doux moment.
+                - paragraph [ref=f3e50]:
+                  - text: Ouverture de juin à octobre
+                  - link [ref=f3e51] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/contact/
+                    - strong [ref=f3e52]:
+                      - text: (
+                      - emphasis [ref=f3e53]: prendre rendez-vous
+                      - text: )
+            - generic [ref=f3e63]:
+              - img "Œuvre 1" [ref=f3e65]
+              - img "Œuvre 2" [ref=f3e67]
+              - img "Œuvre 3" [ref=f3e69]
+            - generic [ref=f3e75]:
+              - heading "Exposition – Mémoire de Traces Oubliées" [level=2] [ref=f3e78]
+              - generic [ref=f3e84]:
+                - paragraph [ref=f3e85]:
+                  - strong [ref=f3e86]: Espace Orlando
+                  - text: "Sur deux niveaux, l’artiste présentait ses trois univers :"
+                - paragraph [ref=f3e87]:
+                  - strong [ref=f3e88]: Miroirs d’énigme
+                  - text: ": pièces rondes, à poser ou suspendre, alliant douceur des formes et force des matières (bois et métal poli)."
+                - paragraph [ref=f3e89]:
+                  - strong [ref=f3e90]: Arcs-en-ciel noirs
+                  - text: ": œuvres où le bois, transformé par la technique, devient noir vibrant, couleur en majesté."
+                - paragraph [ref=f3e91]:
+                  - strong [ref=f3e92]: Les gardiens de la Terre
+                  - text: ": sculptures dressées sur socle, messagers bienveillants et protecteurs."
+            - generic [ref=f3e102]:
+              - button "Image précédente" [ref=f3e103] [cursor=pointer]: ‹
+              - generic [ref=f3e104]:
+                - figure [ref=f3e105]:
+                  - img "Œuvre 1" [ref=f3e107]
+                - figure [ref=f3e108]:
+                  - img "Œuvre 2" [ref=f3e110]
+                - figure [ref=f3e111]:
+                  - img "Œuvre 3" [ref=f3e113]
+                - figure [ref=f3e114]
+                - figure [ref=f3e117]
+                - figure [ref=f3e120]
+              - button "Image suivante" [ref=f3e123] [cursor=pointer]: ›
+            - generic [ref=f3e127]:
+              - heading "Livre d'or" [level=2] [ref=f3e130]
+              - generic [ref=f3e136]:
+                - generic [ref=f3e138]:
+                  - generic: 
+                  - generic [ref=f3e141]:
+                    - generic [ref=f3e142]: Un voyage à travers les matières, accompagné par une douce musique qui nous laisse partir dans l’imaginaire et l’eau. Des œuvres en bois d’une bouleversante originalité. Merci pour ces découvertes !
+                    - generic [ref=f3e145]:
+                      - generic [ref=f3e146]: Marine
+                      - generic [ref=f3e147]: Samedi 29 août 2020
+                  - generic [ref=f3e150]:
+                    - generic [ref=f3e151]: Un lieu unique. Un plaisir de regarder des pièces de plus en plus vivantes. Le bois, les tableaux, la terre.
+                    - generic [ref=f3e154]:
+                      - generic [ref=f3e155]: Valère
+                      - generic [ref=f3e156]: Dimanche 30 août 2020
+                  - generic [ref=f3e159]:
+                    - generic [ref=f3e160]: Bravo pour cet espace et ce travail ! Touchée par vos œuvres, votre humanité et votre accueil ! Merci encore
+                    - generic [ref=f3e163]:
+                      - generic [ref=f3e164]: Caroline
+                      - generic [ref=f3e165]: Dimanche 30 août 2020
+                  - generic [ref=f3e168]:
+                    - generic [ref=f3e169]: Merci, pièces d’exception ! Bravo et au plaisir d’une prochaine.
+                    - generic [ref=f3e172]:
+                      - generic [ref=f3e173]: Sophie
+                      - generic [ref=f3e174]: Mercredi 2 septembre 2020
+                - generic [ref=f3e176]:
+                  - generic: 
+                  - generic [ref=f3e179]:
+                    - generic [ref=f3e180]: A Samonteil, derrière le rideau Home, nous sommes délicatement invité à entrer dans un dialogue sensible et inspirant entre sculpture et peinture, où l’on se sent en confiance dans une scénographie si douce. On ne se sent ni l’envie, ni le courage de partir. Cette exposition éphémère ne nous laissera pas sans souvenir. Un grand merci admiratif
+                    - generic [ref=f3e183]:
+                      - generic [ref=f3e184]: Patrick et Jacquie
+                      - generic [ref=f3e185]: Dimanche 30 août 2020
+                  - generic [ref=f3e188]:
+                    - generic [ref=f3e189]: Un régal pour les yeux, une vraie nourriture de l’âme, tant par les œuvres que par l’énergie du lieu et des artistes. Merci
+                    - generic [ref=f3e192]:
+                      - generic [ref=f3e193]: Audrey
+                      - generic [ref=f3e194]: Dimanche 30 août 2020
+                  - generic [ref=f3e197]:
+                    - generic [ref=f3e198]: Ravie de m’imprégner encore plus de ton univers riche, onirique, spirituel, profond et expert. Belles vibrations vécues, entendues, partagées. Merci. A très bientôt. Amitiés
+                    - generic [ref=f3e201]:
+                      - generic [ref=f3e202]: Estelle – Stel H
+                      - generic [ref=f3e203]: Dimanche 30 août 2020
+                  - generic [ref=f3e206]:
+                    - generic [ref=f3e207]: Merci pour ce joli moment. Belle réussite pour votre espace d’expo. Belle évolution dans le travail de vos pièces, j’aime beaucoup l’alliance avec le métal. Magnifique ! Super accueil musical
+                    - generic [ref=f3e210]:
+                      - generic [ref=f3e211]: Stef
+                      - generic [ref=f3e212]: Mercredi 2 septembre 2020
+                - generic [ref=f3e214]:
+                  - generic: 
+                  - generic [ref=f3e217]:
+                    - generic [ref=f3e218]: Je suis sous le charme du lieu, de la musique….tout a été pensé, jusqu’à la fluidité du rideau. Il s’ouvre sur autant d’œuvres (de chefs) s’harmonisant parfaitement avec leurs voisines, séduisant la visiteuse, subjuguée, j’éprouve un sentiment de plénitude. Félicitations à tous et MERCI . Amicalement
+                    - generic [ref=f3e221]:
+                      - generic [ref=f3e222]: Colette
+                      - generic [ref=f3e223]: Dimanche 30 août 2020
+                  - generic [ref=f3e226]:
+                    - generic [ref=f3e227]: Touchée par le vivant, la gaieté et la sérénité du lieu et des personnes qui le rayonnent.
+                    - generic [ref=f3e230]:
+                      - generic [ref=f3e231]: Michèle
+                      - generic [ref=f3e232]: Dimanche 30 août 2020
+                  - generic [ref=f3e235]:
+                    - generic [ref=f3e236]: La vie est belle j’ai enfin trouvé mon « coup de cœur ». Merci pour cette superbe expo et à bientôt.
+                    - generic [ref=f3e239]:
+                      - generic [ref=f3e240]: Brigitte
+                      - generic [ref=f3e241]: Lundi 31 août 2020
+                  - generic [ref=f3e244]:
+                    - generic [ref=f3e245]: Jolie exposition. Très beau travail. Juste magnifique, un joli moment d’évasion.
+                    - generic [ref=f3e248]:
+                      - generic [ref=f3e249]: Chantal et Michel
+                      - generic [ref=f3e250]: Jeudi 3 septembre 2020
+      - contentinfo [ref=f3e251]:
+        - generic [ref=f3e257]:
+          - paragraph [ref=f3e264]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f3e266]:
+            - heading "INFORMATION" [level=2] [ref=f3e269]
+            - paragraph [ref=f3e272]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f3e274]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f3e277]
+            - paragraph [ref=f3e280]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f3e281] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f3e283]:
+            - heading "NAVIGATION" [level=2] [ref=f3e286]
+            - paragraph [ref=f3e289]:
+              - link "Collections" [ref=f3e290] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f3e291] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f3e292]:
+                - link "Portrait" [ref=f3e293] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f3e294] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f3e295] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f3e301]: mobile

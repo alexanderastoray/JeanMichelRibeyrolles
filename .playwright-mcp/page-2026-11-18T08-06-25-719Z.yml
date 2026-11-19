@@ -1,0 +1,323 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e2]:
+    - link "Skip to content" [ref=f22e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f22e4]:
+      - banner [ref=f22e7]:
+        - generic [ref=f22e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f22e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - text: 
+          - link "Menu mobile" [ref=f22e13] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/#mobile-menu-toggle
+            - generic [aria-hidden] [ref=f22e14]: 
+            - text: Menu
+      - main [ref=f22e15]:
+        - article [ref=f22e19]:
+          - generic [ref=f22e21]:
+            - generic [ref=f22e36]:
+              - heading "Les Gardiens de la Terre" [level=2] [ref=f22e39]
+              - generic [ref=f22e44]:
+                - paragraph [ref=f22e45]: Les Gardiens de la Terre sont des messagers bienveillants etprotecteurs, sans âge ni origine, porteurs de l’histoire de l’humanité.
+                - paragraph [ref=f22e46]: Ils témoignent de l’inquiétude d’un monde plongé dansl’incertitude absolue où paix et chaos se confondent.
+                - paragraph [ref=f22e47]: Ces témoins ne jugent pas, ne condamnent pas, maisrappellent aux vivants leurs devoirs et obligations.
+            - generic [ref=f22e55]:
+              - generic [ref=f22e59]:
+                - figure [ref=f22e60]:
+                  - link [ref=f22e62] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25FI58-Vue-1-73-x-31-x-4-cm-Frene-Inox-scaled.jpg
+                - figure [ref=f22e63]:
+                  - link [ref=f22e65] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25FI58-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 73 x 31 x 4 cm | Matière : Frêne Inox Référence : 25FI58" [level=2] [ref=f22e68]'
+            - generic [ref=f22e76]:
+              - generic [ref=f22e80]:
+                - figure [ref=f22e81]:
+                  - link [ref=f22e83] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHA311-Vue-1-58-x-43-x-5-cm-Chene-Acier-scaled.jpg
+                - figure [ref=f22e84]:
+                  - link [ref=f22e86] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHA311-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 58 x 43 x 5 cm | Matière : Chêne Acier Référence : 25CHA311" [level=2] [ref=f22e89]'
+            - generic [ref=f22e97]:
+              - generic [ref=f22e101]:
+                - figure [ref=f22e102]:
+                  - link [ref=f22e104] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHA211-Vue-1-50-x-21-x-5-cm-Chene-Acier-scaled.jpg
+                - figure [ref=f22e105]:
+                  - link [ref=f22e107] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/25CHA211-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 50 x 21 x 5 cm | Matière : Chêne Acier Référence : 25CHA211" [level=2] [ref=f22e110]'
+            - generic [ref=f22e118]:
+              - generic [ref=f22e122]:
+                - figure [ref=f22e123]:
+                  - link [ref=f22e125] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/24CM0804-Vue-1-38-x-6-x-3-cm-Cedre-Acier-1-scaled.jpg
+                - figure [ref=f22e126]:
+                  - link [ref=f22e128] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/24CM0804-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 38 x 6 x 3 cm | Matière : Cèdre Acier Référence : 24CM0804" [level=2] [ref=f22e131]'
+            - generic [ref=f22e139]:
+              - generic [ref=f22e143]:
+                - figure [ref=f22e144]:
+                  - link [ref=f22e146] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/24CA68-Vue-1-65-x-19-x-4-cm-Cedre-Aluminium-scaled.jpg
+                - figure [ref=f22e147]:
+                  - link [ref=f22e149] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/24CA68-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 65 x 19 x 4 cm | Matière : Cèdre Aluminium Référence : 24CA68" [level=2] [ref=f22e152]'
+            - generic [ref=f22e160]:
+              - generic [ref=f22e164]:
+                - figure [ref=f22e165]:
+                  - link [ref=f22e167] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/23DM0308-Vue-1-79-x-20-x-4-cm-Pin-douglas-Acier-scaled.jpg
+                - figure [ref=f22e168]:
+                  - link [ref=f22e170] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2026/03/23DM0308-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 79 x 20 x 4 cm | Matière : Pin douglas Acier Référence : 23DM0308" [level=2] [ref=f22e173]'
+            - generic [ref=f22e181]:
+              - generic [ref=f22e185]:
+                - figure [ref=f22e186]:
+                  - link [ref=f22e188] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/24103-Vue-1-190-x-22-x-5-cm-Chene-Inox-scaled.jpg
+                - figure [ref=f22e189]:
+                  - link [ref=f22e191] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/24103-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 190 x 22 x 5 cm | Matière : Chêne Inox Référence : 24103" [level=2] [ref=f22e194]'
+            - generic [ref=f22e202]:
+              - generic [ref=f22e206]:
+                - figure [ref=f22e207]:
+                  - link [ref=f22e209] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25HM0407-Vue-1-27-x-13-x-6-cm-Chataigner-Metal-scaled.jpg
+                - figure [ref=f22e210]:
+                  - link [ref=f22e212] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25HM0407-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 27 x 13 x 6 cm | Matière : Châtaigner Métal Référence : 25HM0407" [level=2] [ref=f22e215]'
+            - generic [ref=f22e223]:
+              - generic [ref=f22e227]:
+                - figure [ref=f22e228]:
+                  - link [ref=f22e230] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25DI0502-Vue-1-65-x-23-x-5-cm-Pin-douglas-Inox-scaled.jpg
+                - figure [ref=f22e231]:
+                  - link [ref=f22e233] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25DI0502-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 65 x 23 x 5 cm | Matière : Pin douglas Inox Référence : 25DI0502" [level=2] [ref=f22e236]'
+            - generic [ref=f22e244]:
+              - generic [ref=f22e248]:
+                - figure [ref=f22e249]:
+                  - link [ref=f22e251] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0505-Vue-1-57-x-10-x-3-cm-Buis-Inox-scaled.jpg
+                - figure [ref=f22e252]:
+                  - link [ref=f22e254] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0505-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 57 x 10 x 3 cm | Matière : Buis Inox Référence : 25BI0505" [level=2] [ref=f22e257]'
+            - generic [ref=f22e265]:
+              - generic [ref=f22e269]:
+                - figure [ref=f22e270]:
+                  - link [ref=f22e272] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0402-Vue-1-40-x-10-x-3-cm-Buis-Inox-scaled.jpg
+                - figure [ref=f22e273]:
+                  - link [ref=f22e275] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0402-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 40 x 10 x 3 cm | Matière : Buis Inox Référence : 25BI0402" [level=2] [ref=f22e278]'
+            - generic [ref=f22e286]:
+              - generic [ref=f22e290]:
+                - figure [ref=f22e291]:
+                  - link [ref=f22e293] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0104-Vue-1-60-x-8.5-x-6.5-cm-Buis-Inox-scaled.jpg
+                - figure [ref=f22e294]:
+                  - link [ref=f22e296] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/09/25BI0104-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 60 x 8.5 x 6.5 cm | Matière : Buis Inox Référence : 25BI0104" [level=2] [ref=f22e299]'
+            - generic [ref=f22e307]:
+              - figure [ref=f22e312]:
+                - link [ref=f22e314] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24101-Vue-1-190-x-20-x-5-cm-Pin-douglas-Acier-Inox-Acier-corten-scaled.jpg
+              - 'heading "Dimensions : 190 x 20 x 5 cm | Matière : Pin douglas Acier Inox Acier corten Référence : 24101" [level=2] [ref=f22e317]'
+            - generic [ref=f22e325]:
+              - generic [ref=f22e329]:
+                - figure [ref=f22e330]:
+                  - link [ref=f22e332] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/25DM0101-Vue-1-41-x-9-x-5-cm-Pin-douglas-Inox-scaled.jpg
+                - figure [ref=f22e333]:
+                  - link [ref=f22e335] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/25DM0101-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 41 x 9 x 5 cm | Matière : Pin douglas Inox Référence : 25DM0101" [level=2] [ref=f22e338]'
+            - generic [ref=f22e346]:
+              - generic [ref=f22e350]:
+                - figure [ref=f22e351]:
+                  - link [ref=f22e353] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/23DM0103-Vue-1-94-x-23-x-4-cm-Pin-douglas-Acier-scaled.jpg
+                - figure [ref=f22e354]:
+                  - link [ref=f22e356] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/02/23DM0103-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 94 x 23 x 4 cm | Matière : Pin douglas Acier Référence : 23DM0103" [level=2] [ref=f22e359]'
+            - generic [ref=f22e367]:
+              - generic [ref=f22e371]:
+                - figure [ref=f22e372]:
+                  - link [ref=f22e374] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24DM0110-Vue-2-Verso-107-x-24-x-5-cm-Pin-douglas-Acier-scaled.jpg
+                - figure [ref=f22e375]:
+                  - link [ref=f22e377] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2025/01/24DM0110-Vue-1-Recto-107-x-24-x-5-cm-Pin-douglas-Acier-scaled.jpg
+              - 'heading "Dimensions : 107 x 24 x 5 cm | Matière : Pin douglas Acier Référence : 24DM0110" [level=2] [ref=f22e380]'
+            - generic [ref=f22e388]:
+              - generic [ref=f22e392]:
+                - figure [ref=f22e393]:
+                  - link [ref=f22e395] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/23TM0508-Vue-1-77-x-12-x-3-cm-Tsuga-Acier-scaled.jpg
+                - figure [ref=f22e396]:
+                  - link [ref=f22e398] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/23TM0508-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 77 x 12 x 3 cm | Matière :Tsuga Acier Référence : 23TM0508" [level=2] [ref=f22e401]'
+            - generic [ref=f22e409]:
+              - generic [ref=f22e413]:
+                - figure [ref=f22e414]:
+                  - link [ref=f22e416] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24CHM0202-Vue-1-77-x-19-x-4-cm-Chene-Acier-scaled.jpg
+                - figure [ref=f22e417]:
+                  - link [ref=f22e419] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24CHM0202-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 77 x 19 x 4 cm | Matière :Chêne Acier Référence : 24CHM0202" [level=2] [ref=f22e422]'
+            - generic [ref=f22e430]:
+              - generic [ref=f22e434]:
+                - figure [ref=f22e435]:
+                  - link [ref=f22e437] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23FM0208-62-x-16-x-25-cm-Frene-Acier-23DM0308-79-x-20-x-35-cm-Pin-douglas-Acier-23CM0108-62-x-16-x-25-cm-Cedre-Acier-scaled.jpg
+                - figure [ref=f22e438]:
+                  - link [ref=f22e440] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23FM0208-Detail-frene-acier-de-la-trilogie-scaled.jpg
+              - 'heading "Dimensions : 62 x 16 x 2,5 cm | Matière : Frêne Acier | Référence : 23FM0208 Dimensions : 79 x 20 x 3,5 cm | Matière : Pin douglas Acier | Référence : 23DM0308 Dimensions : 62 x 16 x 2,5 cm | Matière : Cèdre Acier | Référence : 23CM0108" [level=2] [ref=f22e443]'
+            - generic [ref=f22e451]:
+              - generic [ref=f22e455]:
+                - figure [ref=f22e456]:
+                  - link [ref=f22e458] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23FM0106-Vue-1-56-x-20-x-3-cm-Frene-Acier-scaled.jpg
+                - figure [ref=f22e459]:
+                  - link [ref=f22e461] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23FM0106-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 56 x 20 x 3 cm | Matière : Frêne Acier Référence : 23FM0106" [level=2] [ref=f22e464]'
+            - generic [ref=f22e472]:
+              - generic [ref=f22e476]:
+                - figure [ref=f22e477]:
+                  - link [ref=f22e479] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23DM0205-Vue-1-127-x-15-x-55-cm-Pin-douglas-Acier-scaled.jpg
+                - figure [ref=f22e480]:
+                  - link [ref=f22e482] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23DM0205-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 127 x 15 x 5,5 cm | Matière : Pin douglas Acier Référence : 23DM0205" [level=2] [ref=f22e485]'
+            - generic [ref=f22e493]:
+              - generic [ref=f22e497]:
+                - figure [ref=f22e498]:
+                  - link [ref=f22e500] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23CM0408-Vue-1-75-x-25-x-48-cm-Cedre-Acier-scaled.jpg
+                - figure [ref=f22e501]:
+                  - link [ref=f22e503] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23CM0408-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 75 x 25 x 4,8 cm | Matière : Cèdre Acier Référence : 23CM0408" [level=2] [ref=f22e506]'
+            - generic [ref=f22e514]:
+              - generic [ref=f22e518]:
+                - figure [ref=f22e519]:
+                  - link [ref=f22e521] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/22FM0208-Vue-1-174-x-28-x-3-cm-Frene-Acier-scaled.jpg
+                - figure [ref=f22e522]:
+                  - link [ref=f22e524] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/22FM0208-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 174 x 28 x 3 cm | Matière : Frêne Acier Référence : 22FM0208" [level=2] [ref=f22e527]'
+            - generic [ref=f22e535]:
+              - generic [ref=f22e539]:
+                - figure [ref=f22e540]:
+                  - link [ref=f22e542] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/06/22TM0412-Vue-1-88-x-15-x-25-cm-Tsuga-Acier-scaled.jpg
+                - figure [ref=f22e543]:
+                  - link [ref=f22e545] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/06/22TM0412-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 88 x 15 x 2,5 cm | Matière : Tsuga Acier Référence : 22TM0412" [level=2] [ref=f22e548]'
+            - generic [ref=f22e556]:
+              - generic [ref=f22e560]:
+                - figure [ref=f22e561]:
+                  - link [ref=f22e563] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/21CM0111-Vue-1-65-x-16-x-45-Cedre-Metal-scaled.jpg
+                - figure [ref=f22e564]:
+                  - link [ref=f22e566] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/21CM0111-Vue-2-Detail_modif-scaled.jpg
+              - 'heading "Dimensions : 65 x 16 x 4,5 cm | Matière : Cèdre Métal Référence : 21CM0111" [level=2] [ref=f22e569]'
+            - generic [ref=f22e577]:
+              - generic [ref=f22e581]:
+                - figure [ref=f22e582]:
+                  - link [ref=f22e584] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/21FM0311-Vue-1-100-x-14-x-3-Frene-Metal-scaled.jpg
+                - figure [ref=f22e585]:
+                  - link [ref=f22e587] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/21FM0311-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 100 x 14 x 3 cm | Matière : Frêne Métal Référence : 21FM0311" [level=2] [ref=f22e590]'
+            - generic [ref=f22e598]:
+              - generic [ref=f22e602]:
+                - figure [ref=f22e603]:
+                  - link [ref=f22e605] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/22CHM0202-Vue-1-112-x-28-x-4-Chene-Metal-pigmente-scaled.jpg
+                - figure [ref=f22e606]:
+                  - link [ref=f22e608] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/22CHM0202-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 112 x 28 x 4 cm | Matière : Chêne Métal pigmenté Référence : 22CHM0202" [level=2] [ref=f22e611]'
+            - generic [ref=f22e619]:
+              - generic [ref=f22e623]:
+                - figure [ref=f22e624]:
+                  - link [ref=f22e626] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/22FM0102-Vue-1-46-x-23-x-3-Frene-Metal-scaled.jpg
+                - figure [ref=f22e627]:
+                  - link [ref=f22e629] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/22FM0102-Vue-2-Detail-scaled.jpg
+              - 'heading "Dimensions : 46 x 23 x 3 cm | Matière : Frêne / Bronze Florentin Référence : 22FM0102" [level=2] [ref=f22e632]'
+            - generic [ref=f22e640]:
+              - generic [ref=f22e644]:
+                - figure [ref=f22e645]:
+                  - link [ref=f22e647] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/20SBDM0110-Vue-1-100-x-19-x-55-Douglas-Metal.jpg
+                - figure [ref=f22e648]:
+                  - link [ref=f22e650] [cursor=pointer]:
+                    - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/20SBDM0110-Vue-2-Detail.jpg
+              - 'heading "Dimensions : 100 x 19 x 5,5 cm | Matière : Douglas / Métal Référence : 20SBDM0110" [level=2] [ref=f22e653]'
+            - generic [ref=f22e661]:
+              - figure [ref=f22e666]:
+                - link [ref=f22e668] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/E24DM0101-188-x-50-x-6-Pin-douglas-Acier-corten-Inox-scaled.jpg
+              - 'heading "Dimensions : 188 x 50 x 6 cm | Matière : Pin douglas Acier corten Référence : E24DM0101" [level=2] [ref=f22e671]'
+            - generic [ref=f22e679]:
+              - figure [ref=f22e684]:
+                - link [ref=f22e686] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/E23MM0102-188-x-29-x-35-cm-Acier-corten-Pin-douglas-scaled.jpg
+              - 'heading "Dimensions : 188 x 29 x 3,5 cm | Matière : Acier corten-Pin douglas Référence : E23MM0102" [level=2] [ref=f22e689]'
+            - generic [ref=f22e697]:
+              - figure [ref=f22e702]:
+                - link [ref=f22e704] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/E23CHM0407-Vue-1-190-x-50-x-4-cm-Acier-corten-Inox-Chene-2-scaled.jpg
+              - 'heading "Dimensions : 190 x 50 x 4 cm | Matière : Acier corten-Inox-Chêne Référence : E23CHM0407" [level=2] [ref=f22e707]'
+      - contentinfo [ref=f22e710]:
+        - generic [ref=f22e716]:
+          - paragraph [ref=f22e723]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f22e725]:
+            - heading "INFORMATION" [level=2] [ref=f22e728]
+            - paragraph [ref=f22e731]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f22e733]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f22e736]
+            - paragraph [ref=f22e739]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f22e740] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f22e742]:
+            - heading "NAVIGATION" [level=2] [ref=f22e745]
+            - paragraph [ref=f22e748]:
+              - link "Collections" [ref=f22e749] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f22e750] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f22e751]:
+                - link "Portrait" [ref=f22e752] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f22e753] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f22e754] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f22e760]: tablet

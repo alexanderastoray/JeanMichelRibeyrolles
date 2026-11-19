@@ -1,0 +1,404 @@
+{
+  "url": "https://jeanmichelribeyrolles.fr/elementor-2080/",
+  "status": 200,
+  "title": "Footer - Jean-Michel RIBEYROLLES",
+  "metaDescription": "JmiR, Sculpteur, Musicien, Sculpteur sur bois, Sculpteur sur bois brûlé, sculpture murale, sculpture sur socle, sculpture 4 mains",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://jeanmichelribeyrolles.fr/elementor-2080/",
+  "ogTitle": "Footer - Jean-Michel RIBEYROLLES",
+  "ogDescription": "JmiR, Sculpteur, Musicien, Sculpteur sur bois, Sculpteur sur bois brûlé, sculpture murale, sculpture sur socle, sculpture 4 mains",
+  "lang": "fr-FR",
+  "h1": [
+    {
+      "text": "Footer",
+      "visible": true,
+      "zone": "main"
+    }
+  ],
+  "h2": [
+    {
+      "text": "HELP & INFORMATION",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "ABOUT US",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "MORE FROM US",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "INFORMATION",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "MENTIONS LÉGALES",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "NAVIGATION",
+      "visible": true,
+      "zone": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "index": 1,
+      "visible": true,
+      "headings": [
+        "H2: HELP & INFORMATION",
+        "H2: ABOUT US",
+        "H2: MORE FROM US"
+      ],
+      "widgets": [
+        "image",
+        "text-editor",
+        "heading"
+      ],
+      "images": 1,
+      "text": "© 2026 Fazhie HELP & INFORMATION Help Track Order Delivery & Returns ABOUT US About Us Careers Corporate Responsibility MORE FROM US Mobile Apps Marketplace Investors Site"
+    }
+  ],
+  "images": [
+    {
+      "zone": "main",
+      "file": "grey-logo-1.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/grey-logo-1.png",
+      "linkHref": null,
+      "natural": [
+        600,
+        212
+      ],
+      "attr": [
+        "600",
+        "212"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "footer",
+      "file": "logo-2-blanc-1024x948.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/logo-2-blanc-1024x948.png",
+      "linkHref": null,
+      "natural": [
+        925,
+        856
+      ],
+      "attr": [
+        "1024",
+        "948"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "footer",
+      "file": "AAF_LOGO_OK.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/AAF_LOGO_OK.png",
+      "linkHref": null,
+      "natural": [
+        369,
+        391
+      ],
+      "attr": [
+        "369",
+        "391"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    }
+  ],
+  "bgImages": [],
+  "links": [
+    {
+      "zone": "main",
+      "text": "Skip to content",
+      "href": "#main",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#main",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Jean-Michel RIBEYROLLES",
+      "href": "https://jeanmichelribeyrolles.fr/",
+      "abs": "https://jeanmichelribeyrolles.fr/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Menu Fermer",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Accueil",
+      "href": "https://jeanmichelribeyrolles.fr",
+      "abs": "https://jeanmichelribeyrolles.fr/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Footer",
+      "href": "https://jeanmichelribeyrolles.fr/elementor-2080/",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Help",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Track Order",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Delivery & Returns",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "About Us",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Careers",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Corporate Responsibility",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Mobile Apps",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Marketplace",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Investors Site",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Mentions légales",
+      "href": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "abs": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Evénements",
+      "href": "https://jeanmichelribeyrolles.fr/evenements/",
+      "abs": "https://jeanmichelribeyrolles.fr/evenements/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Scroll to the top of the page",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/elementor-2080/#",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Fermer le menu sur mobile",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    }
+  ],
+  "forms": [],
+  "iframes": [],
+  "badResources": [],
+  "bodyText": "© 2026 Fazhie HELP & INFORMATION Help Track Order Delivery & Returns ABOUT US About Us Careers Corporate Responsibility MORE FROM US Mobile Apps Marketplace Investors Site",
+  "footerText": "© 2026 Jean-Michel Riberyrolles INFORMATION ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France MENTIONS LÉGALES © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander AstorayMentions légales NAVIGATION CollectionsART’elierPortraitEvénementsContact"
+}

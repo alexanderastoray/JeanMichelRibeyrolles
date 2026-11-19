@@ -1,0 +1,561 @@
+/* ==========================================================================
+   Jean-Michel Ribeyrolles — maquettes statiques
+   Identité : voir CLAUDE.md et docs/design/DESIGN.md
+   Angles droits, pas d'ombre portée, pas de dégradé décoratif.
+   ========================================================================== */
+
+:root {
+  /* Couleurs */
+  --bg: #1B1A19;          /* fond principal, noir chaud */
+  --surface: #2D2D2D;     /* surfaces */
+  --header: #0A0A0A;      /* header */
+  --text: #F8F2F2;        /* blanc cassé unique */
+  --text-2: #A8A29A;      /* gris chaud, texte secondaire */
+  --line: #3A3836;        /* filets neutres */
+  --accent: #DD9933;      /* accent unique : liens, boutons, filets */
+  --veil: rgba(0, 0, 0, .4);
+
+  /* Typo */
+  --font: Roboto, system-ui, sans-serif;
+  --font-hand: "Swanky and Moo Moo", cursive;
+
+  /* Mise en page */
+  --wrap: 1140px;
+  --gutter: max(16px, 5vw);
+  --header-h: 88px;
+  --header-h-s: 64px;   /* header une fois la page défilée */
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+img, video, svg { display: block; max-width: 100%; }
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--text); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+h1, h2, h3 { font-weight: 500; line-height: 1.25; margin: 0; }
+p { margin: 0 0 1.2em; }
+
+.wrap { width: min(var(--wrap), 100% - 2 * var(--gutter)); margin-inline: auto; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+/* Fixe : 88 px en haut de page, 64 px une fois défilé ; masqué en descendant,
+   visible en remontant (classes posées par le script du footer). */
+body { padding-top: var(--header-h); }
+body.home { padding-top: 0; }   /* accueil : le header recouvre le hero */
+html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
+.site-header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  background: var(--header);
+  height: var(--header-h);
+  transition: height .3s ease, transform .35s ease, background-color .3s ease;
+}
+.site-header.is-scrolled { height: var(--header-h-s); }
+.site-header.is-hidden { transform: translateY(-100%); }
+.home .site-header:not(.is-scrolled) { background: transparent; }
+.site-header .bar {
+  width: 90%; height: 100%; margin-inline: auto;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.logo {
+  font-family: var(--font-hand);
+  font-size: 40px; font-weight: 400; line-height: 1;
+  color: var(--accent); text-decoration: none; white-space: nowrap;
+}
+.logo:hover { color: var(--accent); }
+
+.nav, .nav ul, .nav li { height: 100%; }
+.nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+.nav a {
+  display: flex; align-items: center; height: 100%; padding: 0 22px;
+  font-size: 14px; letter-spacing: .6px;
+  color: var(--text); text-decoration: none;
+}
+.nav a:hover, .nav a[aria-current="page"] { color: var(--accent); }
+
+.menu-toggle {
+  display: none;
+  background: none; border: 0; padding: 8px; color: var(--text); cursor: pointer;
+}
+.menu-toggle { flex-shrink: 0; }
+.menu-toggle svg { width: 28px; height: 28px; max-width: none; }
+
+@media (max-width: 900px) {
+  .logo { font-size: 30px; }
+  .site-header .bar { width: calc(100% - 32px); }
+  .menu-toggle { display: block; }
+  .nav {
+    position: fixed; inset: 0; z-index: 60;
+    background: var(--header);
+    display: none; align-items: center; justify-content: center;
+  }
+  .nav.is-open { display: flex; height: 100svh; }
+  .nav ul, .nav li { height: auto; }
+  .nav ul { flex-direction: column; text-align: center; }
+  .nav a { justify-content: center; height: auto; line-height: 1; padding: 18px; font-size: 22px; }
+  .nav .menu-close { position: absolute; top: 24px; right: 5%; }
+}
+@media (min-width: 901px) { .nav .menu-close { display: none; } }
+
+/* --------------------------------------------------------------------------
+   Éléments communs
+   -------------------------------------------------------------------------- */
+.section { padding-block: 100px; }
+.section--tight { padding-block: 60px; }
+@media (max-width: 700px) { .section { padding-block: 56px; } }
+
+.section-title {
+  text-align: center; font-size: 22px;
+  margin-bottom: 48px;
+}
+.section-title::after {
+  content: ""; display: block;
+  width: 48px; height: 2px; margin: 16px auto 0;
+  background: var(--accent);
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--accent); color: #000;
+  font-size: 15px; font-weight: 500; text-decoration: none;
+  border: 1px solid var(--accent);
+}
+.btn:hover { background: transparent; color: var(--accent); }
+.btn--ghost { background: transparent; color: var(--accent); }
+.btn--ghost:hover { background: var(--accent); color: #000; }
+
+.link-arrow {
+  font-size: 15px; font-weight: 500; text-decoration: none;
+}
+.link-arrow::after { content: " →"; }
+
+/* Cartel : la référence reste discrète */
+.cartel { font-size: 13px; line-height: 1.5; color: var(--text-2); margin-top: 12px; }
+.cartel .ref { letter-spacing: .08em; color: var(--text); font-weight: 500; }
+.cartel .sep { color: var(--line); margin-inline: .4em; }
+.cartel .dims { white-space: nowrap; }
+
+/* Bandeau des pages intérieures */
+.banner { position: relative; height: 520px; overflow: hidden; }
+.banner img { width: 100%; height: 100%; object-fit: cover; }
+.banner::after { content: ""; position: absolute; inset: 0; background: var(--veil); }
+.banner h1 {
+  position: absolute; inset: 0; z-index: 1;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font-size: clamp(30px, 4vw, 46px); padding: 0 var(--gutter);
+}
+@media (max-width: 700px) { .banner { height: 220px; } }
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+/* Structure du footer actuel : signature + ©, Information, Mentions légales,
+   Navigation, logo AAF à droite. */
+.site-footer { background: var(--bg); color: var(--text-2); font-size: 14px; line-height: 1.8; }
+.site-footer .cols {
+  width: min(1080px, 100% - 2 * var(--gutter)); margin-inline: auto; padding-block: 88px 96px;
+  display: grid; grid-template-columns: auto 1fr 1.2fr 1fr auto; gap: 56px; align-items: start;
+  grid-template-areas: "brand info legal nav aaf";
+}
+.site-footer h2 {
+  font-size: 14px; font-weight: 500; text-transform: uppercase;
+  color: var(--text); margin-bottom: 6px;
+}
+.site-footer p { margin: 0 0 .5em; }
+.site-footer a { color: var(--text-2); text-decoration: none; }
+.site-footer a:hover { color: var(--accent); }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.f-brand { grid-area: brand; text-align: center; }
+.f-brand img { width: 84px; height: auto; margin: 0 auto 28px; }
+.f-info { grid-area: info; }
+.f-legal { grid-area: legal; }
+.f-nav { grid-area: nav; }
+.f-aaf { grid-area: aaf; }
+.f-aaf a { display: block; }
+.f-aaf img { width: 104px; height: auto; }
+.f-aaf a:focus-visible { outline-offset: 4px; }
+@media (max-width: 1000px) {
+  .site-footer .cols {
+    grid-template-columns: 1fr 1fr 1fr; gap: 40px 32px;
+    grid-template-areas: "brand info nav" "aaf legal legal";
+  }
+  .f-aaf { justify-self: center; }
+}
+/* Mobile : version compacte */
+@media (max-width: 600px) {
+  .site-footer { font-size: 13px; line-height: 1.7; }
+  .site-footer .cols {
+    padding-block: 48px 40px; gap: 28px 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "brand aaf" "info nav" "legal legal";
+  }
+  .site-footer h2 { font-size: 12px; }
+  .f-brand { display: flex; align-items: center; gap: 16px; text-align: left; }
+  .f-brand img { width: 52px; margin: 0; }
+  .f-brand p { margin: 0; white-space: nowrap; }
+  /* signature + © sur toute la largeur, logo AAF à droite sur la même ligne */
+  .f-brand { grid-area: 1 / 1 / 2 / 3; }
+  .f-aaf { grid-area: 1 / 2 / 2 / 3; justify-self: end; align-self: center; }
+  .f-aaf img { width: 60px; }
+  .f-legal { border-top: 1px solid var(--line); padding-top: 20px; }
+  .f-legal p { display: inline; margin: 0; }
+  .f-legal p + p::before { content: " · "; color: var(--line); }
+}
+
+/* ==========================================================================
+   ACCUEIL
+   ========================================================================== */
+.hero {
+  position: relative;
+  height: 100svh;   /* le header transparent recouvre le hero */
+  min-height: 560px;
+  overflow: hidden;
+}
+.hero > img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%;
+}
+.hero::before {
+  /* voile de lisibilité, identique à celui des bandeaux (pas un dégradé décoratif) */
+  content: ""; position: absolute; inset: 0; background: var(--veil);
+}
+.hero .hero-text {
+  position: relative; z-index: 1; height: 100%;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  padding: 0 0 14vh 7vw; max-width: 55%;
+}
+.hero h1 { font-weight: 400; }
+.hero .accroche {
+  display: block;
+  font-family: var(--font-hand); font-weight: 400;
+  font-size: clamp(44px, 5.4vw, 80px); line-height: 1.05; letter-spacing: 2px;
+  color: var(--text); white-space: nowrap;
+}
+.hero .h1-sub {
+  display: block; margin-top: 24px;
+  font-family: var(--font); font-size: clamp(15px, 1.3vw, 19px); font-weight: 400;
+  letter-spacing: .04em; color: var(--text);
+}
+.hero .h1-sub span { display: block; margin-top: 4px; font-size: .85em; color: var(--text-2); }
+@media (max-width: 700px) {
+  .hero { height: 78svh; min-height: 460px; }
+  .hero > img { object-position: 78% 50%; }
+  .hero::before { inset: 0; }
+  .hero .hero-text { justify-content: flex-end; max-width: none; padding: 0 20px 36px; }
+  .hero .accroche { white-space: normal; }
+}
+
+/* Blocs alternés image / texte : collections et ART'elier (accueil), portrait */
+.coll {
+  display: grid; grid-template-columns: 7fr 5fr; gap: 72px; align-items: center;
+  margin-bottom: 120px;
+}
+.coll:last-child { margin-bottom: 0; }
+.coll:nth-child(even) .coll-media { order: 2; }
+.coll--media-first .coll-media { order: 0 !important; }
+.coll-media { margin: 0; display: flex; justify-content: center; }
+.coll-media a { display: block; }
+.coll-media img.portrait { height: min(80vh, 760px); width: auto; max-width: 100%; object-fit: contain; }
+.coll-media img.landscape { width: 100%; height: auto; }
+.coll-text h2, .coll-text h3 { font-size: clamp(24px, 2.4vw, 32px); margin-bottom: 20px; }
+.coll-text h2::after, .coll-text h3::after {
+  content: ""; display: block; width: 40px; height: 2px; margin-top: 16px; background: var(--accent);
+}
+/* Textes poétiques : vers d'origine, un vers par ligne, alignés à gauche, en romain */
+.verse { font-size: 17px; line-height: 1.8; font-weight: 300; font-style: normal; text-align: left; }
+.verse .l { display: block; }
+.coll-text .verse { margin: 0 0 28px; }
+.collections .all-colls { text-align: center; margin: 96px 0 0; }
+@media (max-width: 800px) {
+  .coll { grid-template-columns: 1fr; gap: 24px; margin-bottom: 72px; }
+  .coll:nth-child(even) .coll-media { order: 0; }
+  .coll-media img.portrait { height: auto; max-height: 72svh; }
+}
+
+/* Bloc ART'elier : même fond et même mise en page que les collections */
+.artelier { padding-top: 0; }
+.artelier .infos { margin: 4px 0 24px; }
+.artelier .infos .sep { color: var(--text-2); }
+
+/* Reportage */
+.reportage .player { max-width: 960px; margin-inline: auto; }
+.reportage video { width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+.reportage .caption { margin-top: 14px; text-align: center; color: var(--text-2); font-size: 15px; }
+
+/* ==========================================================================
+   COLLECTION
+   ========================================================================== */
+.coll-intro { max-width: 720px; margin-inline: auto; text-align: center; }
+.coll-intro p { font-size: 18px; line-height: 1.9; font-weight: 300; }
+.coll-intro .to-scale { font-size: 16px; margin-top: 32px; }
+.banner + .wrap .breadcrumb { margin: 24px 0 0; }
+@media (max-width: 700px) { .coll-intro p { font-size: 16px; } }
+
+.grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 64px 40px;
+  list-style: none; margin: 0; padding: 0;
+}
+@media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
+@media (max-width: 700px)  { .grid { gap: 28px 12px; } }
+
+.card > a { display: block; text-decoration: none; color: inherit; }
+.card .frame {
+  display: block; position: relative; aspect-ratio: 3 / 2;
+  background: var(--bg);
+}
+.card a.frame { cursor: zoom-in; }
+.card .cartel a.ref { color: var(--text); text-decoration: none; }
+.card .cartel a.ref:hover { color: var(--accent); }
+.card .frame img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain; /* jamais recadrée */
+  transition: opacity .5s ease;
+}
+.card .frame .detail { opacity: 0; }
+.card .frame:hover .detail, .card a:focus-visible .detail, .card > a:hover .detail { opacity: 1; }
+.card .frame:hover .main, .card a:focus-visible .main, .card > a:hover .main { opacity: 0; }
+@media (hover: none) { .card .frame .detail { display: none; } }
+@media (max-width: 700px) {
+  .card .cartel { font-size: 11.5px; margin-top: 8px; }
+  .card .cartel .mat { display: block; }
+  .card .cartel .mat-sep { display: none; }
+}
+.related .card .cartel .mat { display: block; }
+.related .card .cartel .mat-sep { display: none; }
+
+/* ==========================================================================
+   FICHE ŒUVRE
+   ========================================================================== */
+.oeuvre { display: grid; grid-template-columns: 62fr 38fr; gap: 64px; align-items: start; padding-top: 40px; }
+
+.gallery { display: flex; flex-direction: column; gap: 24px; margin: 0; padding: 0; list-style: none; }
+.gallery li { margin: 0; }
+.gallery a { display: block; cursor: zoom-in; }
+.gallery img { width: 100%; height: auto; }
+.gallery-count { display: none; }
+
+/* Colonne sticky : sous le header réduit (64 px), remonte quand le header se masque */
+.oeuvre-info { position: sticky; top: calc(var(--header-h-s) + 40px); transition: top .35s ease; }
+.site-header.is-hidden ~ main .oeuvre-info { top: 40px; }
+.breadcrumb { font-size: 13px; color: var(--text-2); margin-bottom: 40px; }
+.breadcrumb a { color: var(--text-2); text-decoration: none; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb .sep { margin-inline: .5em; color: var(--line); }
+
+.oeuvre-info .ref {
+  font-size: 13px; letter-spacing: .14em; color: var(--text-2); margin-bottom: 6px;
+}
+.oeuvre-info h1 { font-size: 26px; font-weight: 400; margin-bottom: 32px; }
+.specs { margin: 0 0 36px; border-top: 1px solid var(--line); }
+.specs div {
+  display: grid; grid-template-columns: 120px 1fr; gap: 16px;
+  padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 15px;
+}
+.specs dt { color: var(--text-2); }
+.specs dd { margin: 0; }
+.oeuvre-info .actions { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+
+.prevnext {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line);
+}
+.prevnext a { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text-2); font-size: 13px; }
+.prevnext a:hover { color: var(--accent); }
+.prevnext img { width: 72px; height: 48px; object-fit: contain; background: var(--bg); }
+.prevnext .next { flex-direction: row-reverse; text-align: right; }
+.prevnext strong { display: block; color: var(--text); font-weight: 500; letter-spacing: .06em; }
+
+.related h2 { font-size: 20px; margin-bottom: 32px; }
+.related .row {
+  display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 5 * 20px) / 6);
+  gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px;
+  list-style: none; margin: 0; padding-left: 0;
+}
+.related .card { scroll-snap-align: start; }
+
+@media (max-width: 900px) {
+  .oeuvre { grid-template-columns: 1fr; gap: 28px; padding-top: 0; }
+  .oeuvre-media { margin-inline: calc(-1 * var(--gutter)); position: relative; }
+  .gallery {
+    flex-direction: row; gap: 0;
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .gallery::-webkit-scrollbar { display: none; }
+  .gallery li { flex: 0 0 100%; scroll-snap-align: center; display: flex; align-items: center; }
+  .gallery-count {
+    display: block; text-align: center; font-size: 13px; color: var(--text-2);
+    margin-top: 10px; letter-spacing: .1em;
+  }
+  .oeuvre-info { position: static; }
+  .breadcrumb { margin-bottom: 20px; }
+  .related .row { grid-auto-columns: 42%; }
+}
+
+/* ==========================================================================
+   ÉCHELLE
+   ========================================================================== */
+.scale-note {
+  font-size: 12px; color: var(--text-2); letter-spacing: .06em; text-align: center; margin-top: -32px; margin-bottom: 40px;
+}
+.scale-lead { max-width: 640px; margin: 0 auto 48px; text-align: center; color: var(--text-2); }
+
+/* a) taille relative : --cm = pixels par centimètre */
+.lineup {
+  --cm: 3.2px;
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: center;
+  gap: 40px 28px; list-style: none; margin: 0; padding: 0;
+}
+.lineup li { display: flex; flex-direction: column; align-items: center; }
+.lineup .ph {
+  width: calc(var(--pw) * var(--cm)); height: auto;
+}
+.lineup .hand { width: calc(10 * var(--cm)); height: calc(19 * var(--cm)); color: var(--text-2); }
+.lineup .cartel { text-align: center; margin-top: 8px; font-size: 12px; white-space: nowrap; }
+.lineup li:target .cartel .ref, .wall .item:target .cartel .ref { color: var(--accent); }
+.lineup li:target .cartel::after, .wall .item:target .cartel::after {
+  content: ""; display: block; height: 2px; width: 32px; margin: 6px auto 0; background: var(--accent);
+}
+@media (max-width: 700px) { .lineup { --cm: 2px; gap: 28px 16px; } }
+
+/* b) mur : positions en cm, --cm = pixels par centimètre */
+.wall-scroll { overflow-x: auto; padding-bottom: 12px; }
+.wall {
+  --cm: 2.4px;
+  --w: 520; --h: 260;
+  position: relative;
+  width: calc(var(--w) * var(--cm)); height: calc(var(--h) * var(--cm));
+  margin-inline: auto;
+  background: var(--surface);
+  border-bottom: 2px solid var(--text-2);
+}
+.wall .item {
+  position: absolute;
+  left: calc(var(--x) * var(--cm)); bottom: calc(var(--y) * var(--cm));
+  width: calc(var(--pw) * var(--cm));
+}
+.wall .item img { width: 100%; height: auto; }
+.wall .item .cartel {
+  position: absolute; top: 100%; left: 0; right: 0; text-align: center;
+  font-size: 11px; margin-top: 4px; white-space: nowrap;
+}
+.wall .item.on-floor .cartel { display: none; }
+.wall .person { position: absolute; left: calc(var(--x) * var(--cm)); bottom: 0; height: calc(175 * var(--cm)); width: auto; color: var(--text-2); }
+.wall .cote {
+  position: absolute; bottom: 0; left: calc(var(--x) * var(--cm)); height: calc(175 * var(--cm));
+  border-left: 1px solid var(--text-2); padding-left: 6px;
+  font-size: 11px; color: var(--text-2); display: flex; align-items: center; white-space: nowrap;
+}
+.wall .cote::before, .wall .cote::after {
+  content: ""; position: absolute; left: -4px; width: 7px; border-top: 1px solid var(--text-2);
+}
+.wall .cote::before { top: 0; }
+.wall .cote::after { bottom: 0; }
+.wall-legend {
+  width: calc(520 * 2.4px); max-width: 100%; margin: 32px auto 0;
+  display: flex; flex-wrap: wrap; gap: 8px 32px; justify-content: center;
+}
+.wall-legend .cartel { margin: 0; }
+@media (max-width: 700px) {
+  .wall { --cm: 1.6px; margin-inline: 0; }
+  .wall-legend { justify-content: flex-start; width: auto; margin-inline: var(--gutter); }
+}
+
+/* ==========================================================================
+   COLLECTIONS (vue d'ensemble)
+   ========================================================================== */
+.colls-top { padding-bottom: 24px; }
+.colls-intro { max-width: 620px; margin: 0 auto; text-align: center; color: var(--text-2); font-size: 17px; font-weight: 300; }
+
+/* Composition de la page Collections actuelle : titre centré + filet, premier vers centré,
+   grille de 2 colonnes de même largeur, lien « Découvrir » centré. */
+.cblock { padding-block: 72px; text-align: center; }
+.cblock + .cblock { padding-top: 24px; }
+.cblock .section-title { font-size: clamp(22px, 2vw, 26px); margin-bottom: 24px; }
+.cblock .verse, .cblock .intro-line {
+  font-size: 14px; line-height: 1.7; font-weight: 300; color: var(--text-2);
+  text-align: center; margin: 0 auto;
+}
+.cblock .intro-line { max-width: 560px; }
+
+.cgrid {
+  --col: 420px; --gap: 40px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, var(--col)));
+  justify-content: center; align-items: center; gap: var(--gap);
+  margin: 40px auto 0;
+}
+.cgrid .stack { display: grid; gap: var(--gap); }
+.cgrid .cell a { display: block; cursor: zoom-in; }
+/* Ombre portée discrète sous les photos, comme sur le site actuel :
+   exception à la règle « pas d'ombres » de CLAUDE.md, pour cette page uniquement. */
+.cgrid img { display: block; width: 100%; height: auto; box-shadow: 0 10px 24px rgba(0, 0, 0, .45); }
+.cblock .more { margin: 36px 0 0; }
+
+@media (max-width: 800px) {
+  .cblock { padding-block: 48px; }
+  .cblock + .cblock { padding-top: 8px; }
+  .cgrid { --gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 28px; }
+  .cgrid img { box-shadow: 0 6px 14px rgba(0, 0, 0, .45); }
+  .cblock .more { margin-top: 24px; }
+}
+
+/* ==========================================================================
+   LIGHTBOX (PhotoSwipe)
+   ========================================================================== */
+.gallery li > a { width: 100%; }
+.pswp { --pswp-bg: #0A0A0A; --pswp-icon-color: var(--text); --pswp-icon-color-secondary: #0A0A0A; --pswp-icon-stroke-color: #0A0A0A; font-family: var(--font); }
+.pswp__counter { font-size: 13px; letter-spacing: .1em; color: var(--text-2); opacity: 1; }
+.pswp__cartel {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 18px var(--gutter) 24px; text-align: center;
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 28px;
+}
+.pswp__cartel .cartel { margin: 0; font-size: 14px; }
+.pswp__cartel .link-arrow { font-size: 14px; }
+.pswp--ui-visible .pswp__cartel { opacity: 1; }
+.pswp__cartel { transition: opacity .3s; }
+.pswp:not(.pswp--ui-visible) .pswp__cartel { opacity: 0; }
+.pswp--zoomed-in .pswp__cartel { opacity: 0; pointer-events: none; }
+
+@media (max-width: 700px) { .verse { font-size: 15px; } }
+
+/* Hero : dégradé sombre en haut, pour la lisibilité du logo et du menu sur la flamme */
+.hero::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 220px;
+  background: linear-gradient(to bottom, rgba(10, 10, 10, .85), rgba(10, 10, 10, 0));
+}
+@media (max-width: 700px) { .hero::after { height: 200px; background: linear-gradient(to bottom, rgba(10, 10, 10, .9), rgba(10, 10, 10, 0)); } }
+
+/* ==========================================================================
+   PORTRAIT
+   ========================================================================== */
+.prose p { font-size: 16px; line-height: 1.8; }
+.prose .quote { font-weight: 300; font-size: 17px; color: var(--text); }
+.prose .cartel { margin-top: 24px; }
+/* Mises en valeur : blanc en gras (l'ocre est réservé aux liens, boutons et filets) */
+.prose strong { color: var(--text); font-weight: 700; }

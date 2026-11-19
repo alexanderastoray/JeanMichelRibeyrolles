@@ -1,0 +1,274 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - link "Skip to content" [ref=f18e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f18e4]:
+      - banner [ref=f18e7]:
+        - generic [ref=f18e8]:
+          - link "Jean-Michel RIBEYROLLES" [ref=f18e11] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/
+          - text: 
+          - link "Menu mobile" [ref=f18e13] [cursor=pointer]:
+            - /url: https://jeanmichelribeyrolles.fr/#mobile-menu-toggle
+            - generic [aria-hidden] [ref=f18e14]: 
+            - text: Menu
+      - main [ref=f18e15]:
+        - article [ref=f18e19]:
+          - generic [ref=f18e21]:
+            - heading "Evènements" [level=2] [ref=f18e39]
+            - generic [ref=f18e48]:
+              - heading "2024" [level=2] [ref=f18e51]
+              - generic [ref=f18e53]:
+                - generic [ref=f18e55]:
+                  - heading "21 février au 05 mars" [level=6] [ref=f18e58]
+                  - heading [level=4] [ref=f18e65]:
+                    - link "EXPOSITION PLURIEL" [ref=f18e66] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e69]: Salle Balène à Figeac (46)
+                - generic [ref=f18e71]:
+                  - heading "01 au 3 mars" [level=6] [ref=f18e74]
+                  - heading "Salon international d’art contemporain" [level=4] [ref=f18e81]
+                  - heading "Art3f" [level=4] [ref=f18e84]
+                  - paragraph [ref=f18e87]: Le MEET à Toulouse (31)
+                - generic [ref=f18e89]:
+                  - heading "01 au 05 mai" [level=6] [ref=f18e92]
+                  - heading [level=4] [ref=f18e99]:
+                    - link "Salon 349 GALLERY avec Collections privées Pierre SOULAGES" [ref=f18e100] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e103]: Saint-Orens (31)
+              - generic [ref=f18e105]:
+                - generic [ref=f18e107]:
+                  - heading "04 mai au 12 juin" [level=6] [ref=f18e110]
+                  - heading [level=4] [ref=f18e117]:
+                    - link "ART Points de Vue" [ref=f18e118] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=f18e119]: Présence en personne le 04, 10, 11 et 12 mai
+                  - paragraph [ref=f18e123]: Lauzerte (82)
+                - generic [ref=f18e125]:
+                  - heading "18 au 20 mai" [level=6] [ref=f18e128]
+                  - heading "Jardin en Arts" [level=4] [ref=f18e135]
+                  - paragraph [ref=f18e138]: La Forge à Souillac (46)
+                - generic [ref=f18e140]:
+                  - heading "05 au 11 juin" [level=6] [ref=f18e143]
+                  - heading [level=4] [ref=f18e150]:
+                    - link "Maison Louis DAVID" [ref=f18e151] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e154]: Andernos (33)
+              - generic [ref=f18e156]:
+                - generic [ref=f18e158]:
+                  - heading "15 & 16 juin" [level=6] [ref=f18e161]
+                  - heading [level=4] [ref=f18e168]:
+                    - link "ART & JAZZ DANS MA COUR" [ref=f18e169] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e172]: Hermonville (51)
+                - generic [ref=f18e174]:
+                  - heading "28 juin au 11 juillet" [level=6] [ref=f18e177]
+                  - heading "Maison des Consuls" [level=4] [ref=f18e184]
+                  - paragraph [ref=f18e187]: Saint-Céré (46)
+                - generic [ref=f18e189]:
+                  - heading "15 au 21 juillet" [level=6] [ref=f18e192]
+                  - heading "Salon 349 GALLERY avec Collections privées Pierre SOULAGES" [level=4] [ref=f18e199]
+                  - heading "Espace d’Art Contemporain Poulet" [level=4] [ref=f18e202]
+                  - paragraph [ref=f18e205]: Gruissan (11)
+              - generic [ref=f18e207]:
+                - generic [ref=f18e209]:
+                  - heading "Du 14 au 22 septembre" [level=6] [ref=f18e212]
+                  - heading "Festival VAGABOND'ART 1ère Édition Château de la Motte" [level=4] [ref=f18e219]
+                  - paragraph [ref=f18e222]: Chaumont-sur-Tharonne (41)
+                - generic [ref=f18e224]:
+                  - heading "18 octobre au 3 novembre" [level=6] [ref=f18e227]
+                  - heading [level=4] [ref=f18e234]:
+                    - 'link "Exposition « La Main Est l’Outil #4 »" [ref=f18e235] [cursor=pointer]':
+                      - /url: "#"
+                  - generic [ref=f18e236]: Hôtel Rochegude
+                  - paragraph [ref=f18e240]: Albi (81)
+                - generic [ref=f18e242]:
+                  - heading "31 octobre au 03 novembre" [level=6] [ref=f18e245]
+                  - heading [level=4] [ref=f18e252]:
+                    - link "Salon de Sculpture Terre & Flamme" [ref=f18e253] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=f18e254]: 9ième édition au Complexe des deux Ruisseaux
+                  - paragraph [ref=f18e258]: Chantepie (35)
+              - generic [ref=f18e262]:
+                - heading "12 au 21 novembre" [level=6] [ref=f18e265]
+                - heading [level=4] [ref=f18e272]:
+                  - link "Salon 349 GALLERY avec Collections privées Pierre SOULAGES" [ref=f18e273] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=f18e274]: Espace Ferrat
+                - paragraph [ref=f18e278]: Seilh (31)
+              - heading "2023" [level=2] [ref=f18e285]
+              - generic [ref=f18e287]:
+                - generic [ref=f18e289]:
+                  - heading "17 au 19 novembre" [level=6] [ref=f18e292]
+                  - heading [level=4] [ref=f18e299]:
+                    - link "Salon international d’art contemporain" [ref=f18e300] [cursor=pointer]:
+                      - /url: "#"
+                  - heading "Art3f" [level=4] [ref=f18e303]
+                  - paragraph [ref=f18e306]: Mulhouse (68)
+                - generic [ref=f18e308]:
+                  - heading "09 au 13 octobre" [level=6] [ref=f18e311]
+                  - heading "Salon international d’art contemporain" [level=4] [ref=f18e318]
+                  - heading "Art3f" [level=4] [ref=f18e321]
+                  - paragraph [ref=f18e324]: Haute-Savoie – La Roche-sur-Foron (74)
+                - generic [ref=f18e326]:
+                  - heading "04 au 29 septembre" [level=6] [ref=f18e329]
+                  - heading [level=6] [ref=f18e336]:
+                    - paragraph [ref=f18e337]: Annulée
+                  - heading [level=4] [ref=f18e340]:
+                    - link "Sculpture monumentale contemporaine" [ref=f18e341] [cursor=pointer]:
+                      - /url: "#"
+                  - heading "SCULPT’EN SOLOGNE" [level=4] [ref=f18e344]
+                  - paragraph [ref=f18e347]: Jardin des sculpturesBiennale de SologneChaumont-sur-Tharonne (41)
+              - generic [ref=f18e349]:
+                - generic [ref=f18e351]:
+                  - heading "02 au 11 juin" [level=6] [ref=f18e354]
+                  - heading [level=4] [ref=f18e361]:
+                    - link "Galerie Paul Sibra" [ref=f18e362] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e365]: Castelnaudary (11)
+                - generic [ref=f18e367]:
+                  - heading "26 au 29 mai" [level=6] [ref=f18e370]
+                  - heading "BOTANIK’ART" [level=4] [ref=f18e377]
+                  - paragraph [ref=f18e380]: Grandville (50)
+                - generic [ref=f18e382]:
+                  - heading "14 au 16 avril" [level=6] [ref=f18e385]
+                  - heading [level=4] [ref=f18e392]:
+                    - link "Salon d’art international" [ref=f18e393] [cursor=pointer]:
+                      - /url: "#"
+                  - heading [level=4] [ref=f18e396]:
+                    - link "Nice Art Expo" [ref=f18e397] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=f18e400]: Nice (06)
+              - generic [ref=f18e402]:
+                - generic [ref=f18e404]:
+                  - heading "24 au 26 mars" [level=6] [ref=f18e407]
+                  - heading "Grand Marché d'Art Contemporain (GMAC)" [level=4] [ref=f18e414]
+                  - heading "Art Home Expo" [level=4] [ref=f18e417]
+                  - paragraph [ref=f18e420]: Île des Impressionnistes – Chatou (78)
+                - generic [ref=f18e422]:
+                  - heading "10 au 12 mars" [level=6] [ref=f18e425]
+                  - heading "Salon international d’art contemporain" [level=4] [ref=f18e432]
+                  - heading "Art3f" [level=4] [ref=f18e435]
+                  - paragraph [ref=f18e438]: Nantes (44)
+                - generic [ref=f18e440]:
+                  - heading "10 au 12 février" [level=6] [ref=f18e443]
+                  - heading "Salon international d’art contemporain" [level=4] [ref=f18e450]
+                  - heading "Art3f" [level=4] [ref=f18e453]
+                  - paragraph [ref=f18e456]: Toulouse (31)
+              - heading "2022" [level=2] [ref=f18e459]
+              - generic [ref=f18e461]:
+                - generic [ref=f18e463]:
+                  - heading "Du 10 au 13 novembre" [level=6] [ref=f18e466]
+                  - heading "Art3f Bordeaux" [level=4] [ref=f18e473]
+                  - paragraph [ref=f18e476]:
+                    - strong [ref=f18e477]: Bordeaux (33)
+                - generic [ref=f18e479]:
+                  - heading "Du 22 octobre au 20 novembre" [level=6] [ref=f18e482]
+                  - heading "Exposition au Musée de l'Archéosite Des Fieux-Préhistoire" [level=4] [ref=f18e489]
+                  - paragraph [ref=f18e492]: Miers (46)
+                - generic [ref=f18e494]:
+                  - heading "Du 29 septembre au 9 octobre" [level=6] [ref=f18e497]
+                  - heading "49ème Salon d'Art d'automne" [level=4] [ref=f18e504]
+                  - paragraph [ref=f18e507]: Colomiers (31)
+              - generic [ref=f18e509]:
+                - generic [ref=f18e511]:
+                  - heading "18 juillet au 14 août" [level=6] [ref=f18e514]
+                  - heading "45ème Salon d'Art Contemporain" [level=4] [ref=f18e521]
+                  - strong [ref=f18e524]: Saint Antonin Noble Val (82)
+                - generic [ref=f18e526]:
+                  - heading "03 juin au 12 juin" [level=6] [ref=f18e529]
+                  - heading "11ème Festival d’Arts Actuels Ré/Oléron" [level=4] [ref=f18e536]
+                  - paragraph [ref=f18e539]:
+                    - strong [ref=f18e540]: Château d’Oléron (la citadelle) (17)
+                - generic [ref=f18e542]:
+                  - heading "29 avril au 1 mai" [level=6] [ref=f18e545]
+                  - heading "ARTOULOUSE – Espace Lauragais" [level=4] [ref=f18e552]
+                  - paragraph [ref=f18e555]:
+                    - strong [ref=f18e556]: Saint Orens (31)
+              - generic [ref=f18e560]:
+                - heading "13 mars au 01 avril" [level=6] [ref=f18e563]
+                - heading "ARTOULOUSE – Cœur de ville" [level=4] [ref=f18e570]
+                - strong [ref=f18e573]: Toulouse (31)
+              - heading "2021" [level=2] [ref=f18e580]
+              - generic [ref=f18e582]:
+                - generic [ref=f18e584]:
+                  - heading "22 octobre au 24 octobre" [level=6] [ref=f18e587]
+                  - heading "Salon Princes d’Art" [level=4] [ref=f18e594]
+                  - paragraph [ref=f18e597]:
+                    - strong [ref=f18e598]: Toulouse (31)
+                - generic [ref=f18e600]:
+                  - heading "24 au 26 septembre" [level=6] [ref=f18e603]
+                  - heading "Solid'Art" [level=4] [ref=f18e610]
+                  - paragraph [ref=f18e613]:
+                    - strong [ref=f18e614]: Zénith Sud
+                    - strong [ref=f18e615]: Montpellier (34)
+                - generic [ref=f18e617]:
+                  - heading "13 au 19 septembre" [level=6] [ref=f18e620]
+                  - heading "Exposition sculptures, peintures, porcelaine" [level=4] [ref=f18e627]
+                  - paragraph [ref=f18e630]: Maison des ConsulsSaint-Céré (46)
+              - generic [ref=f18e632]:
+                - generic [ref=f18e634]:
+                  - heading "06 août au 08 août" [level=6] [ref=f18e637]
+                  - heading "La Biennale art contemporain Aude Aux Arts" [level=4] [ref=f18e644]
+                  - paragraph [ref=f18e647]:
+                    - strong [ref=f18e648]: Montolieu (11)
+                - generic [ref=f18e650]:
+                  - heading "09 juillet au 18 juillet" [level=6] [ref=f18e653]
+                  - heading "Art Graulhet" [level=4] [ref=f18e660]
+                  - paragraph [ref=f18e663]: Graulhet (81)
+                - generic [ref=f18e665]:
+                  - heading "07 juin au 16 juin" [level=6] [ref=f18e668]
+                  - heading "Festival d’Arts Actuels Ré / Oléron" [level=4] [ref=f18e675]
+                  - paragraph [ref=f18e678]:
+                    - strong [ref=f18e679]: Saint-Martin-en-Ré (17)
+              - generic [ref=f18e683]:
+                - heading "27 février" [level=6] [ref=f18e686]
+                - heading "Inauguration d’une sculpture sur le Chemin des Arts" [level=4] [ref=f18e693]
+                - paragraph [ref=f18e696]:
+                  - strong [ref=f18e697]: Latouille-Lentillac (46)
+              - heading "2020" [level=2] [ref=f18e704]
+              - generic [ref=f18e706]:
+                - generic [ref=f18e708]:
+                  - heading "29 août au 04 septembre" [level=6] [ref=f18e711]
+                  - heading "Visite de l’ART’elier" [level=4] [ref=f18e718]
+                  - paragraph [ref=f18e721]: Saint-Paul-de-Vern (46)
+                - generic [ref=f18e723]:
+                  - heading "7 au 14 septembre" [level=6] [ref=f18e726]
+                  - heading "Exposition sculptures, peintures, porcelaine" [level=4] [ref=f18e733]
+                  - paragraph [ref=f18e736]: Maison des ConsulsSaint-Céré (46)
+                - generic [ref=f18e738]:
+                  - heading "26 juillet au 02 août" [level=6] [ref=f18e741]
+                  - heading "Exposition peinture, tissage et sculpture" [level=4] [ref=f18e748]
+                  - paragraph [ref=f18e751]: Ancien réfectoire des moines du châteauCarennac (46)
+              - generic [ref=f18e755]:
+                - heading "13 au 26 juillet" [level=6] [ref=f18e758]
+                - heading "Exposition tissage et sculpture" [level=4] [ref=f18e765]
+                - paragraph [ref=f18e768]: Chapelle Notre-DameCarennac (46)
+      - contentinfo [ref=f18e773]:
+        - generic [ref=f18e779]:
+          - paragraph [ref=f18e786]: © 2026 Jean-Michel Riberyrolles
+          - generic [ref=f18e788]:
+            - heading "INFORMATION" [level=2] [ref=f18e791]
+            - paragraph [ref=f18e794]: ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France
+          - generic [ref=f18e796]:
+            - heading "MENTIONS LÉGALES" [level=2] [ref=f18e799]
+            - paragraph [ref=f18e802]:
+              - text: © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander Astoray
+              - link "Mentions légales" [ref=f18e803] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/mentions-legales/
+          - generic [ref=f18e805]:
+            - heading "NAVIGATION" [level=2] [ref=f18e808]
+            - paragraph [ref=f18e811]:
+              - link "Collections" [ref=f18e812] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/collections-jmir/
+              - link "ART’elier" [ref=f18e813] [cursor=pointer]:
+                - /url: https://jeanmichelribeyrolles.fr/artelier/
+              - generic [ref=f18e814]:
+                - link "Portrait" [ref=f18e815] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/jmir-portrait/
+                - link "Evénements" [ref=f18e816] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/evenements/
+                - link "Contact" [ref=f18e817] [cursor=pointer]:
+                  - /url: https://jeanmichelribeyrolles.fr/contact/
+  - text:  +
+  - generic [ref=f18e823]: tablet

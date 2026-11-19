@@ -1,0 +1,395 @@
+{
+  "url": "https://jeanmichelribeyrolles.fr/contact/",
+  "status": 200,
+  "title": "Jean-Michel RIBEYROLLES - Contact",
+  "metaDescription": "Jean-Michel RIBEYROLLES Contact, Sculpteur, Musicien, Sculpteur sur bois, Sculpteur sur bois brûlé sculpture murale, sculpture sur socle",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://jeanmichelribeyrolles.fr/contact/",
+  "ogTitle": "Jean-Michel RIBEYROLLES - Contact",
+  "ogDescription": "Jean-Michel RIBEYROLLES Contact, Sculpteur, Musicien, Sculpteur sur bois, Sculpteur sur bois brûlé sculpture murale, sculpture sur socle",
+  "lang": "fr-FR",
+  "h1": [],
+  "h2": [
+    {
+      "text": "CONTACTEZ-NOUS",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "INFORMATION",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "MENTIONS LÉGALES",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "NAVIGATION",
+      "visible": true,
+      "zone": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "index": 1,
+      "visible": true,
+      "headings": [],
+      "widgets": [],
+      "images": 0,
+      "text": ""
+    },
+    {
+      "index": 2,
+      "visible": true,
+      "headings": [
+        "H2: CONTACTEZ-NOUS",
+        "H6: ART'elier Samonteil"
+      ],
+      "widgets": [
+        "heading",
+        "icon-box",
+        "google_maps",
+        "wp-widget-frm_show_form"
+      ],
+      "images": 0,
+      "text": "CONTACTEZ-NOUS Pour une visite personnalisée et en musique « live » ou pour de plus amples renseignements, nous vous invitons à nous laisser vos coordonnées ou à nous contacter à l’un des numéros indiqués. Nous nous ferons un plaisir de vous répondre. A bientôt. +33 (0)6 85 81 31 48 +33 (0)6 78 38 78 57 ART'elier Samonteil 115 impasse de Samonteil 46400 Saint-Paul-de-Vern France Formulaire PC Message Captcha Envoyer Si vous êtes un humain, ne remplissez pas ce champ. Formulaire Mobile Message reCAPTCHA Envoyer Si vous êtes un humain, ne remplissez pas ce champ."
+    }
+  ],
+  "images": [
+    {
+      "zone": "footer",
+      "file": "logo-2-blanc-1024x948.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/logo-2-blanc-1024x948.png",
+      "linkHref": null,
+      "natural": [
+        925,
+        856
+      ],
+      "attr": [
+        "1024",
+        "948"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "footer",
+      "file": "AAF_LOGO_OK.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/AAF_LOGO_OK.png",
+      "linkHref": null,
+      "natural": [
+        369,
+        391
+      ],
+      "attr": [
+        "369",
+        "391"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    }
+  ],
+  "bgImages": [
+    "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/Bandeau-CONTACT.jpg\")"
+  ],
+  "links": [
+    {
+      "zone": "main",
+      "text": "Skip to content",
+      "href": "#main",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/#main",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Jean-Michel RIBEYROLLES",
+      "href": "https://jeanmichelribeyrolles.fr/",
+      "abs": "https://jeanmichelribeyrolles.fr/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Menu Fermer",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Mentions légales",
+      "href": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "abs": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Evénements",
+      "href": "https://jeanmichelribeyrolles.fr/evenements/",
+      "abs": "https://jeanmichelribeyrolles.fr/evenements/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Scroll to the top of the page",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/#",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Fermer le menu sur mobile",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    }
+  ],
+  "forms": [
+    {
+      "id": "form_contact-form",
+      "action": null,
+      "fields": [
+        {
+          "type": "text",
+          "name": "item_meta[1]",
+          "label": "",
+          "placeholder": "Nom / Prénom",
+          "required": false
+        },
+        {
+          "type": "email",
+          "name": "item_meta[3]",
+          "label": "",
+          "placeholder": "Email",
+          "required": false
+        },
+        {
+          "type": "tel",
+          "name": "item_meta[2]",
+          "label": "",
+          "placeholder": "Telephone",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "name": "item_meta[5]",
+          "label": "Message",
+          "placeholder": "Message",
+          "required": false
+        },
+        {
+          "type": "text",
+          "name": "item_meta[21]",
+          "label": "Si vous êtes un humain, ne remplissez pas ce champ.",
+          "placeholder": null,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "form_contact-formeadf4952d9",
+      "action": null,
+      "fields": [
+        {
+          "type": "text",
+          "name": "item_meta[7]",
+          "label": "",
+          "placeholder": "Nom / Prénom",
+          "required": false
+        },
+        {
+          "type": "email",
+          "name": "item_meta[8]",
+          "label": "",
+          "placeholder": "Email",
+          "required": false
+        },
+        {
+          "type": "tel",
+          "name": "item_meta[9]",
+          "label": "",
+          "placeholder": "Telephone",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "name": "item_meta[6]",
+          "label": "Message",
+          "placeholder": "Message",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "name": "g-recaptcha-response",
+          "label": "Captcha",
+          "placeholder": null,
+          "required": false
+        },
+        {
+          "type": "text",
+          "name": "item_meta[22]",
+          "label": "Si vous êtes un humain, ne remplissez pas ce champ.",
+          "placeholder": null,
+          "required": false
+        }
+      ]
+    }
+  ],
+  "iframes": [
+    "https://maps.google.com/maps?q=Samonteil%2046400%20Saint-Paul-de-Vern&t=m&z=10&output=embed&iwloc=near",
+    "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lf1zI8pAAAAABLXf94d98sm7_5rd_cN_bFoksvK&co=aHR0cHM6Ly9qZWFubWljaGVscmliZXlyb2xsZXMuZnI6NDQz&hl=fr&v=4i3aN5wAweL7i3ADI7BSX4B-&theme=light&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=5liqew7rdnz",
+    ""
+  ],
+  "badResources": [],
+  "bodyText": "CONTACTEZ-NOUS Pour une visite personnalisée et en musique « live » ou pour de plus amples renseignements, nous vous invitons à nous laisser vos coordonnées ou à nous contacter à l’un des numéros indiqués. Nous nous ferons un plaisir de vous répondre. A bientôt. +33 (0)6 85 81 31 48 +33 (0)6 78 38 78 57 ART'elier Samonteil 115 impasse de Samonteil 46400 Saint-Paul-de-Vern France Formulaire PC Message Captcha Envoyer Si vous êtes un humain, ne remplissez pas ce champ. Formulaire Mobile Message reCAPTCHA Envoyer Si vous êtes un humain, ne remplissez pas ce champ.",
+  "footerText": "© 2026 Jean-Michel Riberyrolles INFORMATION ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France MENTIONS LÉGALES © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander AstorayMentions légales NAVIGATION CollectionsART’elierPortraitEvénementsContact"
+}

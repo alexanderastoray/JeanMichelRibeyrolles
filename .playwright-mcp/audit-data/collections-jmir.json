@@ -1,0 +1,685 @@
+{
+  "url": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+  "status": 200,
+  "title": "Jean-Michel RIBEYROLLES - Collections",
+  "metaDescription": "JmiR, Sculpteur, Musicien, Collections, Sculpteur sur bois, Sculpteur sur bois brûlé, sculpture murale, sculpture sur socle",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "canonical": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+  "ogTitle": "Jean-Michel RIBEYROLLES - Collections",
+  "ogDescription": "JmiR, Sculpteur, Musicien, Collections, Sculpteur sur bois, Sculpteur sur bois brûlé, sculpture murale, sculpture sur socle",
+  "lang": "fr-FR",
+  "h1": [],
+  "h2": [
+    {
+      "text": "Les Arcs-en-ciel Noirs",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "Les Miroirs d’Enigme",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "Les Gardiens de la Terre",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "Collection Privée",
+      "visible": true,
+      "zone": "main"
+    },
+    {
+      "text": "INFORMATION",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "MENTIONS LÉGALES",
+      "visible": true,
+      "zone": "footer"
+    },
+    {
+      "text": "NAVIGATION",
+      "visible": true,
+      "zone": "footer"
+    }
+  ],
+  "sections": [
+    {
+      "index": 1,
+      "visible": true,
+      "headings": [],
+      "widgets": [],
+      "images": 0,
+      "text": ""
+    },
+    {
+      "index": 2,
+      "visible": true,
+      "headings": [
+        "H2: Les Arcs-en-ciel Noirs"
+      ],
+      "widgets": [
+        "heading",
+        "divider",
+        "image",
+        "button"
+      ],
+      "images": 2,
+      "text": "Les Arcs-en-ciel Noirs Découvrir"
+    },
+    {
+      "index": 3,
+      "visible": true,
+      "headings": [
+        "H2: Les Miroirs d’Enigme"
+      ],
+      "widgets": [
+        "heading",
+        "divider",
+        "image",
+        "button"
+      ],
+      "images": 4,
+      "text": "Les Miroirs d’Enigme Découvrir"
+    },
+    {
+      "index": 4,
+      "visible": true,
+      "headings": [
+        "H2: Les Gardiens de la Terre"
+      ],
+      "widgets": [
+        "heading",
+        "divider",
+        "image",
+        "button"
+      ],
+      "images": 2,
+      "text": "Les Gardiens de la Terre Découvrir"
+    },
+    {
+      "index": 5,
+      "visible": true,
+      "headings": [
+        "H2: Collection Privée"
+      ],
+      "widgets": [
+        "heading",
+        "divider",
+        "image",
+        "button"
+      ],
+      "images": 3,
+      "text": "Collection Privée Découvrir"
+    }
+  ],
+  "images": [
+    {
+      "zone": "main",
+      "file": "24FMR0303-Vue-1-80-x-30-x-3-cm-Frene-Acier-683x1024.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24FMR0303-Vue-1-80-x-30-x-3-cm-Frene-Acier-683x1024.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "natural": [
+        683,
+        1024
+      ],
+      "attr": [
+        "683",
+        "1024"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "24FM0503-Vue-1-55-x-37-x-4-cm-Frene-Acier-698x1024.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/24FM0503-Vue-1-55-x-37-x-4-cm-Frene-Acier-698x1024.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "natural": [
+        698,
+        1024
+      ],
+      "attr": [
+        "698",
+        "1024"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "21CM0109-Vue-1-38-x-48-x-4-Cedre-Metal-1024x684.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/02/21CM0109-Vue-1-38-x-48-x-4-Cedre-Metal-1024x684.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "natural": [
+        925,
+        617
+      ],
+      "attr": [
+        "1024",
+        "684"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "23CM0307-Vue-1-20-x-3-cm-Cedre-Acier-1024x684.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23CM0307-Vue-1-20-x-3-cm-Cedre-Acier-1024x684.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "natural": [
+        925,
+        617
+      ],
+      "attr": [
+        "1024",
+        "684"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "23FM0112-Vue-1-36-x-34-x-3-cm-Frene-Acier-1024x768.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2024/07/23FM0112-Vue-1-36-x-34-x-3-cm-Frene-Acier-1024x768.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "natural": [
+        925,
+        693
+      ],
+      "attr": [
+        "1024",
+        "768"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "22DM0206-Vue-1-47-x-38-x-4-cm-Pin-douglas-Acier-1024x684.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/22DM0206-Vue-1-47-x-38-x-4-cm-Pin-douglas-Acier-1024x684.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "natural": [
+        925,
+        617
+      ],
+      "attr": [
+        "1024",
+        "684"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "23CM0408-Vue-1-75-x-25-x-48-cm-Cedre-Acier-671x1024.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23CM0408-Vue-1-75-x-25-x-48-cm-Cedre-Acier-671x1024.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "natural": [
+        671,
+        1024
+      ],
+      "attr": [
+        "671",
+        "1024"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "23DM0101-Vue-1-115-x-32-x-4-cm-Pin-douglas-Acier-684x1024.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2023/09/23DM0101-Vue-1-115-x-32-x-4-cm-Pin-douglas-Acier-684x1024.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "natural": [
+        684,
+        1024
+      ],
+      "attr": [
+        "684",
+        "1024"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "21DM0305-Vue-1-110-x-40-x-25-Douglas-Metal-682x1024.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/09/21DM0305-Vue-1-110-x-40-x-25-Douglas-Metal-682x1024.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "natural": [
+        682,
+        1024
+      ],
+      "attr": [
+        "682",
+        "1024"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "22FM0305-Vue-1-36-x-31-x-3-Frene-Acier-1024x684.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2022/07/22FM0305-Vue-1-36-x-31-x-3-Frene-Acier-1024x684.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "natural": [
+        925,
+        617
+      ],
+      "attr": [
+        "1024",
+        "684"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "main",
+      "file": "19MBDF0212-4-mains-Vue-1-42-x-78-x-5-Douglas-Frene-En-duo-Nathalie-RIBEYROLLES-1024x683.jpg",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/19MBDF0212-4-mains-Vue-1-42-x-78-x-5-Douglas-Frene-En-duo-Nathalie-RIBEYROLLES-1024x683.jpg",
+      "linkHref": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "natural": [
+        925,
+        616
+      ],
+      "attr": [
+        "1024",
+        "683"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "footer",
+      "file": "logo-2-blanc-1024x948.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/logo-2-blanc-1024x948.png",
+      "linkHref": null,
+      "natural": [
+        925,
+        856
+      ],
+      "attr": [
+        "1024",
+        "948"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "zone": "footer",
+      "file": "AAF_LOGO_OK.png",
+      "src": "https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/AAF_LOGO_OK.png",
+      "linkHref": null,
+      "natural": [
+        369,
+        391
+      ],
+      "attr": [
+        "369",
+        "391"
+      ],
+      "hasAlt": true,
+      "alt": "",
+      "title": null,
+      "caption": "",
+      "loaded": true,
+      "visible": true
+    }
+  ],
+  "bgImages": [
+    "url(\"https://jeanmichelribeyrolles.fr/wp-content/uploads/2021/03/Bandeau-COLLECTIONS.jpg\")"
+  ],
+  "links": [
+    {
+      "zone": "main",
+      "text": "Skip to content",
+      "href": "#main",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/#main",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Jean-Michel RIBEYROLLES",
+      "href": "https://jeanmichelribeyrolles.fr/",
+      "abs": "https://jeanmichelribeyrolles.fr/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "header",
+      "text": "Menu Fermer",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-menu-toggle",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Découvrir",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Découvrir",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Découvrir",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Découvrir",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Mentions légales",
+      "href": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "abs": "https://jeanmichelribeyrolles.fr/mentions-legales/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Evénements",
+      "href": "https://jeanmichelribeyrolles.fr/evenements/",
+      "abs": "https://jeanmichelribeyrolles.fr/evenements/",
+      "target": null
+    },
+    {
+      "zone": "footer",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    },
+    {
+      "zone": "main",
+      "text": "Scroll to the top of the page",
+      "href": "#",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/#",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Fermer le menu sur mobile",
+      "href": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "abs": "https://jeanmichelribeyrolles.fr/#mobile-fullscreen-menu",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collections",
+      "href": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "abs": "https://jeanmichelribeyrolles.fr/collections-jmir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Arcs-en-ciel Noirs",
+      "href": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-arcs-en-ciel-noir/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Miroirs d’Enigme",
+      "href": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-miroirs-denigme/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Les Gardiens de la Terre",
+      "href": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "abs": "https://jeanmichelribeyrolles.fr/les-gardiens-de-la-terre/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Collection Privée",
+      "href": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "abs": "https://jeanmichelribeyrolles.fr/catalogue/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "ART’elier",
+      "href": "https://jeanmichelribeyrolles.fr/artelier/",
+      "abs": "https://jeanmichelribeyrolles.fr/artelier/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Portrait",
+      "href": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "abs": "https://jeanmichelribeyrolles.fr/jmir-portrait/",
+      "target": null
+    },
+    {
+      "zone": "mobile-menu",
+      "text": "Contact",
+      "href": "https://jeanmichelribeyrolles.fr/contact/",
+      "abs": "https://jeanmichelribeyrolles.fr/contact/",
+      "target": null
+    }
+  ],
+  "forms": [],
+  "iframes": [],
+  "badResources": [],
+  "bodyText": "Les Arcs-en-ciel Noirs Découvrir Les Miroirs d’Enigme Découvrir Les Gardiens de la Terre Découvrir Collection Privée Découvrir",
+  "footerText": "© 2026 Jean-Michel Riberyrolles INFORMATION ART’elier Samonteil115 impasse de Samonteil46400 Saint-Paul-de-Vern France MENTIONS LÉGALES © Photos de Yoann Portejoie et Benoît Frété, non libres de droitSite réalisé par Alexander AstorayMentions légales NAVIGATION CollectionsART’elierPortraitEvénementsContact"
+}
