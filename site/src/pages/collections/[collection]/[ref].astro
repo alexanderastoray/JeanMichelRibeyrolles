@@ -5,6 +5,9 @@ import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CarteOeuvre from '../../../components/CarteOeuvre.astro';
+import Cartel from '../../../components/Cartel.astro';
+import Lightbox from '../../../components/Lightbox.astro';
+import { versionHD } from '../../../lib/hd';
 import { derive, getCollectionDe, getOeuvresDe, memeCollection, urlCollection, voisines } from '../../../lib/oeuvres';
 import { listerMateriaux } from '../../../lib/alt';
 import '../../../styles/oeuvres-grille.css';
@@ -36,22 +39,31 @@ const autres = memeCollection(oeuvre, soeurs);
 
 const description = `${titre}, ${ref} : sculpture ${format === 'socle' ? 'sur socle' : 'murale'} en ${listerMateriaux(materiaux)}, ${d.dimensionsTexte}.`;
 const nbVues = vues.length;
+const hds = await Promise.all(vues.map((v) => versionHD(v.image)));
 ---
 <BaseLayout title={`${ref} · ${titre}`} description={description}>
   <div class="wrap">
     <div class="oeuvre">
       <div class="oeuvre-media">
-        <ul class="gallery" aria-label="Photos de l’œuvre">
+        <ul class="gallery" aria-label="Photos de l’œuvre" data-pswp-gallery>
           {vues.map((vue, i) => (
             <li>
-              <Photo
-                src={vue.image}
-               
-                widths={[480, 667, 960, 1334, 1600]}
-                sizes="(max-width: 900px) 100vw, 667px"
-                alt={d.alt(vue)}
-                priority={i === 0}
-              />
+              <a
+                href={hds[i]!.src}
+                data-pswp-src={hds[i]!.src}
+                data-pswp-width={hds[i]!.width}
+                data-pswp-height={hds[i]!.height}
+                aria-label={nbVues > 1 ? `Agrandir la vue ${i + 1} sur ${nbVues}` : 'Agrandir la photo'}
+              >
+                <Photo
+                  src={vue.image}
+                  widths={[480, 667, 960, 1334, 1600]}
+                  sizes="(max-width: 900px) 100vw, 667px"
+                  alt={d.alt(vue)}
+                  priority={i === 0}
+                />
+              </a>
+              <div class="pswp-cap" hidden><Cartel ref={ref} dimensions={d.dimensionsTexte} materiaux={d.materiauxTexte} /></div>
             </li>
           ))}
         </ul>
@@ -102,6 +114,7 @@ const nbVues = vues.length;
       </div>
     </section>
   )}
+  <Lightbox />
 </BaseLayout>
 
 <script>

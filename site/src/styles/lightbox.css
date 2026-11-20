@@ -1,0 +1,15 @@
+/* Lightbox (PhotoSwipe) — repris de maquettes/styles.css (LIGHTBOX). */
+.gallery li > a { width: 100%; }
+.pswp { --pswp-bg: #0A0A0A; --pswp-icon-color: var(--text); --pswp-icon-color-secondary: #0A0A0A; --pswp-icon-stroke-color: #0A0A0A; font-family: var(--font); }
+.pswp__counter { font-size: 13px; letter-spacing: .1em; color: var(--text-2); opacity: 1; }
+.pswp__cartel {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 18px var(--gutter) 24px; text-align: center;
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 4px 28px;
+}
+.pswp__cartel .cartel { margin: 0; font-size: 14px; }
+.pswp__cartel .link-arrow { font-size: 14px; }
+.pswp--ui-visible .pswp__cartel { opacity: 1; }
+.pswp__cartel { transition: opacity .3s; }
+.pswp:not(.pswp--ui-visible) .pswp__cartel { opacity: 0; }
+.pswp--zoomed-in .pswp__cartel { opacity: 0; pointer-events: none; }

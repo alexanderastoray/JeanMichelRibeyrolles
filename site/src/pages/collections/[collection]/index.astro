@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Bandeau from '../../../components/Bandeau.astro';
 import Texte from '../../../components/Texte.astro';
 import CarteOeuvre from '../../../components/CarteOeuvre.astro';
+import Lightbox from '../../../components/Lightbox.astro';
 import { getCollections, getOeuvresDe } from '../../../lib/oeuvres';
 import '../../../styles/oeuvres-grille.css';
 import '../../../styles/pages/collection.css';
@@ -39,11 +40,12 @@ const n = oeuvres.length;
       {n > 0 ? (
         <>
           <h2 class="sr-only" id="t-oeuvres">{n === 1 ? 'L’œuvre' : `Les ${n} œuvres`}</h2>
-          <ul class="grid">
+          <ul class="grid" data-pswp-gallery>
             {oeuvres.map((oeuvre) => (
               <CarteOeuvre
                 oeuvre={oeuvre}
                 collection={collection}
+                lightbox
                 widths={[360, 540, 720, 1080]}
                 sizes="(max-width: 700px) calc(50vw - 26px), (max-width: 1000px) calc(50vw - 60px), 354px"
               />
@@ -58,4 +60,5 @@ const n = oeuvres.length;
       )}
     </div>
   </section>
+  {n > 0 && <Lightbox />}
 </BaseLayout>

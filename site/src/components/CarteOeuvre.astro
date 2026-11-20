@@ -3,6 +3,7 @@ import Photo from './Photo.astro';
 
 import Cartel from './Cartel.astro';
 import { derive, type Collection, type Oeuvre } from '../lib/oeuvres';
+import { versionHD } from '../lib/hd';
 
 interface Props {
   oeuvre: Oeuvre;
@@ -12,9 +13,11 @@ interface Props {
   variante?: 'grille' | 'liste';
   widths: number[];
   sizes: string;
+  /** Variante `grille` : la vignette ouvre la lightbox (sinon, lien vers la fiche). */
+  lightbox?: boolean;
 }
 
-const { oeuvre, collection, variante = 'grille', widths, sizes } = Astro.props;
+const { oeuvre, collection, variante = 'grille', widths, sizes, lightbox = false } = Astro.props;
 const d = derive(oeuvre, collection);
 const ref = oeuvre.data.ref;
 
@@ -22,16 +25,31 @@ const images = [
   { vue: d.vuePrincipale, classe: 'main' },
   ...(d.vueDetail ? [{ vue: d.vueDetail, classe: 'detail' }] : []),
 ];
+const hd = lightbox ? await versionHD(d.vuePrincipale.image) : undefined;
 ---
 <li class="card">
   {variante === 'grille' ? (
     <>
-      <a class="frame" href={d.url} aria-label={`Voir la fiche de ${ref}`}>
+      {/* Sans JavaScript, la vignette mène à la fiche ; avec, elle ouvre la lightbox (version HD). */}
+      <a
+        class="frame"
+        href={d.url}
+        aria-label={hd ? `Agrandir la photo de ${ref}` : `Voir la fiche de ${ref}`}
+        data-pswp-src={hd?.src}
+        data-pswp-width={hd?.width}
+        data-pswp-height={hd?.height}
+      >
         {images.map(({ vue, classe }) => (
           <Photo src={vue.image} widths={widths} sizes={sizes} alt={d.alt(vue)} class={classe} />
         ))}
       </a>
       <Cartel ref={ref} dimensions={d.dimensionsTexte} materiaux={d.materiauxTexte} href={d.url} />
+      {hd && (
+        <div class="pswp-cap" hidden>
+          <Cartel ref={ref} dimensions={d.dimensionsTexte} materiaux={d.materiauxTexte} />
+          <a class="link-arrow" href={d.url}>Voir la fiche</a>
+        </div>
+      )}
     </>
   ) : (
     <a href={d.url}>
