@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeanmichelribeyrolles.fr/sitemap-index.xml

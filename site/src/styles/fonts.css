@@ -1,0 +1,9 @@
+/* Polices auto-hébergées (Fontsource), sous-ensemble latin uniquement.
+   Roboto : graisses utilisées dans les maquettes (300, 400, 500, 700), sans italique.
+   Swanky and Moo Moo : 400 seulement (logo du header et accroche).
+   Le navigateur ne télécharge un fichier que si une graisse est réellement employée. */
+@import '@fontsource/roboto/latin-300.css';
+@import '@fontsource/roboto/latin-400.css';
+@import '@fontsource/roboto/latin-500.css';
+@import '@fontsource/roboto/latin-700.css';
+@import '@fontsource/swanky-and-moo-moo/latin-400.css';

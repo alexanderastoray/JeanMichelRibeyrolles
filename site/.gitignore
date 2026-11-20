@@ -1,0 +1,15 @@
+# Dépendances et sorties
+node_modules/
+dist/
+.astro/
+
+# Originaux HD des photos (jamais versionnés)
+originaux/
+originaux-hd/
+*-original.*
+
+# Divers
+.DS_Store
+npm-debug.log*
+.env
+.env.*

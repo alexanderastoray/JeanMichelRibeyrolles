@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets';
+import { navigation } from '../lib/navigation';
+import logoJmir from '../assets/marque/jmir-blanc.png';
+import logoAaf from '../assets/marque/aaf.png';
+
+const annee = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="cols">
+    <div class="f-brand">
+      <Image src={logoJmir} width={84} densities={[1, 2]} alt="JmiR, signature de Jean-Michel Ribeyrolles" />
+      <p>© {annee}<br />Jean-Michel Ribeyrolles</p>
+    </div>
+    <div class="f-info">
+      <h2>Information</h2>
+      <p>ART'elier Samonteil<br />115 impasse de Samonteil<br />46400 Saint-Paul-de-Vern<br />France</p>
+      <p><a href="tel:+33685813148">06 85 81 31 48</a><br /><a href="tel:+33678387857">06 78 38 78 57</a></p>
+    </div>
+    <div class="f-legal">
+      <h2>Mentions légales</h2>
+      <p>© Photos de Yoann Portejoie et Benoît Frété, non libres de droits</p>
+      <p>Site réalisé par Alexander Astoray</p>
+      <p><a href="/mentions-legales/">Mentions légales</a></p>
+    </div>
+    <div class="f-nav">
+      <h2>Navigation</h2>
+      <ul>
+        {navigation.map(({ href, label }) => <li><a href={href}>{label}</a></li>)}
+      </ul>
+    </div>
+    <div class="f-aaf">
+      <a href="https://www.ateliersdart.com/" rel="noopener"><Image src={logoAaf} width={104} densities={[1, 2]} alt="Membre des Ateliers d'Art de France" /></a>
+    </div>
+  </div>
+</footer>

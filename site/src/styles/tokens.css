@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Tokens — repris de maquettes/styles.css
+   Identité : voir CLAUDE.md et docs/design/DESIGN.md
+   Angles droits, pas d'ombre portée, pas de dégradé décoratif.
+   ========================================================================== */
+
+:root {
+  /* Couleurs */
+  --bg: #1B1A19;          /* fond principal, noir chaud */
+  --surface: #2D2D2D;     /* surfaces */
+  --header: #0A0A0A;      /* header */
+  --text: #F8F2F2;        /* blanc cassé unique */
+  --text-2: #A8A29A;      /* gris chaud, texte secondaire */
+  --line: #3A3836;        /* filets neutres */
+  --accent: #DD9933;      /* accent unique : liens, boutons, filets */
+  --veil: rgba(0, 0, 0, .4);
+
+  /* Typo */
+  --font: Roboto, system-ui, sans-serif;
+  --font-hand: "Swanky and Moo Moo", cursive;
+  --fw-light: 300;        /* vers, textes d'introduction */
+  --fw-regular: 400;
+  --fw-medium: 500;       /* titres, boutons, références */
+  --fw-bold: 700;         /* mises en valeur (portrait) */
+
+  /* Espacements (rythme des maquettes) */
+  --space-section: 100px;
+  --space-section-tight: 60px;
+  --space-section-mobile: 56px;
+
+  /* Mise en page */
+  --wrap: 1140px;
+  --gutter: max(16px, 5vw);
+  --header-h: 88px;
+  --header-h-s: 64px;     /* header une fois la page défilée */
+}

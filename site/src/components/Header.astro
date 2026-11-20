@@ -1,0 +1,27 @@
+---
+import { navigation, estActif } from '../lib/navigation';
+
+const { pathname } = Astro.url;
+---
+<header class="site-header">
+  <div class="bar">
+    <a class="logo" href="/">Jean-Michel RIBEYROLLES</a>
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
+    </button>
+    <nav class="nav" id="menu" aria-label="Menu principal">
+      <button class="menu-toggle menu-close" type="button" aria-label="Fermer le menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" /></svg>
+      </button>
+      <ul>
+        {navigation.map(({ href, label }) => (
+          <li><a href={href} aria-current={estActif(pathname, href) ? 'page' : undefined}>{label}</a></li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  import '../scripts/header.ts';
+</script>
