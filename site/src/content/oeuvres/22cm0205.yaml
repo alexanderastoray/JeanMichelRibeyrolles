@@ -1,0 +1,15 @@
+ref: 22CM0205
+collection: les-miroirs-d-enigme
+ordre: 14
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : épaisseur 4,5 cm (fichier : « 45 »)
+  hauteur: 41
+  largeur: 34
+  epaisseur: 4.5
+materiaux: [Cèdre, Acier]
+vues:
+  - image: ../../assets/oeuvres/22cm0205/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/22cm0205/vue-2.jpg
+    type: detail

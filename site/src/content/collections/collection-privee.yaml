@@ -1,0 +1,11 @@
+titre: Collection Privée
+ordre: 4
+description: "Collection Privée : sculptures de Jean-Michel Ribeyrolles appartenant à des collectionneurs privés en France et à l’étranger."
+bandeau: ../../assets/bandeaux/collections.jpg  # provisoire : bandeau propre à la collection à fournir
+bandeauCadrage: 70% 10%
+typeTexte: prose
+texte: |
+  Les sculptures présentées dans ce catalogue appartiennent à des collectionneurs privés en France et à l’étranger.
+extrait: |
+  Les sculptures présentées dans ce catalogue appartiennent à des collectionneurs privés en France et à l’étranger.
+apercu: [21dm0305, 22fm0305, 19mbdf0212]

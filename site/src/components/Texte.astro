@@ -1,0 +1,20 @@
+---
+import { strophes } from '../lib/texte';
+
+interface Props {
+  texte: string;
+  type: 'vers' | 'prose';
+  /** Classe des paragraphes (ex. « verse », « intro-line »). */
+  class?: string;
+  /** `lignes` : un <span class="l"> par vers ; `br` : vers séparés par <br> (intro de la page collection). */
+  rendu?: 'lignes' | 'br';
+}
+
+const { texte, type, class: classe, rendu = 'lignes' } = Astro.props;
+const blocs = strophes(texte);
+---
+{type === 'prose'
+  ? blocs.map((b) => <p class={classe}>{b.join(' ')}</p>)
+  : rendu === 'br'
+    ? blocs.map((s) => <p class={classe}>{s.map((l, i) => (i === 0 ? l : <><br />{l}</>))}</p>)
+    : blocs.map((s) => <p class={classe}>{s.map((l) => <span class="l">{l}</span>)}</p>)}

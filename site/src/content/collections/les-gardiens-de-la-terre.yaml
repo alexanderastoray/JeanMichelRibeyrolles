@@ -1,0 +1,23 @@
+titre: Les Gardiens de la Terre
+ordre: 3
+description: "Les Gardiens de la Terre : sculptures murales et sur socle en bois brûlé et métal de Jean-Michel Ribeyrolles."
+bandeau: ../../assets/bandeaux/collections.jpg  # provisoire : bandeau propre à la collection à fournir
+bandeauCadrage: 70% 10%
+typeTexte: vers
+# Vers d'origine : un vers par ligne, une ligne vide entre deux strophes.
+# à confirmer : découpage en strophes (le site actuel ne le montre pas).
+texte: |
+  Les Gardiens de la Terre sont des messagers bienveillants et
+  protecteurs, sans âge ni origine, porteurs de l’histoire de
+  l’humanité.
+
+  Ils témoignent de l’inquiétude d’un monde plongé dans
+  l’incertitude absolue où paix et chaos se confondent.
+
+  Ces témoins ne jugent pas, ne condamnent pas, mais
+  rappellent aux vivants leurs devoirs et obligations.
+extrait: |
+  Les Gardiens de la Terre sont des messagers bienveillants et
+  protecteurs, sans âge ni origine, porteurs de l’histoire de
+  l’humanité.
+apercu: [23cm0408, 23dm0101]

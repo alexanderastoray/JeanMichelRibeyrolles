@@ -1,0 +1,42 @@
+/* Collections (vue d'ensemble) — repris de maquettes/styles.css (COLLECTIONS). */
+
+.colls-top { padding-bottom: 24px; }
+.colls-intro { max-width: 620px; margin: 0 auto; text-align: center; color: var(--text-2); font-size: 17px; font-weight: 300; }
+
+/* Composition de la page Collections actuelle : titre centré + filet, premier vers centré,
+   grille de 2 colonnes de même largeur, lien « Découvrir » centré. */
+.cblock { padding-block: 72px; text-align: center; }
+.cblock + .cblock { padding-top: 24px; }
+.cblock .section-title { font-size: clamp(22px, 2vw, 26px); margin-bottom: 24px; }
+/* Textes des collections : taille et couleur des paragraphes de portrait.html */
+.cblock .verse, .cblock .intro-line {
+  font-size: 16px; line-height: 1.8; font-weight: 400; color: var(--text);
+  text-align: center; margin: 0 auto;
+}
+.cblock .intro-line { max-width: 560px; }
+
+.cgrid {
+  --col: 420px; --gap: 40px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, var(--col)));
+  justify-content: center; align-items: center; gap: var(--gap);
+  margin: 40px auto 0;
+}
+.cgrid .stack { display: grid; gap: var(--gap); }
+.cgrid .cell a { display: block; cursor: zoom-in; }
+/* Ombre portée discrète sous les photos, comme sur le site actuel :
+   exception à la règle « pas d'ombres » de CLAUDE.md, pour cette page uniquement. */
+.cgrid img { display: block; width: 100%; height: auto; box-shadow: 0 10px 24px rgba(0, 0, 0, .45); }
+.cblock .more { margin: 36px 0 0; }
+
+@media (max-width: 800px) {
+  .cblock { padding-block: 48px; }
+  .cblock + .cblock { padding-top: 8px; }
+  .cgrid { --gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 28px; }
+  .cgrid img { box-shadow: 0 6px 14px rgba(0, 0, 0, .45); }
+  .cblock .more { margin-top: 24px; }
+}
+
+/* Site : les vignettes mènent à la page de la collection (pas de lightbox ici). */
+.cgrid .cell a { cursor: pointer; }
+/* Une seule vignette : une colonne centrée. */
+.cgrid--single { grid-template-columns: minmax(0, var(--col)); }

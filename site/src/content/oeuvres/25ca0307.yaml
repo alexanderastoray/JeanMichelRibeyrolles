@@ -1,0 +1,14 @@
+ref: 25CA0307
+collection: les-miroirs-d-enigme
+ordre: 3
+format: murale
+quatreMains: false
+dimensions:
+  diametre: 25
+  epaisseur: 3
+materiaux: [Cèdre, Aluminium]
+vues:
+  - image: ../../assets/oeuvres/25ca0307/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/25ca0307/vue-2.jpg
+    type: detail

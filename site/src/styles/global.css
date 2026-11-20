@@ -214,3 +214,22 @@ html { scroll-padding-top: calc(var(--header-h-s) + 16px); }
   .f-legal p { display: inline; margin: 0; }
   .f-legal p + p::before { content: " · "; color: var(--line); }
 }
+
+/* <picture> générés par astro:assets : neutres pour la mise en page
+   (les règles des maquettes ciblent directement les <img>). */
+picture { display: contents; }
+
+/* Textes poétiques : vers d'origine, un vers par ligne, alignés à gauche, en romain */
+.verse { font-size: 17px; line-height: 1.8; font-weight: var(--fw-light); font-style: normal; text-align: left; }
+.verse .l { display: block; }
+@media (max-width: 700px) { .verse { font-size: 15px; } }
+
+/* Lien inactif (fonctionnalité à venir) */
+.is-disabled { color: var(--text-2); cursor: not-allowed; }
+.is-disabled:hover { color: var(--text-2); }
+
+/* Fil d'Ariane (pages collection et fiche) */
+.breadcrumb { font-size: 13px; color: var(--text-2); margin-bottom: 40px; }
+.breadcrumb a { color: var(--text-2); text-decoration: none; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb .sep { margin-inline: .5em; color: var(--line); }

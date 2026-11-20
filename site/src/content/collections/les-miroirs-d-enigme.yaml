@@ -1,0 +1,21 @@
+titre: Les Miroirs d’Énigme
+ordre: 2
+description: "Les Miroirs d’Énigme : sculptures murales rondes en bois brûlé et métal de Jean-Michel Ribeyrolles."
+bandeau: ../../assets/bandeaux/collection-murale.jpg
+bandeauCadrage: 50% 45%
+typeTexte: vers
+# Vers d'origine : un vers par ligne, une ligne vide entre deux strophes.
+texte: |
+  Il y a quelque 3000 ans des hommes et des femmes entreprenaient des
+  voyages périlleux pour se retrouver seuls avec les Miroirs d’Énigme.
+  On ne sait dans quels cœurs a germé l’utopie poétique des Miroirs.
+
+  On ne sait quelles mains ont donné corps et matière à ce qui pourrait
+  n’être qu’un mirage de l’inconscient collectif ?
+
+  Nul ne sait qui a protégé les Miroirs, ni quel fut leur périple à travers
+  le chaos des temps ?
+extrait: |
+  Il y a quelque 3000 ans des hommes et des femmes entreprenaient des
+  voyages périlleux pour se retrouver seuls avec les Miroirs d’Énigme.
+apercu: [21cm0109, 23cm0307, 23fm0112, 22dm0206]

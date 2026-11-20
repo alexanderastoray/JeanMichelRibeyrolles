@@ -1,0 +1,12 @@
+/* Page collection — repris de maquettes/styles.css (COLLECTION). */
+
+.coll-intro { max-width: 720px; margin-inline: auto; text-align: center; }
+.coll-intro p { font-size: 18px; line-height: 1.9; font-weight: 300; }
+.coll-intro .to-scale { font-size: 16px; margin-top: 32px; }
+.banner + .wrap .breadcrumb { margin: 24px 0 0; }
+@media (max-width: 700px) { .coll-intro p { font-size: 16px; } }
+
+/* Section de la grille : collée à l'introduction (style="padding-top:0" dans la maquette). */
+.section--grid { padding-top: 0; }
+/* Collection sans œuvre publiée (provisoire). */
+.coll-empty { text-align: center; color: var(--text-2); margin: 0; }

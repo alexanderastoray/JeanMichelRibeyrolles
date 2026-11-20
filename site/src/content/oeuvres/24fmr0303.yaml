@@ -1,0 +1,15 @@
+ref: 24FMR0303
+collection: collection-privee
+ordre: 22
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 80
+  largeur: 30
+  epaisseur: 3
+materiaux: [Frêne, Acier]
+vues:
+  - image: ../../assets/oeuvres/24fmr0303/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/24fmr0303/vue-2.jpg
+    type: detail

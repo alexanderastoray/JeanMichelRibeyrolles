@@ -1,0 +1,14 @@
+ref: 19MBD0111
+collection: les-miroirs-d-enigme
+ordre: 17
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : forme ronde, épaisseur 5,5 cm (fichier : « 43 x 55 », fiche sans Ø)
+  diametre: 43
+  epaisseur: 5.5
+materiaux: [Douglas]
+vues:
+  - image: ../../assets/oeuvres/19mbd0111/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/19mbd0111/vue-2.jpg
+    type: detail

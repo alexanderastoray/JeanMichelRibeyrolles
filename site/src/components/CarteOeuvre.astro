@@ -1,0 +1,46 @@
+---
+import Photo from './Photo.astro';
+
+import Cartel from './Cartel.astro';
+import { derive, type Collection, type Oeuvre } from '../lib/oeuvres';
+
+interface Props {
+  oeuvre: Oeuvre;
+  /** Collection de l'œuvre (pour le texte alternatif). */
+  collection: Collection;
+  /** `grille` : vignette + cartel avec lien sur la référence ; `liste` : toute la carte est un lien. */
+  variante?: 'grille' | 'liste';
+  widths: number[];
+  sizes: string;
+}
+
+const { oeuvre, collection, variante = 'grille', widths, sizes } = Astro.props;
+const d = derive(oeuvre, collection);
+const ref = oeuvre.data.ref;
+
+const images = [
+  { vue: d.vuePrincipale, classe: 'main' },
+  ...(d.vueDetail ? [{ vue: d.vueDetail, classe: 'detail' }] : []),
+];
+---
+<li class="card">
+  {variante === 'grille' ? (
+    <>
+      <a class="frame" href={d.url} aria-label={`Voir la fiche de ${ref}`}>
+        {images.map(({ vue, classe }) => (
+          <Photo src={vue.image} widths={widths} sizes={sizes} alt={d.alt(vue)} class={classe} />
+        ))}
+      </a>
+      <Cartel ref={ref} dimensions={d.dimensionsTexte} materiaux={d.materiauxTexte} href={d.url} />
+    </>
+  ) : (
+    <a href={d.url}>
+      <div class="frame">
+        {images.map(({ vue, classe }) => (
+          <Photo src={vue.image} widths={widths} sizes={sizes} alt={d.alt(vue)} class={classe} />
+        ))}
+      </div>
+      <Cartel ref={ref} dimensions={d.dimensionsTexte} materiaux={d.materiauxTexte} />
+    </a>
+  )}
+</li>

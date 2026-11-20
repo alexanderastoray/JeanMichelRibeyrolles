@@ -1,0 +1,14 @@
+ref: 24FM0112
+collection: les-miroirs-d-enigme
+ordre: 9
+format: murale
+quatreMains: false
+dimensions:
+  diametre: 65
+  epaisseur: 5
+materiaux: [Frêne, Inox]
+vues:
+  - image: ../../assets/oeuvres/24fm0112/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/24fm0112/vue-2.jpg
+    type: detail

@@ -1,0 +1,68 @@
+/* Fiche œuvre — repris de maquettes/styles.css (FICHE ŒUVRE). */
+
+.oeuvre { display: grid; grid-template-columns: 62fr 38fr; gap: 64px; align-items: start; padding-top: 40px; }
+
+.gallery { display: flex; flex-direction: column; gap: 24px; margin: 0; padding: 0; list-style: none; }
+.gallery li { margin: 0; }
+.gallery a { display: block; cursor: zoom-in; }
+.gallery img { width: 100%; height: auto; }
+.gallery-count { display: none; }
+
+/* Colonne sticky : sous le header réduit (64 px), remonte quand le header se masque */
+.oeuvre-info { position: sticky; top: calc(var(--header-h-s) + 40px); transition: top .35s ease; }
+.site-header.is-hidden ~ main .oeuvre-info { top: 40px; }
+
+.oeuvre-info .ref {
+  font-size: 13px; letter-spacing: .14em; color: var(--text-2); margin-bottom: 6px;
+}
+.oeuvre-info h1 { font-size: 26px; font-weight: 400; margin-bottom: 32px; }
+.specs { margin: 0 0 36px; border-top: 1px solid var(--line); }
+.specs div {
+  display: grid; grid-template-columns: 120px 1fr; gap: 16px;
+  padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 15px;
+}
+.specs dt { color: var(--text-2); }
+.specs dd { margin: 0; }
+.oeuvre-info .actions { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+
+.prevnext {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line);
+}
+.prevnext a { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text-2); font-size: 13px; }
+.prevnext a:hover { color: var(--accent); }
+.prevnext img { width: 72px; height: 48px; object-fit: contain; background: var(--bg); }
+.prevnext .next { flex-direction: row-reverse; text-align: right; }
+.prevnext strong { display: block; color: var(--text); font-weight: 500; letter-spacing: .06em; }
+
+.related h2 { font-size: 20px; margin-bottom: 32px; }
+.related .row {
+  display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 5 * 20px) / 6);
+  gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px;
+  list-style: none; margin: 0; padding-left: 0;
+}
+.related .card { scroll-snap-align: start; }
+
+@media (max-width: 900px) {
+  .oeuvre { grid-template-columns: 1fr; gap: 28px; padding-top: 0; }
+  .oeuvre-media { margin-inline: calc(-1 * var(--gutter)); position: relative; }
+  .gallery {
+    flex-direction: row; gap: 0;
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .gallery::-webkit-scrollbar { display: none; }
+  .gallery li { flex: 0 0 100%; scroll-snap-align: center; display: flex; align-items: center; }
+  .gallery-count {
+    display: block; text-align: center; font-size: 13px; color: var(--text-2);
+    margin-top: 10px; letter-spacing: .1em;
+  }
+  .oeuvre-info { position: static; }
+  .breadcrumb { margin-bottom: 20px; }
+  .related .row { grid-auto-columns: 42%; }
+}
+
+/* Libellé des dimensions (style inline dans la maquette). */
+.specs dd small { color: var(--text-2); }
+/* Une seule voisine : à droite. */
+.prevnext .next:only-child { grid-column: 2; }

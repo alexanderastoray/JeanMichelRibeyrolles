@@ -1,0 +1,15 @@
+ref: 21DM0305
+collection: collection-privee
+ordre: 83
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : épaisseur 2,5 cm (fichier : « 25 »)
+  hauteur: 110
+  largeur: 40
+  epaisseur: 2.5
+materiaux: [Douglas, Métal]
+vues:
+  - image: ../../assets/oeuvres/21dm0305/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/21dm0305/vue-2.jpg
+    type: detail

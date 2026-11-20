@@ -1,0 +1,13 @@
+---
+interface Props {
+  ref: string;
+  dimensions: string;
+  materiaux: string;
+  /** Si renseigné, la référence devient un lien (vers la fiche). */
+  href?: string | undefined;
+}
+
+const { ref, dimensions, materiaux, href } = Astro.props;
+// <wbr> : coupure possible après chaque séparateur (les spans sont collés, sans espace).
+---
+<p class="cartel">{href ? <a class="ref" href={href}>{ref}</a> : <span class="ref">{ref}</span>}<span class="sep">·</span><wbr /><span class="dims">{dimensions}</span><span class="sep mat-sep">·</span><wbr /><span class="mat">{materiaux}</span></p>

@@ -1,0 +1,14 @@
+ref: 22TM0112
+collection: les-miroirs-d-enigme
+ordre: 16
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : forme ronde supposée : la fiche indique « 32 x 3 cm » sans Ø
+  diametre: 32
+  epaisseur: 3
+materiaux: [Tsuga, Acier]
+vues:
+  - image: ../../assets/oeuvres/22tm0112/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/22tm0112/vue-2.jpg
+    type: detail

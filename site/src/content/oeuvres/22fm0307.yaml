@@ -1,0 +1,15 @@
+ref: 22FM0307
+collection: les-miroirs-d-enigme
+ordre: 13
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 26
+  largeur: 21
+  epaisseur: 3
+materiaux: [Frêne, Acier]
+vues:
+  - image: ../../assets/oeuvres/22fm0307/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/22fm0307/vue-2.jpg
+    type: detail

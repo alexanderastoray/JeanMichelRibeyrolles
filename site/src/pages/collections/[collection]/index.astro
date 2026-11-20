@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Bandeau from '../../../components/Bandeau.astro';
+import Texte from '../../../components/Texte.astro';
+import CarteOeuvre from '../../../components/CarteOeuvre.astro';
+import { getCollections, getOeuvresDe } from '../../../lib/oeuvres';
+import '../../../styles/oeuvres-grille.css';
+import '../../../styles/pages/collection.css';
+
+export const getStaticPaths = (async () => {
+  return Promise.all(
+    (await getCollections()).map(async (collection) => ({
+      params: { collection: collection.id },
+      props: { collection, oeuvres: await getOeuvresDe(collection.id) },
+    })),
+  );
+}) satisfies GetStaticPaths;
+
+const { collection, oeuvres } = Astro.props;
+const { titre, description, bandeau, bandeauCadrage, texte, typeTexte } = collection.data;
+const n = oeuvres.length;
+---
+<BaseLayout title={titre} description={description}>
+  <Bandeau image={bandeau} cadrage={bandeauCadrage} titre={titre} />
+
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="/collections/">Collections</a><span class="sep">/</span><span aria-current="page">{titre}</span></nav>
+  </div>
+
+  <section class="section section--tight">
+    <div class="wrap coll-intro">
+      <Texte texte={texte} type={typeTexte} rendu="br" />
+    </div>
+  </section>
+
+  <section class="section section--grid" aria-labelledby="t-oeuvres">
+    <div class="wrap">
+      {n > 0 ? (
+        <>
+          <h2 class="sr-only" id="t-oeuvres">{n === 1 ? 'L’œuvre' : `Les ${n} œuvres`}</h2>
+          <ul class="grid">
+            {oeuvres.map((oeuvre) => (
+              <CarteOeuvre
+                oeuvre={oeuvre}
+                collection={collection}
+                widths={[360, 540, 720, 1080]}
+                sizes="(max-width: 700px) calc(50vw - 26px), (max-width: 1000px) calc(50vw - 60px), 354px"
+              />
+            ))}
+          </ul>
+        </>
+      ) : (
+        <>
+          <h2 class="sr-only" id="t-oeuvres">Œuvres</h2>
+          <p class="coll-empty">Les œuvres de cette collection arrivent bientôt.</p>
+        </>
+      )}
+    </div>
+  </section>
+</BaseLayout>

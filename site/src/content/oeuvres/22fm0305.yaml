@@ -1,0 +1,15 @@
+ref: 22FM0305
+collection: collection-privee
+ordre: 79
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 36
+  largeur: 31
+  epaisseur: 3
+materiaux: [Frêne, Acier]
+vues:
+  - image: ../../assets/oeuvres/22fm0305/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/22fm0305/vue-2.jpg
+    type: detail

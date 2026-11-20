@@ -1,0 +1,15 @@
+ref: 20SFM0112
+collection: les-miroirs-d-enigme
+ordre: 15
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 37
+  largeur: 26
+  epaisseur: 3
+materiaux: [Frêne, Métal]
+vues:
+  - image: ../../assets/oeuvres/20sfm0112/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/20sfm0112/vue-2.jpg
+    type: detail

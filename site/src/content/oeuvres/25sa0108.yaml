@@ -1,0 +1,14 @@
+ref: 25SA0108
+collection: les-miroirs-d-enigme
+ordre: 1
+format: murale
+quatreMains: false
+dimensions:
+  diametre: 40
+  epaisseur: 4
+materiaux: [Séquoia, Acier]
+vues:
+  - image: ../../assets/oeuvres/25sa0108/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/25sa0108/vue-2.jpg
+    type: detail

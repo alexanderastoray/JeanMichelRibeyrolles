@@ -1,0 +1,109 @@
+---
+import Photo from '../../../components/Photo.astro';
+import type { GetStaticPaths } from 'astro';
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CarteOeuvre from '../../../components/CarteOeuvre.astro';
+import { derive, getCollectionDe, getOeuvresDe, memeCollection, urlCollection, voisines } from '../../../lib/oeuvres';
+import { listerMateriaux } from '../../../lib/alt';
+import '../../../styles/oeuvres-grille.css';
+import '../../../styles/pages/oeuvre.css';
+
+export const getStaticPaths = (async () => {
+  return Promise.all(
+    (await getCollection('oeuvres')).map(async (oeuvre) => ({
+      params: { collection: oeuvre.data.collection.id, ref: oeuvre.id },
+      props: {
+        oeuvre,
+        collection: await getCollectionDe(oeuvre),
+        soeurs: await getOeuvresDe(oeuvre.data.collection.id),
+      },
+    })),
+  );
+}) satisfies GetStaticPaths;
+
+const { oeuvre, collection, soeurs } = Astro.props;
+const { ref, vues, format, quatreMains, annee, materiaux } = oeuvre.data;
+const titre = collection.data.titre;
+const d = derive(oeuvre, collection);
+const lienCollection = urlCollection(collection.id);
+
+// Blocs de navigation : dépendent uniquement du nombre d'autres œuvres dans la collection.
+const v = voisines(oeuvre, soeurs);
+const voisinesListe = v ? (v.precedente.id === v.suivante.id ? [{ sens: 'next', o: v.suivante }] : [{ sens: 'prev', o: v.precedente }, { sens: 'next', o: v.suivante }]) : [];
+const autres = memeCollection(oeuvre, soeurs);
+
+const description = `${titre}, ${ref} : sculpture ${format === 'socle' ? 'sur socle' : 'murale'} en ${listerMateriaux(materiaux)}, ${d.dimensionsTexte}.`;
+const nbVues = vues.length;
+---
+<BaseLayout title={`${ref} · ${titre}`} description={description}>
+  <div class="wrap">
+    <div class="oeuvre">
+      <div class="oeuvre-media">
+        <ul class="gallery" aria-label="Photos de l’œuvre">
+          {vues.map((vue, i) => (
+            <li>
+              <Photo
+                src={vue.image}
+               
+                widths={[480, 667, 960, 1334, 1600]}
+                sizes="(max-width: 900px) 100vw, 667px"
+                alt={d.alt(vue)}
+                priority={i === 0}
+              />
+            </li>
+          ))}
+        </ul>
+        {nbVues > 1 && <p class="gallery-count" aria-live="polite"><span class="cur">1</span> / {nbVues}</p>}
+      </div>
+
+      <aside class="oeuvre-info">
+        <nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="/collections/">Collections</a><span class="sep">/</span><a href={lienCollection}>{titre}</a></nav>
+        <p class="ref">{ref}</p>
+        <h1>{titre}</h1>
+        <dl class="specs">
+          <div><dt>Dimensions</dt><dd>{d.dimensionsTexte}<br /><small>{d.dimensionsLibelle}</small></dd></div>
+          <div><dt>Matériaux</dt><dd>{d.materiauxTexte}</dd></div>
+          {annee && <div><dt>Année</dt><dd>{annee}</dd></div>}
+          {quatreMains && <div><dt>Réalisation</dt><dd>À quatre mains</dd></div>}
+          <div><dt>Collection</dt><dd><a href={lienCollection}>{titre}</a></dd></div>
+        </dl>
+        <div class="actions">
+          <a class="btn" href={`/contact/?ref=${encodeURIComponent(ref)}`}>Me contacter à propos de cette œuvre</a>
+          <span class="link-arrow is-disabled" aria-disabled="true" title="Bientôt disponible">Voir à l’échelle</span>
+        </div>
+        {voisinesListe.length > 0 && (
+          <nav class="prevnext" aria-label="Œuvres voisines">
+            {voisinesListe.map(({ sens, o }) => {
+              const dv = derive(o, collection);
+              return (
+                <a class={sens} href={dv.url}>
+                  <Image src={dv.vuePrincipale.image} width={72} densities={[1, 2]} format="webp" alt="" />
+                  <span>{sens === 'prev' ? 'Précédente' : 'Suivante'}<strong>{o.data.ref}</strong></span>
+                </a>
+              );
+            })}
+          </nav>
+        )}
+      </aside>
+    </div>
+  </div>
+
+  {autres.length > 0 && (
+    <section class="section related" aria-labelledby="t-rel">
+      <div class="wrap">
+        <h2 id="t-rel">Dans la même collection</h2>
+        <ul class="row">
+          {autres.map((o) => (
+            <CarteOeuvre oeuvre={o} collection={collection} variante="liste" widths={[180, 360, 540]} sizes="(max-width: 900px) 42vw, 174px" />
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<script>
+  import '../../../scripts/compteur-galerie.ts';
+</script>

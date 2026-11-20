@@ -1,0 +1,27 @@
+titre: Les Arcs-en-ciel Noirs
+ordre: 1
+description: "Les Arcs-en-ciel Noirs : sculptures murales en bois brûlé, inox et acier de Jean-Michel Ribeyrolles."
+bandeau: ../../assets/bandeaux/collections.jpg  # provisoire : bandeau propre à la collection à fournir
+bandeauCadrage: 70% 10%
+typeTexte: vers
+# Vers d'origine : un vers par ligne, une ligne vide entre deux strophes.
+# à confirmer : le dernier vers forme-t-il une strophe à part ?
+texte: |
+  Qui révélera l’énigme des origines du noir,
+  lorsque dans un temps enfoui, les sept couleurs de l’arc-en-ciel
+  emportées dans un mouvement insensé
+  roulèrent les unes contre les autres,
+  jusqu’à l’effacement, la nudité absolue,
+  pour rendre au noir toute sa clarté, sa puissance sauvage,
+  pour l’affranchir de son exil.
+
+  Sous le noir vibrent tous nos arcs-en-ciel.
+extrait: |
+  Qui révélera l’énigme des origines du noir,
+  lorsque dans un temps enfoui, les sept couleurs de l’arc-en-ciel
+  emportées dans un mouvement insensé
+  roulèrent les unes contre les autres,
+  jusqu’à l’effacement, la nudité absolue,
+  pour rendre au noir toute sa clarté, sa puissance sauvage,
+  pour l’affranchir de son exil.
+apercu: [24fmr0303, 24fm0503]

@@ -1,0 +1,15 @@
+ref: 23CM0408
+collection: les-gardiens-de-la-terre
+ordre: 22
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : épaisseur 4,8 cm (fichier : « 48 »)
+  hauteur: 75
+  largeur: 25
+  epaisseur: 4.8
+materiaux: [Cèdre, Acier]
+vues:
+  - image: ../../assets/oeuvres/23cm0408/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/23cm0408/vue-2.jpg
+    type: detail

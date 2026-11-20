@@ -1,0 +1,29 @@
+---
+import type { ImageMetadata } from 'astro';
+import type { HTMLAttributes } from 'astro/types';
+import { Picture } from 'astro:assets';
+
+type Props = Omit<HTMLAttributes<'img'>, 'src' | 'width' | 'height' | 'srcset' | 'sizes'> & {
+  src: ImageMetadata;
+  alt: string;
+  /** Largeurs générées (px). Jamais d'agrandissement au-delà de l'original. */
+  widths: number[];
+  sizes: string;
+  /** Première image visible : chargement immédiat et prioritaire. */
+  priority?: boolean;
+};
+
+const { src, widths, sizes, priority = false, ...attrs } = Astro.props;
+// Repli <img> : WebP (pas de JPEG), à la plus grande largeur utile et non à la taille d'origine.
+const width = Math.min(Math.max(...widths), src.width);
+---
+<Picture
+  src={src}
+  formats={['avif', 'webp']}
+  fallbackFormat="webp"
+  widths={widths.filter((w) => w <= src.width)}
+  width={width}
+  sizes={sizes}
+  priority={priority}
+  {...attrs}
+/>

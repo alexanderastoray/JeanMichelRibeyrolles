@@ -1,0 +1,12 @@
+ref: 23CM0307
+collection: collection-privee
+ordre: 60
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : forme ronde supposée : la fiche indique « 20 x 3 cm » sans Ø
+  diametre: 20
+  epaisseur: 3
+materiaux: [Cèdre, Acier]
+vues:
+  - image: ../../assets/oeuvres/23cm0307/vue-1.jpg
+    type: ensemble

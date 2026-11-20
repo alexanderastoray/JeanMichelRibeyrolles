@@ -1,0 +1,15 @@
+ref: 23FM0112
+collection: collection-privee
+ordre: 11
+format: murale
+quatreMains: false
+dimensions:  # à confirmer : la fiche indique « Ø 36 x 34 x 3 cm » : rectangulaire retenue, possiblement ovale
+  hauteur: 36
+  largeur: 34
+  epaisseur: 3
+materiaux: [Frêne, Acier]
+vues:
+  - image: ../../assets/oeuvres/23fm0112/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/23fm0112/vue-2.jpg
+    type: detail

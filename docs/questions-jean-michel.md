@@ -31,3 +31,27 @@ Points ouverts sur les maquettes `maquettes/artelier.html` et `maquettes/contact
 9. **Formulaire.** À quelle adresse les messages doivent-ils arriver ? Le service d'envoi est à choisir pour le site Astro.
 10. **Politique de confidentialité.** Elle reste à rédiger : finalité, durée de conservation des messages, droits d'accès et de suppression. Le lien du formulaire pointe vers cette future page.
 11. **Carte et itinéraire.** La carte et le lien « Voir l'itinéraire » utilisent les coordonnées GPS 44.8452653, 1.9399870 et non l'adresse. Le repère est-il bien placé sur l'ART'elier ?
+
+## Œuvres et collections
+
+Points ouverts sur les données du futur site Astro (20/11/2026). Chaque valeur provisoire porte le commentaire `# à confirmer` dans son fichier `site/src/content/…`.
+
+12. **Dimensions corrigées.** Le nom du fichier photo et la fiche du site actuel se contredisent. La valeur retenue est celle de la fiche :
+    - 22CM0205 (Miroirs d'Énigme) : 41 × 34 × **4,5** cm. Le fichier indique « 45 ».
+    - 23CM0408 (Gardiens de la Terre) : 75 × 25 × **4,8** cm. Le fichier indique « 48 ».
+    - 21DM0305 (Collection Privée) : 110 × 40 × **2,5** cm. Le fichier indique « 25 ».
+
+    Ces valeurs sont-elles justes ?
+13. **Forme ronde ou non.** Ces œuvres sont affichées comme rondes (diamètre × épaisseur) :
+    - 19MBD0111 (Miroirs d'Énigme) : **Ø 43 × 5,5 cm**. La fiche indique « 43 x 5,5 cm » sans Ø, et le fichier « 43 x 55 ».
+    - 22TM0112 (Miroirs d'Énigme) : **Ø 32 × 3 cm**. La fiche indique « 32 x 3 cm » sans Ø.
+    - 23CM0307 (Collection Privée) : **Ø 20 × 3 cm**. La fiche indique « 20 x 3 cm » sans Ø.
+
+    Ces trois œuvres sont-elles bien rondes ?
+14. **23FM0112 (Collection Privée).** La fiche indique « Ø 36 x 34 x 3 cm ». Le site l'affiche pour l'instant en **36 × 34 × 3 cm**, sans Ø. L'œuvre est-elle ovale ? Si oui, quelles sont ses deux dimensions et son épaisseur ?
+15. **22FM0407.** Elle figure à la fois dans les Miroirs d'Énigme et dans la Collection Privée. Le nouveau site la range dans les Miroirs d'Énigme uniquement. Est-ce juste ?
+16. **Découpage des textes en strophes.** Le site actuel montre les retours à la ligne mais pas les strophes. Les découpages suivants restent à confirmer :
+    - Les Arcs-en-ciel Noirs : le dernier vers « Sous le noir vibrent tous nos arcs-en-ciel. » forme-t-il une strophe à part ?
+    - Les Gardiens de la Terre : texte découpé en 3 strophes, une par phrase.
+17. **Bandeaux des collections.** Seuls les Miroirs d'Énigme ont un bandeau propre. Les Arcs-en-ciel Noirs, les Gardiens de la Terre et la Collection Privée reprennent pour l'instant le bandeau de la page Collections. Avez-vous une photo pour chacune ?
+18. **Photos en petite définition.** La photo principale de 21DM0305 ne fait que 853 × 1280 px, et celles de 19MBD0111, 20SFM0112 et 19MBDF0212 font 1920 px de large. Le zoom de la lightbox sera donc limité pour ces œuvres. Existe-t-il des originaux plus grands ?

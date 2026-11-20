@@ -1,0 +1,15 @@
+ref: 24FM0503
+collection: collection-privee
+ordre: 49
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 55
+  largeur: 37
+  epaisseur: 4
+materiaux: [Frêne, Acier]
+vues:
+  - image: ../../assets/oeuvres/24fm0503/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/24fm0503/vue-2.jpg
+    type: detail

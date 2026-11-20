@@ -1,0 +1,59 @@
+---
+import Photo from '../../components/Photo.astro';
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Bandeau from '../../components/Bandeau.astro';
+import Texte from '../../components/Texte.astro';
+import { derive, getApercu, getCollectionDe, getCollections, urlCollection, type Oeuvre } from '../../lib/oeuvres';
+import bandeau from '../../assets/bandeaux/collections.jpg';
+import '../../styles/pages/collections.css';
+
+const WIDTHS = [420, 640, 840, 1260];
+const SIZES = '(max-width: 800px) calc(50vw - 26px), 420px';
+
+const blocs = await Promise.all(
+  (await getCollections()).map(async (c) => {
+    const apercu = await Promise.all(
+      (await getApercu(c)).map(async (o) => ({ oeuvre: o, d: derive(o, await getCollectionDe(o)) })),
+    );
+    return { c, apercu };
+  }),
+);
+const titres = blocs.map((b) => b.c.data.titre).join(', ').replace(/, ([^,]*)$/, ' et $1');
+type Cellule = { oeuvre: Oeuvre; d: ReturnType<typeof derive> };
+---
+<BaseLayout title="Collections" description={`Les collections de Jean-Michel Ribeyrolles : ${titres}.`}>
+  <Bandeau image={bandeau} cadrage="70% 10%" titre="Collections" />
+
+  {blocs.map(({ c, apercu }, i) => {
+    const lien = urlCollection(c.id);
+    const cellule = ({ oeuvre, d }: Cellule) => (
+      <div class="cell">
+        <a href={lien} tabindex="-1" aria-label={`${c.data.titre} : ${oeuvre.data.ref}`}>
+          <Photo src={d.vuePrincipale.image} widths={WIDTHS} sizes={SIZES} alt={d.alt(d.vuePrincipale)} />
+        </a>
+      </div>
+    );
+    // Composition selon le nombre de vignettes : 1 = une colonne ; 3 = une haute + deux empilées ; sinon grille de 2.
+    const n = apercu.length;
+    return (
+      <section class="cblock" aria-labelledby={`c${i}`}>
+        <div class="wrap">
+          <h2 class="section-title" id={`c${i}`}>{c.data.titre}</h2>
+          <Texte texte={c.data.extrait} type={c.data.typeTexte} class={c.data.typeTexte === 'vers' ? 'verse' : 'intro-line'} />
+          <div class:list={['cgrid', { 'cgrid--single': n === 1, 'cgrid--mosaic': n === 3 }]}>
+            {n === 3 ? (
+              <>
+                {cellule(apercu[0]!)}
+                <div class="stack">{apercu.slice(1).map(cellule)}</div>
+              </>
+            ) : (
+              apercu.map(cellule)
+            )}
+          </div>
+          <p class="more"><a class="link-arrow" href={lien}>Découvrir<span class="sr-only"> : {c.data.titre}</span></a></p>
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>

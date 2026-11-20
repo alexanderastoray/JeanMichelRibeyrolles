@@ -1,0 +1,15 @@
+ref: 19MBDF0212
+collection: collection-privee
+ordre: 105
+format: murale
+quatreMains: true
+dimensions:
+  hauteur: 42
+  largeur: 78
+  epaisseur: 5
+materiaux: [Douglas, Frêne]
+vues:
+  - image: ../../assets/oeuvres/19mbdf0212/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/19mbdf0212/vue-2.jpg
+    type: detail

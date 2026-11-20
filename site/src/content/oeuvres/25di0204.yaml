@@ -1,0 +1,14 @@
+ref: 25DI0204
+collection: les-miroirs-d-enigme
+ordre: 6
+format: murale
+quatreMains: false
+dimensions:
+  diametre: 29
+  epaisseur: 7
+materiaux: [Pin douglas, Inox]
+vues:
+  - image: ../../assets/oeuvres/25di0204/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/25di0204/vue-2.jpg
+    type: detail

@@ -1,0 +1,15 @@
+ref: 23DM0101
+collection: collection-privee
+ordre: 39
+format: murale
+quatreMains: false
+dimensions:
+  hauteur: 115
+  largeur: 32
+  epaisseur: 4
+materiaux: [Pin douglas, Acier]
+vues:
+  - image: ../../assets/oeuvres/23dm0101/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/23dm0101/vue-2.jpg
+    type: detail

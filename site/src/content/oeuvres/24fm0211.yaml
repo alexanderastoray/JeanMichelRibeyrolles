@@ -1,0 +1,14 @@
+ref: 24FM0211
+collection: les-miroirs-d-enigme
+ordre: 10
+format: murale
+quatreMains: false
+dimensions:
+  diametre: 34
+  epaisseur: 4
+materiaux: [Frêne, Aluminium]
+vues:
+  - image: ../../assets/oeuvres/24fm0211/vue-1.jpg
+    type: ensemble
+  - image: ../../assets/oeuvres/24fm0211/vue-2.jpg
+    type: detail
